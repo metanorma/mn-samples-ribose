@@ -9,11 +9,13 @@
 :title: Configuration management -- Nereon configuration model -- Object configuration and schema syntax
 :doctype: standard
 :status: draft-standard
-:technical-committee: Configuration management
+:committee: Configuration management
+:committee-type: technical
 :draft:
-:toc:
-:stem:
-:xrefstyle: short
+:mn-document-class: ribose
+:mn-output-extensions: xml,html,doc,rxl
+:local-cache-only:
+:data-uri-image:
 
 include::sections/00-foreword.adoc[]
 include::sections/00-introduction.adoc[]
