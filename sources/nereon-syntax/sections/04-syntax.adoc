@@ -26,7 +26,7 @@ There are a number of characters that have special meaning
 within a NON document. All other characters are considered part of a
 string value. The special characters are:
 
-[cols="3*", options="headers"]
+[cols="3*", options="headers,unnumbered"]
 |===
 |Character|ASCII|Meaning
 
@@ -54,7 +54,7 @@ more characters not listed in the 'Special Characters' section above.
 The following Special characters can be included within a bare string
 if they are escaped with the backslash (`\` ASCII 92) character.
 
-[options="header"]
+[options="header,unnumbered"]
 |===
 |Sequence|Meaning|ASCII
 |`\(` |Open brace         |40
@@ -77,7 +77,7 @@ always be escaped.
 The following escape sequences are recognised in both bare and quoted
 strings:
 
-[cols="3*", options="header"]
+[cols="3*", options="header,unnumbered"]
 |===
 |Escape Sequence |ASCII |Character represented
 |\n         |10   |Newline (Line Feed)
@@ -233,7 +233,7 @@ will vary depending on the function.
 
 A NON parser supports at least the following basic functions:
 
-[options="header"]
+[options="header,unnumbered"]
 |===
 |Function|Result
 |`add(a, b)` |a + b
