@@ -96,7 +96,7 @@ Multi-line strings are permitted as long as they are quoted.
 
 Examples:
 
-[source]
+[source%unnumbered]
 ----
 "The Rachel Papers"
 Success
@@ -114,7 +114,7 @@ assigned to each value in the order in which they are defined.
 
 Example:
 
-[source]
+[source%unnumbered]
 ----
 [
     Aglovale, Breunor, Claudin
@@ -141,7 +141,7 @@ retained by the table.
 
 Example:
 
-[source]
+[source%unnumbered]
 ----
 contact {
     name "John Doe"
@@ -159,7 +159,7 @@ values with the initial keys. The final key and the value are used to
 create an entry within the most deeply nested table value. Using this
 syntax the above example can be written as:
 
-[source]
+[source%unnumbered]
 ----
 contact {
     name "John Doe"
@@ -170,7 +170,7 @@ contact {
 
 or
 
-[source]
+[source%unnumbered]
 ----
 contact name "John Doe"
 contact email work "john.doe@work.domain"
@@ -195,7 +195,7 @@ values and must be surrounded by one or more space (ASCII 32) or tab
 functions `subtract()`, `add()`, `multiply()`, `divide()`, `intdiv()`,
 `modulus()` and `power()` described below.
 
-[source]
+[source%unnumbered]
 ----
 port 8000 + 80 # port "8080"
 port 8000+80 # port "8000+80", probably not intentional!
@@ -214,7 +214,7 @@ Templates are applied by using the `apply()` construct. Templates
 without arguments can be applied using a special `$name` construct
 which is syntactic sugar for `apply(name)`.
 
-[source]
+[source%unnumbered]
 ----
 let(base_port, 8000)
 let(port, $base_port + arg(0))
