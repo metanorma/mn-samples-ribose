@@ -13,6 +13,7 @@
 :committee-type: technical
 :draft:
 :mn-document-class: ribose
+:docfile: rsd-nereon-configuration-syntax.adoc
 :mn-output-extensions: xml,html,doc,rxl
 :local-cache-only:
 :data-uri-image:

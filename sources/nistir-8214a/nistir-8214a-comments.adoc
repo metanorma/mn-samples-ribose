@@ -6,7 +6,7 @@
 :doctype: whitepaper
 :imagesdir: images
 :docfile: nistir-8214a-comments.adoc
-:mn-document-class: rsd
+:mn-document-class: ribose
 :mn-output-extensions: xml,html,doc,rxl
 :local-cache-only:
 :data-uri-image:
