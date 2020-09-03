@@ -687,6 +687,6 @@ Coulomb is Ribose's desktop application framework for editing structured data, c
 
 * [[[steinberger,19]]], _J. P. Steinberger. The collision intractability of MDC-2 in the ideal-cipher model. In EUROCRYPT, 2007._
 
-* [[[CTAN,CTAN]]], _The Comprehensive TEX Archive Network_, https://ctan.org.
+* [[[CTAN,20]]], _The Comprehensive TEX Archive Network_, https://ctan.org.
 
-* [[[CPAN,CPAN]]], _Comprehensive Perl Archive Network_, https://www.cpan.org.
+* [[[CPAN,21]]], _Comprehensive Perl Archive Network_, https://www.cpan.org.
