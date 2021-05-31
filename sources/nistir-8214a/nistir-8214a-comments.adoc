@@ -3,11 +3,32 @@
 :docnumber: 11021
 :published-date: 2020-02-10
 :status: published
-:doctype: whitepaper
+:doctype: report
+:security: unrestricted
+:recipient: nistir-8214A-comments@nist.gov
+:committee: RNP and Confium team
+:committee-type: technical
 :imagesdir: images
-:docfile: nistir-8214a-comments.adoc
 :mn-document-class: ribose
 :mn-output-extensions: xml,html,doc,rxl
+:publisher: Ribose Group Inc.
+:pub_address: Suite 1, 8/F; 10 Ice House Street; Central; Hong Kong
+:fullname: Ronald Tse
+:surname: Tse
+:givenname: Ronald
+:affiliation: Ribose
+:fullname_2: Wai Kit Wong
+:surname_2: Wong
+:givenname_2: Wai Kit
+:affiliation_2: Ribose
+:fullname_3: Daniel Wyatt
+:surname_3: Wyatt
+:givenname_3: Daniel
+:affiliation_3: Ribose
+:fullname_4: Nickolay Olshevsky
+:surname_4: Olshevsky
+:givenname_4: Nickolay
+:affiliation_4: Ribose
 :local-cache-only:
 :data-uri-image:
 
