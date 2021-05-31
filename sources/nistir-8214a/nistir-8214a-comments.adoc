@@ -28,6 +28,10 @@
 :surname_4: Olshevsky
 :givenname_4: Nickolay
 :affiliation_4: Ribose
+:fullname_5: Jeffrey Lau
+:surname_5: Lau
+:givenname_5: Jeffrey
+:affiliation_5: Ribose
 :local-cache-only:
 :data-uri-image:
 
