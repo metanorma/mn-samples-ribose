@@ -12,7 +12,6 @@
 :mn-document-class: ribose
 :mn-output-extensions: xml,html,doc,rxl
 :publisher: Ribose Group Inc.
-:pub_address: Suite 1, 8/F; 10 Ice House Street; Central; Hong Kong
 :fullname: Ronald Tse
 :surname: Tse
 :givenname: Ronald
