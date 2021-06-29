@@ -1,0 +1,1591 @@
+
+<!DOCTYPE html>
+<html lang="en" xml:lang="en">
+  <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><style>
+  <!--
+/*
+    0 CSS RESET
+*/
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0; }
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  border: 0;
+  font-size: 100%; }
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, tt, var,
+b, u, i, center,
+dl, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  vertical-align: baseline; }
+
+html, body, div, span, applet, object, iframe,
+p, blockquote,
+a, abbr, acronym, address, big, cite,
+del, dfn, em, img, ins, q, s,
+small, strike, strong, sub, sup, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  font-family: "Source Sans Pro",sans-serif; }
+
+code, pre, tt, kbd, samp {
+  font-family: "Source Code Pro",monospace;
+  font-variant-ligatures: none; }
+
+code *, pre *, tt *, kbd *, samp * {
+  font-family: "Source Code Pro",monospace !important;
+  font-variant-ligatures: none; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Source Sans Pro",sans-serif; }
+
+blockquote, q {
+  quotes: none; }
+  blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none; }
+
+.h2Annex {
+  font-family: "Source Sans Pro",sans-serif; }
+
+dl {
+  display: grid;
+  grid-template-columns: max-content auto; }
+  dl dt p, dl dd p {
+    margin-top: 0; }
+  dl dt {
+    grid-column-start: 1; }
+  dl dd {
+    grid-column-start: 2; }
+
+b, strong {
+  font-weight: bold; }
+
+div.document-stage-band, div.document-type-band {
+  background-color: #333333; }
+
+a.FootnoteRef + a.FootnoteRef:before {
+  content: ", ";
+  vertical-align: super; }
+
+.addition {
+  color: blue; }
+
+.deletion {
+  color: red;
+  text-decoration: line-through; }
+
+#standard-band {
+  background-color: #0AC442; }
+
+#standard {
+  border-bottom: solid 3px #0AC442; }
+
+#directive-band {
+  background-color: #540D6E; }
+
+#directive {
+  border-bottom: solid 3px #540D6E; }
+
+#guide-band {
+  background-color: #D183C9; }
+
+#guide {
+  border-bottom: solid 3px #D183C9; }
+
+#specification-band {
+  background-color: #65AFFF; }
+
+#specification {
+  border-bottom: solid 3px #65AFFF; }
+
+#report-band {
+  background-color: #3A405A; }
+
+#report {
+  border-bottom: solid 3px #3A405A; }
+
+#amendment-band {
+  background-color: #F26430; }
+
+#amendment {
+  border-bottom: solid 3px #F26430; }
+
+#corrigendum-band {
+  background-color: #C84630; }
+
+#corrigendum {
+  border-bottom: solid 3px #C84630; }
+
+#administrative-band {
+  background-color: #BFAE48; }
+
+#administrative {
+  border-bottom: solid 3px #BFAE48; }
+
+#advisory-band {
+  background-color: #BD9391; }
+
+#advisory {
+  border-bottom: solid 3px #BD9391; }
+
+#proposal-band {
+  background-color: #39A0ED; }
+
+#proposal {
+  border-bottom: solid 3px #39A0ED; }
+
+#working-draft-band {
+  background-color: #2D7393; }
+
+#working-draft {
+  border-bottom: solid 3px #2D7393; }
+
+#committee-draft-band {
+  background-color: #2A6B7C; }
+
+#committee-draft {
+  border-bottom: solid 3px #2A6B7C; }
+
+#draft-standard-band {
+  background-color: #1C7F7A; }
+
+#draft-standard {
+  border-bottom: solid 3px #1C7F7A; }
+
+#final-draft-band {
+  background-color: #53C170; }
+
+#final-draft {
+  border-bottom: solid 3px #53C170; }
+
+#published-band {
+  background-color: #069E2D; }
+
+#published {
+  border-bottom: solid 3px #069E2D; }
+
+#withdrawn-band {
+  background-color: #004E64; }
+
+#withdrawn {
+  border-bottom: solid 3px #004E64; }
+
+#cancelled-band {
+  background-color: #2E382E; }
+
+#cancelled {
+  border-bottom: solid 3px #2E382E; }
+
+body {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.4em;
+  color: #1d1d1d;
+  background-color: #ffffff; }
+  body main {
+    margin: 0 3em 0 6em; }
+
+main {
+  margin: 0 3em 0 6em; }
+
+#toc {
+  font-family: "Source Sans Pro",sans-serif;
+  font-weight: 400; }
+  #toc ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+    #toc ul li a {
+      padding: 5px 10px; }
+    #toc ul a {
+      color: #485094;
+      text-decoration: none;
+      display: block; }
+      #toc ul a:hover {
+        box-shadow: none;
+        color: #485094; }
+  #toc .h2 {
+    padding-left: 30px; }
+  #toc .h3 {
+    padding-left: 50px; }
+  #toc .toc-active, #toc li:hover {
+    background: #1661AD;
+    box-shadow: inset -5px 0px 10px -5px #1661AD !important; }
+    #toc .toc-active a, #toc li:hover a {
+      color: #485094; }
+  @media print {
+    #toc .toc-active, #toc li:hover {
+      background: white;
+      box-shadow: none !important; }
+    #toc .toc-active a {
+      color: #485094; }
+    #toc li:hover a {
+      color: black; } }
+  @media screen and (max-width: 768px) {
+    #toc {
+      padding: 0 1.5em;
+      overflow: visible; } }
+  #toc .toc-active a {
+    color: white; }
+  #toc li a {
+    text-transform: uppercase; }
+  #toc ul a:hover {
+    box-shadow: none;
+    color: white; }
+
+@media screen and (min-width: 768px) {
+  nav {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 323px;
+    font-size: 0.9em;
+    overflow: auto;
+    padding: 0 0 0 45px;
+    background-color: #f7f7f7; } }
+
+@media print {
+  nav {
+    position: relative;
+    width: auto;
+    font-size: 0.9em;
+    overflow: auto;
+    padding: 0;
+    margin-right: 0;
+    background-color: white; } }
+
+@media screen and (min-width: 768px) {
+  #toggle {
+    position: fixed;
+    height: 100%;
+    width: 30px;
+    background-color: #1661AD;
+    color: white !important;
+    cursor: pointer;
+    z-index: 100; }
+    #toggle span {
+      text-align: center;
+      width: 100%;
+      position: absolute;
+      top: 50%;
+      transform: translate(0, -50%); } }
+
+@media screen and (max-width: 768px) {
+  #toggle {
+    display: none; } }
+
+@media print {
+  #toggle {
+    display: none; } }
+
+#myBtn {
+  font-family: "Source Code Pro",monospace;
+  font-variant-ligatures: none;
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 12px;
+  border: none;
+  outline: none;
+  background-color: #1f8ca0;
+  opacity: 0.15;
+  color: white;
+  cursor: pointer;
+  padding: 10px 15px 10px 15px;
+  border-radius: 4px;
+  text-transform: uppercase; }
+  #myBtn:hover {
+    opacity: 1; }
+  @media print {
+    #myBtn {
+      display: none; } }
+  #myBtn a.anchorjs-link:hover {
+    background: none;
+    color: #485094;
+    box-shadow: none; }
+
+/*
+    2. Responsive navigation layout
+*/
+@media screen and (min-width: 768px) {
+  .container {
+    padding-left: 360px; }
+  .rule.toc {
+    display: none; }
+  h1.toc-contents {
+    margin-top: 1em; }
+  ul#toc-list {
+    padding: 0;
+    margin: 0; } }
+
+div.figure {
+  line-height: 1.6em;
+  padding: 1.5em;
+  margin: 2em 0 1em 0;
+  overflow: auto; }
+  div.figure .FigureTitle, div.figure .figure-title {
+    font-weight: 700;
+    font-size: 1em;
+    text-align: center; }
+  div.figure > img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 100%;
+    height: auto; }
+
+/*
+    Document types + stages
+*/
+.document-type-band {
+  left: 0;
+  top: 180px;
+  height: 100%;
+  position: fixed;
+  display: block;
+  z-index: 102; }
+  .document-type-band > :first-child {
+    position: relative;
+    width: 25px;
+    font-weight: 400;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    margin: 0;
+    margin-left: 6px;
+    writing-mode: tb-rl;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    white-space: nowrap;
+    display: block;
+    bottom: 0; }
+  @media print {
+    .document-type-band {
+      display: none; } }
+  .document-type-band .document-type {
+    top: 20px; }
+
+.document-stage-band {
+  left: 0;
+  top: 0;
+  height: 100%;
+  position: fixed;
+  display: block;
+  z-index: 101;
+  box-shadow: -5px 0px 10px #1d1d1d; }
+  .document-stage-band > :first-child {
+    position: relative;
+    width: 25px;
+    font-weight: 300;
+    height: 160px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    margin: 0;
+    margin-left: 6px;
+    writing-mode: tb-rl;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    white-space: nowrap;
+    display: block;
+    bottom: 0; }
+  @media print {
+    .document-stage-band {
+      display: none; } }
+#governance-band p.document-type {
+  height: 230px !important; }
+
+p.document-stage {
+  font-weight: 300;
+  height: 160px; }
+
+#standard-band p {
+  height: 270px; }
+
+#proposal-band p {
+  height: 150px; }
+
+#standard-band,
+#published-band {
+  background-color: #9ABD48; }
+
+#standard,
+#published {
+  border-bottom: solid 3px #9ABD48; }
+
+#governance,
+#policy-and-procedures {
+  border-bottom: solid 3px #750697; }
+
+#governance-band,
+#policy-and-procedures-band {
+  background-color: #750697; }
+
+#guide {
+  border-bottom: solid 3px #48a0e7; }
+
+#guide-band {
+  background-color: #48a0e7; }
+
+.coverpage-maturity {
+  font-family: "Source Sans Pro",sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  margin: 0 0 2em 0;
+  text-transform: uppercase; }
+
+#working-draft,
+#proposal {
+  border-bottom: solid 3px #F7803C; }
+
+#working-draft-band,
+#proposal-band {
+  background-color: #F7803C; }
+
+#committee-draft {
+  border-bottom: solid 3px #fd06fd; }
+
+#committee-draft-band {
+  background-color: #fd06fd; }
+
+#draft-standard {
+  border-bottom: solid 3px #fdf906; }
+
+#draft-standard-band {
+  background-color: #fdf906; }
+
+#standard {
+  border-bottom: solid 3px #9ABD48; }
+
+#standard-band {
+  background-color: #9ABD48; }
+
+#obsolete {
+  border-bottom: solid 3px #7e0d13; }
+
+#obsolete-band {
+  background-color: #7e0d13; }
+
+/*
+    3. TYPOGRAPHY
+*/
+/*
+    3.1 Titles
+*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Source Sans Pro",sans-serif;
+  color: #1661AD;
+  font-weight: 300;
+  margin-top: 1.6em;
+  margin-bottom: 0.3em; }
+
+h1 {
+  font-size: 1.6em;
+  text-transform: uppercase;
+  margin-top: 2em; }
+
+h1#content {
+  margin-top: 2em; }
+
+h2 {
+  margin-top: 1.3em;
+  font-size: 1.3em;
+  font-weight: 400; }
+
+h3 {
+  margin-top: 1.1em;
+  font-size: 1.1em;
+  font-weight: 100; }
+
+.TermNum,
+.Terms,
+.AltTerms {
+  color: #1661AD;
+  font-weight: 100; }
+
+h2.TermNum {
+  margin-bottom: 0; }
+
+p.Terms {
+  font-size: 1.1em;
+  line-height: 1.5em;
+  margin: 0; }
+
+p.AltTerms {
+  /*
+  font-style: italic;
+    */
+  font-size: 1.1em;
+  margin: 0; }
+
+.contact-info a:hover {
+  color: #485094;
+  text-decoration: underline;
+  background: none;
+  box-shadow: 0 0 0 0; }
+
+/*
+  3.2 Links
+*/
+a, a:visited {
+  text-decoration: none;
+  color: #485094; }
+
+a:hover {
+  color: white;
+  background: #1661AD;
+  box-shadow: 3px 0 0 #1661AD, -3px 0 0 #1661AD; }
+
+::selection,
+::-moz-selection {
+  background: #1661AD;
+  color: white; }
+
+/*
+    3.3 Lists
+*/
+ul,
+ol {
+  margin-left: 1.2em; }
+
+ul li {
+  list-style: none; }
+
+ul > li:before {
+  content: "\2014";
+  display: inline-block;
+  width: 1em;
+  margin-left: -1.2em; }
+
+ul > li p:first-child {
+  display: inline; }
+
+ul > li:first-child {
+  margin-top: 1em; }
+
+#toc-list ul {
+  margin-bottom: 0.25em; }
+
+#toc-list li {
+  list-style-type: none; }
+
+#toc li:before {
+  content: " ";
+  display: none; }
+
+/*
+    3.4 Rules
+*/
+.rule {
+  width: 100%;
+  height: 1px;
+  background-color: #0e1a85;
+  margin: 2em 0; }
+
+/*
+    3.5 Bibliograhy
+*/
+p.Biblio,
+p.NormRef {
+  margin-top: 1em;
+  margin-left: 2em; }
+
+/*
+    3.6 Source Code + figures
+*/
+.figure,
+pre,
+.pseudocode {
+  background-color: #f7f7f7;
+  font-size: ;
+  line-height: 1.6em;
+  padding: 1.5em;
+  margin: 2em 0 1em 0;
+  overflow: auto; }
+  .figure .SourceTitle,
+  pre .SourceTitle,
+  .pseudocode .SourceTitle {
+    font-weight: 700;
+    font-size: 1em;
+    text-align: center; }
+
+pre {
+  font-family: "Source Code Pro",monospace;
+  font-variant-ligatures: none; }
+
+.AdmonitionTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center; }
+
+.RecommendationTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center; }
+
+.FigureTitle,
+.SourceTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center; }
+
+/*
+    3.7 Notes
+*/
+.Note {
+  background-color: #fff495;
+  color: #47430c;
+  padding: 1.2em;
+  margin: 1em 0 1em 0; }
+  .Note p {
+    margin: 0; }
+
+.Admonition {
+  background-color: #ffcccc;
+  color: #47430c;
+  padding: 1.2em;
+  margin: 1em 0 1em 0; }
+  .Admonition p {
+    margin: 0; }
+
+/*
+    3.8 Examples
+*/
+.example {
+  background-color: #e1eef1;
+  padding: 1.2em;
+  margin: 2em 0 1em 0;
+  text-align: left;
+  color: #424242;
+  padding-left: 2.7em; }
+  .example p {
+    margin: 0; }
+  .example .example-title {
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: -1.5em; }
+  .example .example-title {
+    margin-top: 0; }
+  .example pre,
+  .example .pseudocode {
+    background: none; }
+
+/*
+    3.9 Tables
+*/
+table {
+  width: 100%;
+  font-weight: 300;
+  margin: 1em 0 2em 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 2em; }
+  table, table th, table td {
+    border: 1px solid black;
+    font-size: 0.95em; }
+  table th, table td {
+    padding: 1em; }
+  table td.header {
+    font-weigth: 400; }
+
+p.TableTitle {
+  text-align: center;
+  margin-top: 2.5em;
+  font-weight: 400; }
+
+/*
+  3.10 Footnotes
+*/
+a.footnote-number {
+  vertical-align: super;
+  font-size: 0.8em; }
+
+.footnote {
+  font-size: 0.9em; }
+
+/*
+    3.11 Blockquotes
+*/
+.Quote {
+  background-color: #f7f7f7;
+  font-style: italic;
+  width: 80%;
+  padding: 1.5em;
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto; }
+
+/*
+    3.12 Formulas
+*/
+.formula {
+  background-color: #f7f7f7;
+  padding: 1.5em;
+  margin-top: 2em;
+  text-align: center; }
+
+/*
+    3.13 Contact Info
+*/
+.contact-info {
+  padding: 2em;
+  margin-top: 5em;
+  width: 250px;
+  text-align: left;
+  border: #1661AD solid 2px;
+  color: #1661AD !important;
+  border-radius: 25px; }
+
+.contact-info a,
+.contact-info a:hover {
+  color: #1661AD; }
+
+.contact-info p,
+.contact-info a {
+  font-family: "Source Code Pro",monospace;
+  font-variant-ligatures: none;
+  font-weight: 400; }
+
+.contact-info .name {
+  font-weight: 700;
+  font-size: 1.2em;
+  margin-bottom: 0; }
+
+.contact-info .address {
+  font-size: 1em;
+  line-height: 1.3em;
+  margin-top: 0; }
+
+/*
+    Keywords
+*/
+span.keyword {
+  font-weight: 600; }
+
+/*
+    Paragraphs
+*/
+p {
+  margin-top: 1em;
+  margin-bottom: 1em; }
+
+h2 p {
+  display: inline; }
+
+/*
+    4.0 Page header
+*/
+/*
+    4.1 Top Logo
+*/
+.icon-svg {
+  width: 100%;
+  color: #5ecf86; }
+
+.wrapper-top {
+  background: linear-gradient(200deg, #0f365e, #1661AD);
+  color: #ffffff;
+  padding: 2em 0;
+  width: 100%; }
+
+.wrapper-top-bottom {
+  width: 0;
+  height: 0;
+  border-top: 100px solid #1661AD;
+  border-right: 100px solid transparent;
+  position: absolute; }
+
+.doc-number {
+  font-size: 0.5em;
+  font-family: "Source Sans Pro",sans-serif; }
+
+.coverpage-title {
+  padding-bottom: 0.5em;
+  font-family: "Source Sans Pro",sans-serif;
+  font-size: 1.2em;
+  line-height: 1.5em;
+  font-weight: 100;
+  padding-left: 1em;
+  padding-right: 1em;
+  text-transform: uppercase; }
+
+.WordSection11 {
+  padding: 0 2em 0 3em; }
+
+.info-section {
+  padding: 0 2em 0 5em; }
+
+.prefatory-section {
+  padding: 0 3em 0 6em; }
+
+.zzSTDTitle1,
+.MsoCommentText {
+  display: none; }
+
+.coverpage {
+  text-align: center;
+  padding-left: 1.5em; }
+
+.coverpage-logo span,
+.coverpage-tc-name span {
+  font-family: "Source Sans Pro",sans-serif;
+  text-transform: none;
+  font-weight: 300; }
+
+.coverpage-tc-name {
+  font-size: 1.2em;
+  line-height: 1.2em;
+  margin: 0.25em 0; }
+
+/*
+    4.2 Document Identity
+*/
+.coverpage-doc-identity {
+  font-size: 2em;
+  line-height: 2em; }
+
+.coverpage-title .title-second {
+  display: none; }
+
+.coverpage-stage-block {
+  font-family: "Source Sans Pro",sans-serif;
+  font-weight: 600;
+  font-size: 1.25em;
+  margin: 2em 0em 2em 0em;
+  text-transform: uppercase; }
+
+/*
+    4.3 Draft Warning
+*/
+.coverpage-warning {
+  border: #f36f36 solid 2px;
+  color: #f36f36 !important;
+  margin: 1em 2em;
+  color: #485094;
+  padding: 2em 1em 1em 1em;
+  border-radius: 25px; }
+
+.coverpage-warning .title {
+  font-family: "Source Sans Pro",sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 1.2em; }
+
+/*
+    4.4 Copyright
+*/
+.boilerplate-copyright {
+  padding: 1em;
+  font-size: 0.9em;
+  text-align: left; }
+
+/*  .copyright .name, .copyright .address {color: #485094;} */
+/*
+    5.0 Other styles
+*/
+/*
+To top button
+*/
+@page {
+  margin: 2cm 1cm; }
+
+@media print {
+  .document-info,
+  nav,
+  .copyright {
+    page-break-before: always; }
+  nav {
+    page-break-after: always; }
+  h1,
+  h2,
+  h3,
+  h4 {
+    page-break-after: avoid;
+    margin-top: 1.2em; }
+  .note,
+  .figure,
+  pre,
+  .pseudocode,
+  table {
+    page-break-inside: avoid; }
+  .info-section {
+    display: none; }
+  .coverpage {
+    height: 23cm; }
+  .wrapper-top {
+    top: 0;
+    padding-top: 4cm;
+    padding-bottom: 4cm; }
+  .wrapper-top-bottom {
+    margin-top: -5px; }
+  button#myBtn {
+    background-color: white; }
+  .container {
+    padding-left: 0; }
+  h1.content {
+    margin-top: 2em;
+    line-height: 2.5em; }
+  h1 {
+    font-size: 1.5em;
+    line-height: 1.5; }
+  h2 {
+    font-size: 1.2em; }
+  h3 {
+    font-size: 1em; }
+  .Note {
+    background-color: #fff495;
+    color: #47430c;
+    padding: 5px;
+    margin: 2em 0 1em 0; }
+  .Note p {
+    padding: 0 5px 0 5px; }
+  .Admonition {
+    background-color: #ffcccc;
+    color: #47430c;
+    padding: 5px;
+    margin: 2em 0 1em 0; }
+  .Admonition p {
+    padding: 0 5px 0 5px; }
+  .wrapper-top-bottom {
+    display: none; } }
+
+-->
+</style><title>Configuration management&#x2009;&#x2014;&#x2009;Nereon configuration model&#x2009;&#x2014;&#x2009;Object configuration and schema syntax</title>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!--TOC script import-->
+<script type="text/javascript" src="https://cdn.rawgit.com/jgallen23/toc/0.3.2/dist/toc.min.js"></script>
+<script type="text/javascript">function toclevel() { return "h1:not(:empty):not(.TermNum):not(.noTOC),h2:not(:empty):not(.TermNum):not(.noTOC)";}
+</script>
+
+<!--Google fonts-->
+<link rel="preconnect" href="https://fonts.gstatic.com" /> 
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,600,600i&amp;display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,300;0,600;1,300;1,600&amp;display=swap" rel="stylesheet" />
+<!--Font awesome import for the link icon-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous" />
+<style class="anchorjs"></style>
+</head>
+  <body lang="EN-US" link="blue" vlink="#954F72" xml:lang="EN-US" class="container">
+    <div class="title-section"><div class="document-stage-band" id="draft-standard-band">
+  <p class="document-stage">Draft Standard</p>
+</div>
+
+<div class="document-type-band" id="standard-band">
+  <p class="document-type">Ribose Standard</p>
+</div>
+
+
+
+<div id="toggle"> <span>&#x2022;</span> </div>
+
+<header>
+
+  <div class="coverpage">
+    <div class="wrapper-top">
+
+      <div class="coverpage-doc-identity">
+        <div class="doc-number">
+          <span class="docnumber">XXXXX(d)</span>
+          <span class="docyear"></span>
+        </div>
+
+        <div class="coverpage-title">
+          <span class="title-first">Configuration management&#x2009;&#x2014;&#x2009;Nereon configuration model&#x2009;&#x2014;&#x2009;Object configuration and schema syntax</span>
+          <!--<span class="title-second"></span>-->
+        </div>
+      </div>
+
+      <div class="coverpage-logo">
+        <span>Ribose Group Inc. 2018</span>
+      </div>
+
+      <div class="coverpage-tc-name">
+        <span>Configuration management</span>
+      </div>
+    </div>
+
+    <div class="wrapper-top-bottom"></div>
+
+    <div class="WordSection11">
+      <div class="coverpage-stage-block">
+        <span class="coverpage-stage" id="standard">Ribose Standard</span>
+      </div>
+
+      <div class="coverpage-stage-block">
+        <p><span class="coverpage-maturity" id="draft-standard">Draft Standard</span></p>
+        
+        
+      </div>
+
+      
+
+      
+      <div class="coverpage-warning">
+        <div class="boilerplate-license">
+    <div><h1 class="IntroTitle">Warning for Drafts</h1>
+
+
+        <p id="_ea125cbb-7509-4cdc-b050-d4afd104b21d">This document is not a Ribose Standard. It is distributed for review and
+        comment, and is subject to change without notice and may not be referred to as
+        a Standard. Recipients of this draft are invited to submit, with their
+        comments, notification of any relevant patent rights of which they are aware
+        and to provide supporting documentation.
+        </p>
+    </div>
+  </div>
+      </div>
+      
+
+      <div class="info-section">
+        <div class="copyright">
+          <div class="year">
+            <div class="boilerplate-copyright">
+    <div>
+      <p id="_2a82335c-10a0-49f5-a0c2-ffc84322bf76"> &#xA9; Ribose 2018</p>
+    </div>
+  </div>
+          </div>
+
+          <div class="contact-info">
+            <div class="boilerplate-feedback">
+    <div>
+      <p id="boilerplate-name" style="text-align:left;">
+        Ribose
+      </p>
+      <p id="boilerplate-address" style="text-align:left;">Suite 1, 8/F, New Henry House<br />
+        10 Ice House Street<br />
+        Central<br />
+        Hong Kong<br />
+        <br />
+        <a href="mailto:copyright@ribose.com">copyright@ribose.com</a><br />
+        <a href="https://www.ribose.com">www.ribose.com</a>
+      </p>
+    </div>
+  </div>
+          </div>
+
+          <div class="message">
+            <div class="boilerplate-legal">
+    <div>
+      <p id="_cf47c189-464e-451e-950c-ad67e488e4c4">All rights reserved. Unless otherwise specified, no part of this
+          publication may be reproduced or utilized otherwise in any form or by any
+          means, electronic or mechanical, including photocopying, or posting on the
+          internet or an intranet, without prior written permission. Permission can
+          be requested from the address below.
+        </p>
+      </div>
+  </div>
+          </div>
+        </div>
+
+        <div class="rule"></div>
+        </div>
+      </div>
+
+
+
+</div></header>
+      <p>&#xA0;</p>
+    </div>
+    <br />
+    <div class="prefatory-section"><nav>
+  <h1 id="content">Contents</h1>
+  <div id="toc"><ul><li class="h1"><a href="#toc0">      Foreword</a></li><li class="h1"><a href="#toc1">      Introduction</a></li><li class="h1"><a href="#toc2">      1.&#xA0; Scope</a></li><li class="h1"><a href="#toc3">      2.&#xA0; Normative references</a></li><li class="h1"><a href="#toc4">      3.&#xA0; Terms, definitions and symbols</a></li><li class="h2"><a href="#toc5">      3.1.&#xA0; Terms and definitions</a></li><li class="h2"><a href="#toc6">      3.2.&#xA0; Symbols</a></li><li class="h1"><a href="#toc7">      4.&#xA0; Nereon Configuration and Schema Syntax</a></li><li class="h2"><a href="#toc8">      4.1.&#xA0; Document Structure</a></li><li class="h2"><a href="#toc9">      4.2.&#xA0; Interpolation</a></li><li class="h1"><a href="#toc10">      Bibliography</a></li></ul></div>
+
+</nav>
+
+
+<div class="rule toc"></div>
+
+      <p>&#xA0;</p>
+    </div>
+    <br />
+    <main class="main-section"><button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+      <div class="authority">
+  
+
+  
+
+  
+  
+</div>
+      <br />
+      <div id="_f450e965-95e4-4a02-9e90-048ac1fb566e">
+        <h1 class="ForewordTitle" id="toc0">Foreword</h1>
+        <p id="_80a5ac19-d733-4f70-bc30-7228714fe9b7">Ribose is the asymmetric security company.</p>
+        <p id="_dc634e4e-aef1-4832-9b07-29d47c65b5c1">Ribose Group Inc. (&#x201C;Ribose&#x201D;) is global developer of <i>asymmetric security</i> technologies across user-centric systems and applications.</p>
+        <p id="_bf7f1d72-d0eb-4792-88be-496240255f88">Ribose works closely with international organizations such as ISO, CalConnect and the Cloud Security Alliance.</p>
+        <p id="_1b35afd7-87b6-4918-860f-2cfe4e064b6d">The procedures used to develop this document and those intended for its further maintenance are described in the Ribose Standardization Directives.</p>
+        <p id="_676ecbb3-ff10-4f5a-9dd4-3404e352f0bf">In particular the different approval criteria needed for the different types of Ribose documents should be noted. This document was drafted in accordance with the
+editorial rules of the Ribose Standardization Directives.</p>
+        <p id="_b60b3733-2076-42d2-b23a-1626340eddb9">Attention is drawn to the possibility that some of the elements of this
+document may be the subject of patent rights. Ribose shall not be held responsible
+for identifying any or all such patent rights. Details of any patent rights
+identified during the development of the document will be in the Introduction.</p>
+        <p id="_2e8a194a-99c2-4061-85ab-80e932efcdb2">Any trade name used in this document is information given for the convenience
+of users and does not constitute an endorsement.</p>
+        <p id="_ab0c86c5-5ba1-4bec-bfbf-a9ada4a3ed80">This document was prepared by the Ribose Committee <i>{technical-committee}</i>.</p>
+      </div>
+      <br />
+      <div class="Section3" id="introduction">
+        <h1 class="IntroTitle" id="toc1">Introduction</h1>
+        <p id="_ad2097be-e77a-4fb7-9ef7-af11ed32347b">The Nereon project aims to unify and glue together cloud
+configuration management through the Nereon data models.</p>
+        <p id="_6c5ef979-5029-4a42-a337-264cc6547a81">The Nereon Object Configuration syntax (NOC) and Nereon Object Configuration Schema syntax (NOS)
+are methods used to express configuration settings in
+Nereon data models, and can also be used as interchangeable
+files.</p>
+        <p id="_071447a5-5ef9-4359-a453-1abacc8507a3">Nereon models: <a href="https://github.com/riboseinc/nereon-models">https://github.com/riboseinc/nereon-models</a></p>
+        <p id="_8ba9616c-38d7-43b1-a972-6529b296bb7a">Nereon is a play on Nereus, the shapeshifting sea god of the Greeks, the eldest son of Pontus and Gaia. &#x201C;Nereon&#x201D; literally means &#x201C;place of Nereus&#x201D;, representing the shape-shifting nature of configuration.</p>
+      </div>
+      <p class="zzSTDTitle1">Configuration management&#x2009;&#x2014;&#x2009;Nereon configuration model&#x2009;&#x2014;&#x2009;Object configuration and schema syntax</p>
+      <div id="scope">
+        <h1 id="toc2">1.&#xA0; Scope</h1>
+        <p id="_1f5aea7a-ef5c-49ec-b59e-b78137a950e1">This document defines the Nereon Object Configuration Syntax (NOC) and
+Nereon Object Configuration Schema Syntax (NOS).</p>
+        <p id="_f73901bd-cf56-448b-9cd9-0bba92752992">(TODO.)</p>
+      </div>
+      <div><h1 id="toc3">2.&#xA0; Normative references</h1>
+<p id="_c275683d-12af-4342-b26d-68eb5325376b">There are no normative references in this document.</p>
+<p id="_fdfa0a32-e0f9-4319-8acd-59073c267685">This document does not contain any normative references.</p>
+</div>
+      <div id="terms">
+        <h1 id="toc4">3.&#xA0; Terms, definitions and symbols</h1>
+        <p id="_db2b0537-a912-4bbf-9c4a-dc7b654bfbd4">For the purposes of this document,
+    the following terms and definitions apply.</p>
+        <div id="_terms_and_definitions"><h2 id="toc5">3.1.&#xA0; Terms and definitions</h2><h3 class="TermNum" id="term-user">3.1.1.&#xA0;<p class="Terms" style="text-align:left;">user</p></h3>
+
+<p id="_023b8696-177f-4971-ac30-f9bbd0803ca2">person that utilizes a service</p>
+
+<h3 class="TermNum" id="term-access-control">3.1.2.&#xA0;<p class="Terms" style="text-align:left;">access control</p></h3>
+
+<p id="_8d241ebe-f297-4c74-bfcb-e5bf6d3548b7">TODO.</p>
+
+<h3 class="TermNum" id="term-author">3.1.3.&#xA0;<p class="Terms" style="text-align:left;">author</p></h3>
+
+<p id="_e62e3987-8760-42e5-9b92-4d2117687646">TODO.</p>
+
+<h3 class="TermNum" id="term-role">3.1.4.&#xA0;<p class="Terms" style="text-align:left;">role</p></h3>
+
+<p id="_9669d249-5727-419a-8140-f797728f350e">TODO.</p>
+
+<h3 class="TermNum" id="term-classification">3.1.5.&#xA0;<p class="Terms" style="text-align:left;">classification</p></h3>
+
+<p id="_c4180e11-006c-4f8b-a87c-d3b4ba56d112">TODO.</p>
+
+<h3 class="TermNum" id="term-classification-label">3.1.6.&#xA0;<p class="Terms" style="text-align:left;">classification label</p></h3>
+
+<p id="_274866f4-52ee-4e9b-9877-a4e70f09bae1">TODO.</p>
+
+<h3 class="TermNum" id="term-content-addressable-storage">3.1.7.&#xA0;<p class="Terms" style="text-align:left;">content addressable storage</p></h3>
+
+<p id="_ff51a2cb-966b-456e-a333-5409163debc7">TODO.</p>
+
+<h3 class="TermNum" id="term-forward-secrecy">3.1.8.&#xA0;<p class="Terms" style="text-align:left;">forward secrecy</p></h3><p id="_84cbe38d-d623-4726-8d13-5ceafada94a3">method such that user of revoked access is unable to access data
+created after access revocation</p>
+<div id="_6420bcc2-8243-4722-a3cf-852ba76896f0" class="Note"><p>Note 1 to entry: Refer to <a href="#RFC7525">section 6.3</a></p></div>
+<h3 class="TermNum" id="term-public-key-infrastructure">3.1.9.&#xA0;<p class="Terms" style="text-align:left;">public key infrastructure</p></h3>
+<p class="AltTerms" style="text-align:left;">PKI</p>
+
+<p id="_e6630807-e827-431a-9138-c704aeaa883f">TODO.</p>
+<h3 class="TermNum" id="term-blockcipher">3.1.10.&#xA0;<p class="Terms" style="text-align:left;">blockcipher</p></h3>
+
+<p id="_b7053b17-cd35-48c0-8abe-9346d1365fc0">encryption algorithm that encrypts a plaintext into an equivalent
+sized ciphertext, using an identical key for encryption and
+decryption</p>
+</div>
+        <div id="_symbols"><h2 id="toc6">3.2.&#xA0; Symbols</h2>
+
+<dl id="_7a791cd7-1823-4ff3-a9b3-7ef16899e99b"><dt>
+<span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mi>B</mi>
+  <mi>C</mi>
+  <mi>D</mi>
+  <mfenced open="(" close=")">
+    <mrow>
+      <mi>K</mi>
+      <mi>,</mi>
+      <mi>m</mi>
+    </mrow>
+  </mfenced>
+</math></span>
+</dt><dd>
+<p id="_5e8133d4-0699-41f5-938f-5e10763d1358">Symmetric decryption, through the blockcipher <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mi>B</mi>
+  <mi>C</mi>
+</math></span>, of the message
+<span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mi>m</mi>
+</math></span> using the key <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mi>K</mi>
+</math></span></p>
+</dd><dt>
+<span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mi>B</mi>
+  <mi>C</mi>
+  <mi>E</mi>
+  <mfenced open="(" close=")">
+    <mrow>
+      <mi>K</mi>
+      <mi>,</mi>
+      <mi>m</mi>
+    </mrow>
+  </mfenced>
+</math></span>
+</dt><dd>
+<p id="_718084bf-c39b-47cb-855a-6c66f018906c">Symmetric encryption, through the blockcipher <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mi>B</mi>
+  <mi>C</mi>
+</math></span>, of the message
+<span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mi>m</mi>
+</math></span> using the key <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mi>K</mi>
+</math></span></p>
+</dd><dt>
+<span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mi>D</mi>
+  <mfenced open="(" close=")">
+    <mrow>
+      <mi>K</mi>
+      <mi>,</mi>
+      <mi>m</mi>
+    </mrow>
+  </mfenced>
+</math></span>
+</dt><dd>
+<p id="_874cecab-62df-49bc-98b8-18914dee1f1e">Decryption of the message <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mi>m</mi>
+</math></span> using a key of an asymmetric keypair <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mi>K</mi>
+</math></span></p>
+</dd><dt>
+<span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mi>E</mi>
+  <mfenced open="(" close=")">
+    <mrow>
+      <mi>K</mi>
+      <mi>,</mi>
+      <mi>m</mi>
+    </mrow>
+  </mfenced>
+</math></span>
+</dt><dd>
+<p id="_5370abae-7fe7-415e-9b03-b21b64bcda4e">Encryption of the message <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mi>m</mi>
+</math></span> using a key of an asymmetric keypair <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mi>K</mi>
+</math></span></p>
+</dd></dl>
+</div>
+      </div>
+      <div id="syntax">
+        <h1 id="toc7">4.&#xA0; Nereon Configuration and Schema Syntax</h1>
+        <p id="_21620d9a-2ee1-4f40-8dd3-85c470f72c29">Nereon configurations (NOC) and schemas (NOS) are described using
+Nereon object notation (NON). NON is a structured configuration
+language influenced by JSON, UCL and HCL using a syntax influenced by
+traditional shell interfaces.</p>
+        <p id="_987fcbbc-1fa4-4fde-a70a-db96f5a7626b">NON templates can be defined to capture and reuse values and NON
+interpolation functions provide a mechanism for manipulating values
+when configuration is parsed.</p>
+        <div id="_document_structure"><h2 id="toc8">4.1.&#xA0; Document Structure</h2><p id="_c5305c49-d67f-4428-a3a8-a37b7bbecdd0">NON defines three types of value; table, list and string. A table is a
+list of named values where names are strings. A list is an ordered
+list of values. A string is a textual representation of data.</p>
+<p id="_33c52dba-bbf2-472b-8dca-77dc51ed2509">NON data MUST be utf8 encoded.</p>
+<p id="_1018d65e-7589-4ce6-8e20-5350bbf1b607">A NON document comprises a single NON table value.</p>
+<div id="_special_characters"><h3>4.1.1.&#xA0; Special Characters</h3><p id="_320138ea-74cd-4b99-a809-9051e77ea9bd">There are a number of characters that have special meaning
+within a NON document. All other characters are considered part of a
+string value. The special characters are:</p>
+<table id="_4856cabb-01a6-4aa7-b08b-192624969926" class="MsoISOTable" style="border-width:1px;border-spacing:0;"><thead><tr><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col">Character</th><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col">ASCII</th><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col">Meaning</th></tr></thead><tbody><tr><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;">SPC</td><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;">32</td><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;">Separates keys and values in a table and surrounds infix operators</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">TAB</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">9</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">Separates keys and values in a table and surrounds infix operators</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">
+<tt>(</tt>
+</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">40</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">Marks the start of the parameter list for interpolation functions</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">
+<tt>)</tt>
+</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">41</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">Marks the end of the parameter list for interpolation functions</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">
+<tt>{</tt>
+</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">123</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">Marks the start of a table value</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">
+<tt>}</tt>
+</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">125</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">Marks the end of a table value</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">
+<tt>[</tt>
+</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">91</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">Marks the start of a list value</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">
+<tt>]</tt>
+</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">93</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">Marks the end of a list value</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">
+<tt>"</tt>
+</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">34</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">Marks the start and end of a quoted string</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">
+<tt>#</tt>
+</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">35</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">Marks the beginning of a comment</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">
+<tt>$</tt>
+</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">36</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">Marks a template application without parameters</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">CR</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">10</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">Separates entries within tables, lists and parameter lists</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">
+<tt>,</tt>
+</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">44</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">Separates entries within tables, lists and parameter lists</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.5pt;">
+<tt>\</tt>
+</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.5pt;">92</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.5pt;">Indicates an escape sequence</td></tr></tbody></table></div>
+<div id="_string"><h3>4.1.2.&#xA0; String</h3><p id="_424cc42a-9f6e-4da1-ac89-480373b6afee">Strings can be either bare or quoted. A bare string comprises one or
+more characters not listed in the &#x2018;Special Characters&#x2019; section above.</p>
+<p id="_18c0797c-d138-4aa1-bcd9-0830cfe3960c">The following Special characters can be included within a bare string
+if they are escaped with the backslash (<tt>\</tt> ASCII 92) character.</p>
+<table id="_e4b1e829-55a8-4091-a1e5-27aac4f7ff3f" class="MsoISOTable" style="border-width:1px;border-spacing:0;"><thead><tr><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col">Sequence</th><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col">Meaning</th><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col">ASCII</th></tr></thead><tbody><tr><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;">
+<tt>\(</tt>
+</td><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;">Open brace</td><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;">40</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">
+<tt>\)</tt>
+</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">Close brace</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">41</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">
+<tt>\{</tt>
+</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">Open curly brace</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">123</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">
+<tt>\}</tt>
+</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">Close curly brace</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">125</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">
+<tt>\[</tt>
+</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">Open square brace</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">91</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">
+<tt>\]</tt>
+</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">Close square brace</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">93</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">
+<tt>\#</tt>
+</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">Hash sign</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">35</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">
+<tt>\$</tt>
+</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">Dollar sign</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">35</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">
+<tt>\,</tt>
+</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">Comma</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">44</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.5pt;">`\ `</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.5pt;">Space</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.5pt;">32</td></tr></tbody></table>
+<p id="_857d35a7-5287-4046-8473-dabbf23e0c9e">Quoted strings are enclosed in double quotation marks (<tt>"</tt> ASCII
+34) and may contain any of the <tt>Special Characters</tt> above with the
+exception of <tt>\</tt> (ASCII 92) and <tt>"</tt> (ASCII 34). <tt>\</tt> and <tt>"</tt> must
+always be escaped.</p>
+<p id="_21f8b85b-c0e4-4b63-87e1-078f11882ceb">The following escape sequences are recognised in both bare and quoted
+strings:</p>
+<table id="_627f54b6-3f80-46ba-bf6d-15379f442308" class="MsoISOTable" style="border-width:1px;border-spacing:0;"><thead><tr><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col">Escape Sequence</th><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col">ASCII</th><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col">Character represented</th></tr></thead><tbody><tr><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;">\n</td><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;">10</td><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;">Newline (Line Feed)</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">\r</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">13</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">Carriage Return</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">\t</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">9</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">Horizontal Tab</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">\\</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">92</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">Backslash</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">\&#x2019;</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">39</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">Single quotation mark</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">\&#x201D;</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">34</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">Double quotation mark</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">\0nn</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">any</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">The byte whose numerical value is given by 0nn interpreted as an octal number</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">\xhh</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">any</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">The byte whose numerical value is given by hh interpreted as a hexadecimal number</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">\Uhhhhhhhh</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">none</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">Unicode code point where h is a hexadecimal digit</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.5pt;">\uhhhh</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.5pt;">none</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.5pt;">Unicode code point below 10000 hexadecimal</td></tr></tbody></table>
+<p id="_befb4490-8f7c-4edb-bf91-9480b4c5f6f8">Multi-line strings are permitted as long as they are quoted.</p>
+<p id="_f770767a-739a-4e2f-af3d-269e67c48398">Examples:</p>
+<pre id="_3771279c-315a-41ec-ab42-0e4780d59e22" class="prettyprint ">"The Rachel Papers"<br />Success<br />Money<br />"Time's Arrow"</pre>
+</div>
+<div id="_list"><h3>4.1.3.&#xA0; List</h3><p id="_deeb2534-b31e-471e-bb1b-4178c11a909d">A list is an ordered set of values. Lists are enclosed in square
+braces (<tt>[]</tt> ASCII 91/93). Within the braces are zero or more values
+separated by one or more comma (<tt>,</tt> ASCII 44) or newline (ASCII 10)
+characters. Values are numbered, starting at zero. Numbers are
+assigned to each value in the order in which they are defined.</p>
+<p id="_342249c5-88ed-4268-ade0-433f67729354">Example:</p>
+<pre id="_17e1f8f8-8211-4fbe-ba7b-17acc3e7bd53" class="prettyprint ">[<br />&#xA0;&#xA0;&#xA0; Aglovale, Breunor, Claudin<br />&#xA0;&#xA0;&#xA0; Calogrenant, Dinadan, "Elyan the White"<br /><br />&#xA0;&#xA0;&#xA0; Erec, Galeschin, Gornemant,<br />&#xA0;&#xA0;&#xA0; "Hector de Maris", Lucan,<br />&#xA0;&#xA0;&#xA0; "Meliant de Lis", Morholt<br />&#xA0;&#xA0;&#xA0; Safir, Segwarides, Tor<br />]</pre>
+</div>
+<div id="_table"><h3>4.1.4.&#xA0; Table</h3><p id="_25f5b66a-672a-4795-8b78-3fff4f27bf28">A table is an unordered set of key and value pairs. A table is
+enclosed in curly braces (<tt>{}</tt> ASCII 123/125). Within the braces are
+zero or more key/value pairs. Pairs are separated by one or more comma
+(<tt>,</tt> ASCII 44) or newline (ASCII 10) characters. Keys are
+strings. Table entries are defined by specifying a key and a value
+separated by any combination of space (` ` ASCII 32) and tab (\t`
+ASCII 9) characters. Keys are unique with a table. If a key appears
+more than once in a table definition the last value is the only one
+retained by the table.</p>
+<p id="_695c129a-3bf2-44e8-90a9-314174b08244">Example:</p>
+<pre id="_96866774-949e-4c88-ba99-d474f14bd94c" class="prettyprint ">contact {<br />&#xA0;&#xA0;&#xA0; name "John Doe"<br />&#xA0;&#xA0;&#xA0; email {<br />&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0; work "john.doe@work.domain"<br />&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0; home "john@home.domain"<br />&#xA0;&#xA0;&#xA0; }<br />}</pre>
+
+<p id="_08fd2d32-2a10-4ef8-a5d5-1d8ceda6bd2f">An additional syntax is defined for table entries where multiple keys
+precede the value. This syntax is only permitted within a table value
+and has the effect of recursively defining implicit nested table
+values with the initial keys. The final key and the value are used to
+create an entry within the most deeply nested table value. Using this
+syntax the above example can be written as:</p>
+<pre id="_c465b7ea-64d0-4e4c-ae76-8f4c72c67ff3" class="prettyprint ">contact {<br />&#xA0;&#xA0;&#xA0; name "John Doe"<br />&#xA0;&#xA0;&#xA0; email work "john.doe@work.domain"<br />&#xA0;&#xA0;&#xA0; email home "john@home.domain"<br />}</pre>
+
+<p id="_b8e554ac-29ec-47ff-83a3-31dc44b9b5c8">or</p>
+<pre id="_cb5eb5fb-9d2a-45cb-b2af-6fcb35081afc" class="prettyprint ">contact name "John Doe"<br />contact email work "john.doe@work.domain"<br />contact email home "john@home.domain"</pre>
+</div>
+<div id="_comment"><h3>4.1.5.&#xA0; Comment</h3>
+
+<p id="_460b66e1-5fcc-44ef-a859-df60f1cf496d">The hash (<tt>#</tt> ASCII 35) character indicates a comment which runs up to the next
+CR (<tt>\n</tt> ASCII 10).</p>
+</div></div>
+        <div id="_interpolation"><h2 id="toc9">4.2.&#xA0; Interpolation</h2><p id="_2f3d13a7-109f-4665-a0d2-4a03d8837d8d">Values are interpolated when a NON document is parsed.</p>
+<div id="_arithmetic_interpolation"><h3>4.2.1.&#xA0; Arithmetic interpolation</h3><p id="_20ea1aa9-0a69-4a1c-b169-b411bed804ae">Simple arithmetic is supported with the binary operators <tt>-</tt>, <tt>+</tt>,
+<tt>*</tt>, <tt>/</tt>, <tt>\</tt>, <tt>%</tt> and <tt>^</tt>. Binary operators must appear between to
+values and must be surrounded by one or more space (ASCII 32) or tab
+(ASCII 9) characters. The operators correspond respectively with the
+functions <tt>subtract()</tt>, <tt>add()</tt>, <tt>multiply()</tt>, <tt>divide()</tt>, <tt>intdiv()</tt>,
+<tt>modulus()</tt> and <tt>power()</tt> described below.</p>
+<pre id="_744d1398-660d-4c7c-8b8b-a4a649ae6446" class="prettyprint ">port 8000 + 80 # port "8080"<br />port 8000+80 # port "8000+80", probably not intentional!</pre>
+</div>
+<div id="_template_interpolation"><h3>4.2.2.&#xA0; Template interpolation</h3><p id="_ee36f394-ef1c-47ef-a491-c7c1203d013e">Template values can be defined with the <tt>let()</tt> construct and reused
+later on in the document. Template values may or may not accept
+arguments which will affect their expansion.</p>
+<p id="_6c4e2580-5b23-4c83-af6e-37971f25114c">Within a template, arguments can be extracted using the <tt>arg(n)</tt>
+construct where <tt>n</tt> is the zero-based argument index.</p>
+<p id="_9b879a05-6325-4470-a99f-2aa0e5e30513">Templates are applied by using the <tt>apply()</tt> construct. Templates
+without arguments can be applied using a special <tt>$name</tt> construct
+which is syntactic sugar for <tt>apply(name)</tt>.</p>
+<pre id="_34aef2a6-095a-4354-abf4-9450fea8ec80" class="prettyprint ">let(base_port, 8000)<br />let(port, $base_port + arg(0))<br /><br />port1 apply(port(80)) # port 8080<br />port2 apply(port(81)) # port 8081<br />port3 $base_port + 82 #port 8082</pre>
+</div>
+<div id="_functions"><h3>4.2.3.&#xA0; Functions</h3><p id="_cc6b1427-cea5-4c97-9f99-7cab6550322b">NON uses the <tt>name(args)</tt> construct for functions where name is a bare
+string and args is a comma separated list of zero or more arguments
+each of which is a valid NON value. The correct number of arguments
+will vary depending on the function.</p>
+<p id="_093bebd8-ad9c-4cdd-b4bb-c8db1e8b5ef1">A NON parser supports at least the following basic functions:</p>
+<table id="_ba78c835-7f1f-4fe7-8175-6d76bb268f91" class="MsoISOTable" style="border-width:1px;border-spacing:0;"><thead><tr><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col">Function</th><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col">Result</th></tr></thead><tbody><tr><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;">
+<tt>add(a, b)</tt>
+</td><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;">a + b</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">
+<tt>subtract(a, b)</tt>
+</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">a&#x2009;&#x2014;&#x2009;b</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">
+<tt>multiply(a, b)</tt>
+</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">a &#xD7; b</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">
+<tt>divide(a, b)</tt>
+</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">a &#xF7; b</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">
+<tt>intdiv(a, b)</tt>
+</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">a &#xF7; b, a and b are integers, result rounded towards zero</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">
+<tt>modulus(a, b)</tt>
+</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">remainder of a &#xF7; b, a and b are integers</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.5pt;">
+<tt>power(a, b)</tt>
+</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.5pt;">a<sup>b</sup></td></tr></tbody></table>
+<p id="_8305bea1-a384-4953-9154-ee2f9713b1ef">A parser may also permit user defined functions to be registered prior
+to parsing.</p></div></div>
+      </div>
+      <br />
+      <div><h1 class="Section3" id="toc10">Bibliography</h1>
+<p id="RSASHARE" class="Biblio">[1]&#xA0; Michael Malkin, Thomas D. Wu, Dan Boneh. <i>Experimenting with Shared Generation of RSA keys</i>. NDSS 1999.</p>
+
+</div>
+    </main>
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    "HTML-CSS": { preferredFont: "STIX" },
+    asciimath2jax: { delimiters: [['(#(', ')#)']] }
+ });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=MML_HTMLorMML-full" async="async"></script>
+<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>  <script>
+    $("#toc").on('click', 'li', function(e) {
+    $(this).parent().find('li.toc-active').removeClass('toc-active');
+    $(this).addClass('toc-active');
+});
+  </script>
+
+<script>
+  //TOC toggle animation
+$('#toggle').on('click', function(){
+    if( $('nav').is(':visible') ) {
+        $('nav').animate({ 'left': '-353px' }, 'slow', function(){
+            $('nav').hide();
+        });
+        $('.container').animate({ 'padding-left': '31px' }, 'slow');
+    }
+    else {
+        $('nav').show();
+        $('nav').animate({ 'left': '0px' }, 'slow');
+        $('.container').animate({ 'padding-left': '360px' }, 'slow');
+    }
+});
+</script>
+
+<script>
+    // Scroll to top button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+            document.getElementById("myBtn").style.display = "block";
+        } else {
+            document.getElementById("myBtn").style.display = "none";
+        }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+    </script>
+
+  <script>
+// @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&dn=expat.txt Expat
+//
+// AnchorJS - v4.2.2 - 2020-04-20
+// https://www.bryanbraun.com/anchorjs/
+// Copyright (c) 2020 Bryan Braun; Licensed MIT
+//
+// @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&dn=expat.txt Expat
+!function(A,e){"use strict";"function"==typeof define&&define.amd?define([],e):"object"==typeof module&&module.exports?module.exports=e():(A.AnchorJS=e(),A.anchors=new A.AnchorJS)}(this,function(){"use strict";return function(A){function f(A){A.icon=A.hasOwnProperty("icon")?A.icon:"",A.visible=A.hasOwnProperty("visible")?A.visible:"hover",A.placement=A.hasOwnProperty("placement")?A.placement:"right",A.ariaLabel=A.hasOwnProperty("ariaLabel")?A.ariaLabel:"Anchor",A.class=A.hasOwnProperty("class")?A.class:"",A.base=A.hasOwnProperty("base")?A.base:"",A.truncate=A.hasOwnProperty("truncate")?Math.floor(A.truncate):64,A.titleText=A.hasOwnProperty("titleText")?A.titleText:""}function p(A){var e;if("string"==typeof A||A instanceof String)e=[].slice.call(document.querySelectorAll(A));else{if(!(Array.isArray(A)||A instanceof NodeList))throw new Error("The selector provided to AnchorJS was invalid.");e=[].slice.call(A)}return e}this.options=A||{},this.elements=[],f(this.options),this.isTouchDevice=function(){return!!("ontouchstart"in window||window.DocumentTouch&&document instanceof DocumentTouch)},this.add=function(A){var e,t,i,n,o,s,a,r,c,h,l,u,d=[];if(f(this.options),"touch"===(l=this.options.visible)&&(l=this.isTouchDevice()?"always":"hover"),0===(e=p(A=A||"h2, h3, h4, h5, h6")).length)return this;for(!function(){if(null!==document.head.querySelector("style.anchorjs"))return;var A,e=document.createElement("style");e.className="anchorjs",e.appendChild(document.createTextNode("")),void 0===(A=document.head.querySelector('[rel="stylesheet"],style'))?document.head.appendChild(e):document.head.insertBefore(e,A);e.sheet.insertRule(".anchorjs-link{opacity:0;text-decoration:none;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}",e.sheet.cssRules.length),e.sheet.insertRule(":hover>.anchorjs-link,.anchorjs-link:focus{opacity:1}",e.sheet.cssRules.length),e.sheet.insertRule("[data-anchorjs-icon]::after{content:attr(data-anchorjs-icon)}",e.sheet.cssRules.length),e.sheet.insertRule('@font-face{font-family:anchorjs-icons;src:url(data:n/a;base64,AAEAAAALAIAAAwAwT1MvMg8yG2cAAAE4AAAAYGNtYXDp3gC3AAABpAAAAExnYXNwAAAAEAAAA9wAAAAIZ2x5ZlQCcfwAAAH4AAABCGhlYWQHFvHyAAAAvAAAADZoaGVhBnACFwAAAPQAAAAkaG10eASAADEAAAGYAAAADGxvY2EACACEAAAB8AAAAAhtYXhwAAYAVwAAARgAAAAgbmFtZQGOH9cAAAMAAAAAunBvc3QAAwAAAAADvAAAACAAAQAAAAEAAHzE2p9fDzz1AAkEAAAAAADRecUWAAAAANQA6R8AAAAAAoACwAAAAAgAAgAAAAAAAAABAAADwP/AAAACgAAA/9MCrQABAAAAAAAAAAAAAAAAAAAAAwABAAAAAwBVAAIAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAMCQAGQAAUAAAKZAswAAACPApkCzAAAAesAMwEJAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAAAAAAAAAAAAAAQAAg//0DwP/AAEADwABAAAAAAQAAAAAAAAAAAAAAIAAAAAAAAAIAAAACgAAxAAAAAwAAAAMAAAAcAAEAAwAAABwAAwABAAAAHAAEADAAAAAIAAgAAgAAACDpy//9//8AAAAg6cv//f///+EWNwADAAEAAAAAAAAAAAAAAAAACACEAAEAAAAAAAAAAAAAAAAxAAACAAQARAKAAsAAKwBUAAABIiYnJjQ3NzY2MzIWFxYUBwcGIicmNDc3NjQnJiYjIgYHBwYUFxYUBwYGIwciJicmNDc3NjIXFhQHBwYUFxYWMzI2Nzc2NCcmNDc2MhcWFAcHBgYjARQGDAUtLXoWOR8fORYtLTgKGwoKCjgaGg0gEhIgDXoaGgkJBQwHdR85Fi0tOAobCgoKOBoaDSASEiANehoaCQkKGwotLXoWOR8BMwUFLYEuehYXFxYugC44CQkKGwo4GkoaDQ0NDXoaShoKGwoFBe8XFi6ALjgJCQobCjgaShoNDQ0NehpKGgobCgoKLYEuehYXAAAADACWAAEAAAAAAAEACAAAAAEAAAAAAAIAAwAIAAEAAAAAAAMACAAAAAEAAAAAAAQACAAAAAEAAAAAAAUAAQALAAEAAAAAAAYACAAAAAMAAQQJAAEAEAAMAAMAAQQJAAIABgAcAAMAAQQJAAMAEAAMAAMAAQQJAAQAEAAMAAMAAQQJAAUAAgAiAAMAAQQJAAYAEAAMYW5jaG9yanM0MDBAAGEAbgBjAGgAbwByAGoAcwA0ADAAMABAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAH//wAP) format("truetype")}',e.sheet.cssRules.length)}(),t=document.querySelectorAll("[id]"),i=[].map.call(t,function(A){return A.id}),o=0;o<e.length;o++)if(this.hasAnchorJSLink(e[o]))d.push(o);else{if(e[o].hasAttribute("id"))n=e[o].getAttribute("id");else if(e[o].hasAttribute("data-anchor-id"))n=e[o].getAttribute("data-anchor-id");else{for(c=r=this.urlify(e[o].textContent),a=0;void 0!==s&&(c=r+"-"+a),a+=1,-1!==(s=i.indexOf(c)););s=void 0,i.push(c),e[o].setAttribute("id",c),n=c}(h=document.createElement("a")).className="anchorjs-link "+this.options.class,h.setAttribute("aria-label",this.options.ariaLabel),h.setAttribute("data-anchorjs-icon",this.options.icon),this.options.titleText&&(h.title=this.options.titleText),u=document.querySelector("base")?window.location.pathname+window.location.search:"",u=this.options.base||u,h.href=u+"#"+n,"always"===l&&(h.style.opacity="1"),""===this.options.icon&&(h.style.font="1em/1 anchorjs-icons","left"===this.options.placement&&(h.style.lineHeight="inherit")),"left"===this.options.placement?(h.style.position="absolute",h.style.marginLeft="-1em",h.style.paddingRight="0.5em",e[o].insertBefore(h,e[o].firstChild)):(h.style.paddingLeft="0.375em",e[o].appendChild(h))}for(o=0;o<d.length;o++)e.splice(d[o]-o,1);return this.elements=this.elements.concat(e),this},this.remove=function(A){for(var e,t,i=p(A),n=0;n<i.length;n++)(t=i[n].querySelector(".anchorjs-link"))&&(-1!==(e=this.elements.indexOf(i[n]))&&this.elements.splice(e,1),i[n].removeChild(t));return this},this.removeAll=function(){this.remove(this.elements)},this.urlify=function(A){return this.options.truncate||f(this.options),A.trim().replace(/\'/gi,"").replace(/[& +$,:;=?@"#{}|^~[`%!'<>\]\.\/\(\)\*\\\n\t\b\v]/g,"-").replace(/-{2,}/g,"-").substring(0,this.options.truncate).replace(/^-+|-+$/gm,"").toLowerCase()},this.hasAnchorJSLink=function(A){var e=A.firstChild&&-1<(" "+A.firstChild.className+" ").indexOf(" anchorjs-link "),t=A.lastChild&&-1<(" "+A.lastChild.className+" ").indexOf(" anchorjs-link ");return e||t||!1}}});
+// @license-end
+  </script>
+  <script>
+/*
+  $(document).ready(function() {
+          $('[id^=toc]').each(function ()
+          {
+             var currentToc = $(this);
+       var url = window.location.href;
+             currentToc.wrap("<a href='" + url + "#" + currentToc.attr("id") + "' </a>");
+          });
+});
+*/
+  anchors.options = {
+  placement: 'left'
+};
+anchors.add('h1, h2, h3, h4');
+</script>
+
+</body>
+</html>

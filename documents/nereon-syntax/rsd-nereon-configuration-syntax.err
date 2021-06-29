@@ -1,0 +1,47 @@
+/__w/mn-samples-ribose/mn-samples-ribose/site/documents/nereon-syntax/rsd-nereon-configuration-syntax.err errors
+
+
+== Metanorma XML Style Warning
+
+(XML Line 000146): Hanging paragraph in clause
+	<clause id="syntax" obligation="normative"><title>Nereon Configuration and Schema Syntax</title><p id="_21620d9a-2ee1-4f40-8dd3-85c470f72c29">Nereon configurations (NOC) and schemas (NOS) are described using
+	Nereon object notation (NON). NON is a structured configuration
+	language influenced by JSON, UCL and HCL using a syntax influenced by
+	traditional shell interfaces.</p>
+	<p id="_987fcbbc-1fa4-4fde-a70a-db96f5a7626b">NON templates can be defined to capture and reuse values and NON
+(XML Line 000153): Hanging paragraph in clause
+	<clause id="_document_structure" obligation="normative"><title>Document Structure</title><p id="_c5305c49-d67f-4428-a3a8-a37b7bbecdd0">NON defines three types of value; table, list and string. A table is a
+	list of named values where names are strings. A list is an ordered
+	list of values. A string is a textual representation of data.</p>
+	<p id="_33c52dba-bbf2-472b-8dca-77dc51ed2509">NON data MUST be utf8 encoded.</p>
+	<p id="_1018d65e-7589-4ce6-8e20-5350bbf1b607">A NON document comprises a single NON table value.</p>
+(XML Line 000161): Table should have title
+	<table id="_4856cabb-01a6-4aa7-b08b-192624969926" unnumbered="true">
+	<thead>
+	<tr>
+	<th valign="top" align="left">Character</th>
+	<th valign="top" align="left">ASCII</th>
+(XML Line 000268): Table should have title
+	<table id="_e4b1e829-55a8-4091-a1e5-27aac4f7ff3f" unnumbered="true">
+	<thead>
+	<tr>
+	<th valign="top" align="left">Sequence</th>
+	<th valign="top" align="left">Meaning</th>
+(XML Line 000353): Table should have title
+	<table id="_627f54b6-3f80-46ba-bf6d-15379f442308" unnumbered="true">
+	<thead>
+	<tr>
+	<th valign="top" align="left">Escape Sequence</th>
+	<th valign="top" align="left">ASCII</th>
+(XML Line 000477): Hanging paragraph in clause
+	<clause id="_interpolation" obligation="normative"><title>Interpolation</title><p id="_2f3d13a7-109f-4665-a0d2-4a03d8837d8d">Values are interpolated when a NON document is parsed.</p>
+	<clause id="_arithmetic_interpolation" obligation="normative"><title>Arithmetic interpolation</title><p id="_20ea1aa9-0a69-4a1c-b169-b411bed804ae">Simple arithmetic is supported with the binary operators <tt>-</tt>, <tt>+</tt>,
+	<tt>*</tt>, <tt>/</tt>, <tt>\</tt>, <tt>%</tt> and <tt>^</tt>. Binary operators must appear between to
+	values and must be surrounded by one or more space (ASCII 32) or tab
+	(ASCII 9) characters. The operators correspond respectively with the
+(XML Line 000507): Table should have title
+	<table id="_ba78c835-7f1f-4fe7-8175-6d76bb268f91" unnumbered="true">
+	<thead>
+	<tr>
+	<th valign="top" align="left">Function</th>
+	<th valign="top" align="left">Result</th>

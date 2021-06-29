@@ -1,0 +1,112 @@
+/__w/mn-samples-ribose/mn-samples-ribose/site/documents/nistir-8214a/nistir-8214a-comments.err errors
+
+
+== Metanorma XML Style Warning
+
+(XML Line 000132): Hanging paragraph in clause
+	<clause id="_practical_usage_of_new_cryptographic_families" obligation="normative"><title>Practical usage of new cryptographic families</title><clause id="_background" obligation="normative"><title>Background</title><p id="_4ace318e-a66a-4c4c-82f5-d66eeb993240">Traditional encryption and signature schemes have been in use for decades to protect end-to-end communication. Recent advancements in technology and the diversification of use cases have introduced more complex security problems, many of which rely on encryption and signature schemes with certain security properties. Traditional schemes are no longer enough to cater for all different scenarios.</p>
+	<p id="_75ce6766-bf5d-44f1-a846-95128dc1cc06">New cryptographic schemes are developed to fill this gap. For instance, searchable encryption schemes <eref type="inline" bibitemid="chen-yang" citeas="[11]"/> <eref type="inline" bibitemid="curmola-garay" citeas="[12]"/> allow a (third-party) cloud server to perform (encrypted) keyword search on encrypted data. Distance-preserving encryption <eref type="inline" bibitemid="tex-scha" citeas="[23]"/> supports data analysis (by third party service providers) on encrypted data.</p>
+	<p id="_83842356-5199-49cb-83ee-f1dd3bf7429e">Threshold cryptography <eref type="inline" bibitemid="hazay-mikkelsen" citeas="[14]"/> <eref type="inline" bibitemid="yan-lu-liu" citeas="[26]"/> in particular, supports new modes of achieving security, as described in the <eref type="inline" bibitemid="NISTIR_8214A" citeas="NIST NISTIR 8214A"/>, including cryptographic secure multi-factor authentication <eref type="inline" bibitemid="webster-pohja" citeas="[24]"/>.</p></clause>
+	<clause id="_key_management" obligation="normative"><title>Key management</title><p id="_ae1498c6-1664-4994-8c26-860ca5c409e1">Key management <eref type="inline" bibitemid="rafaeli-hutchison" citeas="[19]"/> <eref type="inline" bibitemid="mazieres-kaminsky" citeas="[17]"/> is a recurrent topic in cryptographic research. Previous works focus on encryption and signature schemes for simple communication between different parties. <eref type="inline" bibitemid="schwarz-long" citeas="[21]"/> is a more recent work that develops a distributed cloud keystore. In this scheme, keys are divided into shares and the shares are stored by different cloud servers. As a result, no single cloud can see the actual keys, only the user able to collect all shares can recover the actual keys.</p>
+	<p id="_a9269a08-8ee2-4a37-af18-bb93fd11305b">While numerous patents <eref type="inline" bibitemid="webster-pohja" citeas="[24]"/> <eref type="inline" bibitemid="keshava-katti" citeas="[16]"/> exist on keystore-related technologies, they are not designed to be extensible. If a user would like to use a new encryption scheme in his application for his own purposes, it is not feasible without modifying the underlying source codes of the application.</p>
+(XML Line 000174): Hanging paragraph in clause
+	<clause id="_adoption_challenges" obligation="normative"><title>Adoption challenges</title><clause id="_overview" obligation="normative">
+	<title>Overview</title>
+	<p id="_8918aaf4-8e8b-4b74-b086-aa09f2f5cbfe">Threshold cryptography introduces challenges that are not currently addressed by traditional cryptographic libraries and implementations. The two major areas include the implementation and adoption of cryptographic schemes in real-world applications, and interoperable facilitation of secrets utilized by those schemes.</p>
+	</clause>
+	<clause id="_implementation_and_availability" obligation="normative"><title>Implementation and availability</title><p id="_3b9a04fc-a831-4ed3-b18c-366c8fcdd5ce">An application may use a number of cryptographic schemes in order to achieve different functionality.</p>
+(XML Line 000211): Hanging paragraph in clause
+	<clause id="_decoupling_cryptographic_primitives_in_trust_stores" obligation="normative"><title>Decoupling cryptographic primitives in trust stores</title><clause id="_challenges" obligation="normative"><title>Challenges</title><p id="_fcfb4a1c-fc38-4f3f-b4cb-d8bd904d2a61">Traditional cross-platform trust stores are challenged in many ways, including:</p>
+	<ol id="_ed58c85c-0520-4500-bad0-80aafbb48205" type="arabic">
+	<li>
+	<p id="_0b8bf2b8-9222-4738-a5fa-158692411361">Inability to support smart cards and other trust mediums. This is usually controlled solely by the operating system;</p>
+	</li>
+(XML Line 000303): Hanging paragraph in clause
+	<clause id="_the_confium_trust_store" obligation="normative"><title>The Confium trust store</title><clause id="_purpose" obligation="normative">
+	<title>Purpose</title>
+	<p id="_0e6bd3ad-618d-432a-8b5c-ec5867f9e196">Confium is an extensible secure keystore framework for threshold cryptography and beyond. It aims to be an interoperable trust store, that is platform independent and relies on international standards to ensure its contents are portable.</p>
+	</clause>
+	<clause id="_background_2" obligation="normative"><title>Background</title><p id="_cc483d18-6bb4-40df-86d5-ddadd7c46cbc">Confium is an offshoot of RNP, an open-source, open-licensed (BSD) OpenPGP library and toolkit. Both Confium and RNP are developed by Ribose.</p>
+(XML Line 000310): Hanging paragraph in clause
+	<clause id="_structure" obligation="normative"><title>Structure</title><clause id="_overview_2" obligation="normative"><title>Overview</title><p id="_76821fce-e646-4bae-9d3f-70ab9d950dcf">Confium provides a new keystore framework consisting of 3 layers:</p>
+	<ol id="_329495f4-1bc4-40f3-8508-8ea0938c062a" type="arabic">
+	<li>
+	<p id="_980e0f90-72d4-4544-a2a0-7b6fed9476a6">the application layer</p>
+	</li>
+(XML Line 000355): Hanging paragraph in clause
+	<clause id="_crypto_primitive_layer_2" obligation="normative"><title>Crypto-primitive layer</title><clause id="_modular_extension_of_cryptographic_schemes" obligation="normative"><title>Modular extension of cryptographic schemes</title><clause id="_general" obligation="normative">
+	<title>General</title>
+	<p id="_aa760905-ae52-4654-9712-dd6826a867bf">The Confium framework provides a mechanism of identifying and facilitating reuse of cryptographic schemes. By allowing potential multiplexing and adoption of multiple cryptographic libraries, authors of cryptographic scheme modules can be free from fear of an updated underlying cryptographic library accidentally breaking compatibility.</p>
+	</clause>
+	<clause id="_reuse_of_cryptographic_components" obligation="normative">
+(XML Line 000355): Hanging paragraph in clause
+	<clause id="_modular_extension_of_cryptographic_schemes" obligation="normative"><title>Modular extension of cryptographic schemes</title><clause id="_general" obligation="normative">
+	<title>General</title>
+	<p id="_aa760905-ae52-4654-9712-dd6826a867bf">The Confium framework provides a mechanism of identifying and facilitating reuse of cryptographic schemes. By allowing potential multiplexing and adoption of multiple cryptographic libraries, authors of cryptographic scheme modules can be free from fear of an updated underlying cryptographic library accidentally breaking compatibility.</p>
+	</clause>
+	<clause id="_reuse_of_cryptographic_components" obligation="normative">
+(XML Line 000367): Hanging paragraph in clause
+	<clause id="_plugin_types" obligation="normative"><title>Plugin types</title><clause id="_general_2" obligation="normative"><title>General</title><p id="_a4f54c6d-acb2-41be-b7ee-9fc29a556ab0">There are two types of cryptographic primitive plugins in Confium:</p>
+	<ol id="_66fc98d3-c8e2-402d-b3ad-9302093724dd" type="arabic">
+	<li>
+	<p id="_b0e0305f-f67a-4acf-bccf-22265a59e5fd">Cryptographic module that implements one or more cryptographic schemes;</p>
+	</li>
+(XML Line 000489): Hanging paragraph in clause
+	<clause id="_keystore_layer_2" obligation="normative"><title>Keystore layer</title><clause id="_general_3" obligation="normative">
+	<title>General</title>
+	<p id="_f4cdb266-3c7a-490b-a342-c3289c990333">The keystore is compartmentalized for every separate cryptographic scheme, associated to the combination of module and application identifiers.</p>
+	</clause>
+	<clause id="_private_keystore" obligation="normative"><title>Private keystore</title><p id="_d9eef019-d659-4d96-bcfe-2a3620623ad5">A module in a particular application can freely put and get keys in its private space.</p>
+(XML Line 000538): Hanging paragraph in clause
+	<clause id="_security_requirements_2" obligation="normative"><title>Security requirements</title><clause id="_general_4" obligation="normative">
+	<title>General</title>
+	<p id="_ab9003e6-672c-4a41-afee-85f73fbb8fa9">The keystore layer provides helper procedures to store and retrieve parameters securely. Generally speaking, there are two aspects of security that the framework needs to cater for: confidentiality and integrity.</p>
+	</clause>
+	<clause id="_confidentiality" obligation="normative"><title>Confidentiality</title><p id="_31fad401-1b32-4850-aeac-292a4b034898">Each module in the crypto-primitive layer has a private space in the keystore for keeping the private parameters. The extending module extending a parent module may have access to certain data or procedures of the parent module.</p>
+(XML Line 000577): Hanging paragraph in clause
+	<clause id="_public_module_repository" obligation="normative"><title>Public module repository</title><clause id="_general_5" obligation="normative"><title>General</title><p id="_c4a075c1-bdc4-4828-8f22-05745aa9f347">The public module repository is the counterpart to Confium just like how <eref type="inline" bibitemid="CTAN" citeas="[29]"/> and <eref type="inline" bibitemid="CPAN" citeas="[30]"/> are module repositories for LaTeX and Perl.</p>
+	<p id="_f52f1a48-d3d3-4134-8162-078df419983e">Installation of modules must be a direct choice of the user.</p>
+	<p id="_2f75ac01-6562-4f77-a6c0-49b3a579aaf0">Consider the example in an email client. When a user receives an email with a signature signed by a module that is not yet installed on the user’s computer, the user needs to find and install this module in order to verify the signature.</p>
+	<p id="_61bb7e49-c6ea-4c2a-845f-00e9e9f3f544">The typical user may not know where and how to find and install such module. The public module repository can automate this search and install process.</p>
+	<p id="_de67bcb8-6454-45b5-8e3c-473d9d4eceae">When the application sees that it requires a particular module, it can connect to the module repository and download and install the module automatically after the user permits the action.</p>
+(XML Line 000620): Hanging paragraph in clause
+	<clause id="_confium_feedback_to_nist_8214a" obligation="normative"><title>Confium feedback to NIST 8214A</title><clause id="_threshold_cryptography_benefits_to_openpgp" obligation="normative"><title>Threshold cryptography benefits to OpenPGP</title><p id="_838d5f98-efff-414e-a3fd-11b2345e8c66">The following clauses refer to Appendix A of <eref type="inline" bibitemid="NISTIR_8214A" citeas="NIST NISTIR 8214A"/>.</p>
+	<ol id="_6bb9c3d9-6d72-4ab5-b36f-443e245d90a7" type="arabic">
+	<li>
+	<p id="_db7d2f1b-2677-4f91-a887-e43d2d9f8a9a">Threshold cryptography could help store OpenPGP secrets in multiple shares, allowing the private keys to be recoverable. (“A.2 Protection of secrets at rest”)</p>
+	</li>
+(XML Line 000638): Hanging paragraph in clause
+	<clause id="_alignment_to_nistir_8214a_figure_2_cryptographic_modes" obligation="normative"><title>Alignment to NISTIR 8214A Figure 2 cryptographic modes</title><p id="_e63685b9-c49a-438a-a0f6-e317c1452dcd">The following sections demonstrate how the Confium architecture aligns to the threshold cryptographic modes listed in <eref type="inline" bibitemid="NISTIR_8214A" citeas="NIST NISTIR 8214A"/> Figure 2.</p>
+	<p id="_0f2f4c77-a428-4b45-b940-46a92677cf8a">In the following diagrams:</p>
+	<ol id="_8b74c883-d0c7-467c-9256-e5f69a71eab1" type="arabic">
+	<li>
+	<p id="_94a753ad-b0d8-4331-9f1c-a441a5135683">The dotted box represents the scope of the Confium project. This includes an interface (API) with the user application. The application can request authentication to utilize the trust store’s features. (does it have access rights to use this key in keystore to encrypt?)</p>
+(XML Line 000687): Hanging paragraph in clause
+	<clause id="_supplementary_information" obligation="normative"><title>Supplementary information</title><clause id="_development_approach_of_confium" obligation="normative"><title>Development approach of Confium</title><p id="_c79bcc14-ae13-4c58-a4f4-2c0084d32aee">Ribose is strongly committed to open source development, and the development approach of Confium adheres to the following principles:</p>
+	<ol id="_db2cdaa5-5495-44d2-84e2-bd19a470c716" type="arabic">
+	<li>
+	<p id="_1bbc521d-81ef-4f1c-b64f-948d6c62530a">Community-driven requirements</p>
+	</li>
+(XML Line 000687): Hanging paragraph in clause
+	<clause id="_development_approach_of_confium" obligation="normative"><title>Development approach of Confium</title><p id="_c79bcc14-ae13-4c58-a4f4-2c0084d32aee">Ribose is strongly committed to open source development, and the development approach of Confium adheres to the following principles:</p>
+	<ol id="_db2cdaa5-5495-44d2-84e2-bd19a470c716" type="arabic">
+	<li>
+	<p id="_1bbc521d-81ef-4f1c-b64f-948d6c62530a">Community-driven requirements</p>
+	</li>
+(XML Line 000716): Hanging paragraph in clause
+	<clause id="_information_about_ribose" obligation="normative"><title>Information about Ribose</title><clause id="_general_6" obligation="normative"><title>General</title><p id="_7deb8a3d-8c61-482b-8f8d-be2445ba655b">Ribose Group Inc. (BVI, with its wholly owned subsidiary, Ribose Inc., based in Delaware) is a pioneer of interoperable and cybersecurity technologies across user-centric systems and applications. It has been named a Deloitte Technology FAST 20 Rising Star and Red Herring Global 100 company, and has received CSA’s Enterprise Award for Security Innovation of the Year.</p>
+	<p id="_7f64449a-5444-4d5d-98b3-5871315c7fb3">Ribose is the world’s first organization to be certified to the NIST Cybersecurity Framework by BSI, with its experience presented at the inaugural NIST Risk Management Conference in 2018.</p>
+	<p id="_ee6258d3-2416-4e89-807b-7130d2e95785">Ribose is certified by BSI to <eref type="inline" bibitemid="ISO-IEC_27001" citeas="ISO/IEC 27001 (all parts)"/>, <eref type="inline" bibitemid="ISO-IEC_27017" citeas="ISO/IEC 27017:2015"/>, <eref type="inline" bibitemid="ISO-IEC_27018" citeas="ISO/IEC 27018 (all parts)"/> and <eref type="inline" bibitemid="ISO-IEC_27701" citeas="ISO/IEC 27701:2019"/>, <eref type="inline" bibitemid="ISO-IEC_22301" citeas="ISO/IEC 22301"/>, <eref type="inline" bibitemid="ISO-IEC_20000-1" citeas="ISO/IEC 20000-1"/>, <eref type="inline" bibitemid="ISO_9001" citeas="ISO 9001 (all parts)"/>, CSA STAR Certification, amongst other schemes.</p></clause>
+	<clause id="_experience_with_nist" obligation="normative"><title>Experience with NIST</title><p id="_356a72b1-7a6c-4528-994f-9a1eca94e486">Ribose is the world’s first organization to be certified to the NIST Cybersecurity Framework by BSI, with its experience presented at the inaugural NIST Risk Management Conference in 2018.</p>
+	<p id="_9fd27462-bec3-4460-a866-25b7ca9983b8">Ribose’s Metanorma framework is currently being piloted by NIST’s Computer Security Division for the publication of the Special Publications 800 series and Cybersecurity Whitepaper documents.</p>
+
+
+== Document Attributes
+
+(): published is not a recognised status
+
+
+== Metanorma XML Syntax
+
+(XML Line 000108:12): element "recipient" not allowed here; expected the element end-tag
+(XML Line 000145:11): element "sections" not allowed yet; missing required element "preface"
