@@ -1,0 +1,58 @@
+/__w/mn-samples-ribose/mn-samples-ribose/site/documents/nereon-syntax/rsd-nereon-configuration-syntax.err errors
+
+
+== Anchors
+
+(XML Line 000122): Crossreference target RFC7525 is undefined
+	<xref target="RFC7525">section 6.3</xref>
+
+
+== Metanorma XML Style Warning
+
+(XML Line 000168): Hanging paragraph in clause
+	<clause id="syntax" obligation="normative">
+	<title>Nereon Configuration and Schema Syntax</title>
+	<p id="_4da19ae8-952b-b039-032f-4a65eb5331fb">Nereon configurations (NOC) and schemas (NOS) are described using
+	Nereon object notation (NON). NON is a structured configuration
+	language influenced by JSON, UCL and HCL using a syntax influenced by
+(XML Line 000179): Hanging paragraph in clause
+	<clause id="_document_structure" obligation="normative">
+	<title>Document Structure</title>
+	<p id="_bee8c0e5-9a21-bb06-cb34-93833be8354e">NON defines three types of value; table, list and string. A table is a
+	list of named values where names are strings. A list is an ordered
+	list of values. A string is a textual representation of data.</p>
+(XML Line 000195): Table should have title
+	<table id="_bdf5e91b-24f1-3e73-ea8e-1fe955c87dfd" unnumbered="true"><thead><tr><th valign="top" align="left">Character</th>
+	<th valign="top" align="left">ASCII</th>
+	<th valign="top" align="left">Meaning</th>
+	</tr></thead>
+	<tbody><tr><td valign="top" align="left">SPC</td>
+(XML Line 000253): Table should have title
+	<table id="_99657673-8719-872c-2f4b-02307900e32a" unnumbered="true"><thead><tr><th valign="top" align="left">Sequence</th>
+	<th valign="top" align="left">Meaning</th>
+	<th valign="top" align="left">ASCII</th>
+	</tr></thead>
+	<tbody><tr><td valign="top" align="left"><tt>\(</tt></td>
+(XML Line 000298): Table should have title
+	<table id="_6780eb5b-e9a9-9a3c-1da8-327a0d459aca" unnumbered="true"><thead><tr><th valign="top" align="left">Escape Sequence</th>
+	<th valign="top" align="left">ASCII</th>
+	<th valign="top" align="left">Character represented</th>
+	</tr></thead>
+	<tbody><tr><td valign="top" align="left">\n</td>
+(XML Line 000420): Hanging paragraph in clause
+	<clause id="_interpolation" obligation="normative">
+	<title>Interpolation</title>
+	<p id="_4828babd-c31c-bc9d-58dd-9385d7bad1ed">Values are interpolated when a NON document is parsed.</p>
+	
+	<clause id="_arithmetic_interpolation" obligation="normative">
+(XML Line 000469): Table should have title
+	<table id="_e4e0a904-c9e4-661a-9138-8ab1519bc054" unnumbered="true"><thead><tr><th valign="top" align="left">Function</th>
+	<th valign="top" align="left">Result</th>
+	</tr></thead>
+	<tbody><tr><td valign="top" align="left"><tt>add(a, b)</tt></td>
+	<td valign="top" align="left">a + b</td>
+
+
+== Metanorma XML Syntax
+
+(XML Line 000599:35): element "docidentifier" not allowed yet; missing required element "title"

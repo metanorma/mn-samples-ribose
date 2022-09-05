@@ -1,0 +1,49 @@
+/__w/mn-samples-ribose/mn-samples-ribose/site/documents/nistir-8214a/nistir-8214a-comments.err errors
+
+
+== Metanorma XML Style Warning
+
+(XML Line 000741): Hanging paragraph in clause
+	<clause id="_alignment_to_nistir_8214a_figure_2_cryptographic_modes" obligation="normative">
+	<title>Alignment to NISTIR 8214A Figure 2 cryptographic modes</title>
+	<p id="_724d40b4-a0f6-66f2-2c07-14dd74b8b3fa">The following sections demonstrate how the Confium architecture aligns to the threshold cryptographic modes listed in <eref type="inline" bibitemid="NISTIR_8214A" citeas="NIST IR 8214A"/> Figure 2.</p>
+	
+	<p id="_ce2a3a25-7249-e7f9-bcf3-58a8ae2f4ded">In the following diagrams:</p>
+(XML Line 000798): Hanging paragraph in clause
+	<clause id="_development_approach_of_confium" obligation="normative">
+	<title>Development approach of Confium</title>
+	<p id="_cc02e64c-1c17-552e-52b2-65527ea2437f">Ribose is strongly committed to open source development, and the development approach of Confium adheres to the following principles:</p>
+	
+	<ol id="_1f201f73-61dd-cac7-12aa-a435547f7d52" type="arabic"><li><p id="_be64a261-d184-3ab5-01ae-fbddb7fdc980">Community-driven requirements</p>
+
+
+== Document Attributes
+
+(): published is not a recognised status
+
+
+== Metanorma XML Syntax
+
+(XML Line 000031:223): element "recipient" not allowed here; expected the element end-tag
+(XML Line 000066:11): element "sections" not allowed yet; missing required element "preface"
+(XML Line 001175:35): element "docidentifier" not allowed yet; missing required element "title"
+(XML Line 001180:35): element "docidentifier" not allowed yet; missing required element "title"
+(XML Line 001185:35): element "docidentifier" not allowed yet; missing required element "title"
+(XML Line 001190:35): element "docidentifier" not allowed yet; missing required element "title"
+(XML Line 001195:35): element "docidentifier" not allowed yet; missing required element "title"
+(XML Line 001200:35): element "docidentifier" not allowed yet; missing required element "title"
+(XML Line 001205:35): element "docidentifier" not allowed yet; missing required element "title"
+(XML Line 001210:35): element "docidentifier" not allowed yet; missing required element "title"
+(XML Line 001215:35): element "docidentifier" not allowed yet; missing required element "title"
+(XML Line 001220:35): element "docidentifier" not allowed yet; missing required element "title"
+(XML Line 001225:35): element "docidentifier" not allowed yet; missing required element "title"
+(XML Line 001230:35): element "docidentifier" not allowed yet; missing required element "title"
+(XML Line 001235:35): element "docidentifier" not allowed yet; missing required element "title"
+(XML Line 001240:35): element "docidentifier" not allowed yet; missing required element "title"
+(XML Line 001245:35): element "docidentifier" not allowed yet; missing required element "title"
+(XML Line 001250:35): element "docidentifier" not allowed yet; missing required element "title"
+(XML Line 001255:35): element "docidentifier" not allowed yet; missing required element "title"
+(XML Line 001260:35): element "docidentifier" not allowed yet; missing required element "title"
+(XML Line 001265:35): element "docidentifier" not allowed yet; missing required element "title"
+(XML Line 001268:35): element "docidentifier" not allowed yet; missing required element "title"
+(XML Line 001271:35): element "docidentifier" not allowed yet; missing required element "title"
