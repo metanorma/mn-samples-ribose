@@ -1,7 +1,6 @@
 = Nereon -- Object Configuration and Schema Syntax
 :docnumber: XXXXX
 :edition: 1
-:ref-docnumber: RS 13001:2018(E)
 :copyright-year: 2018
 :revdate: 2018-10-08
 :language: en
