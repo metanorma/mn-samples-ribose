@@ -1,4 +1,3 @@
 = Metanorma-Ribose sample documents
 
-image:https://github.com/metanorma/mn-samples-ribose/workflows/generate/badge.svg["Build Status", link="https://github.com/metanorma/mn-samples-ribose/actions?query=workflow%3generate"]
 image:https://github.com/metanorma/mn-samples-ribose/workflows/docker/badge.svg["Docker Build Status", link="https://github.com/metanorma/mn-samples-ribose/actions?query=workflow%3Adocker"]
