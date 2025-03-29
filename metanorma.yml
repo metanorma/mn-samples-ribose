@@ -4,3 +4,7 @@ metanorma:
     files:
       - sources/nistir-8214a/nistir-8214a-comments.adoc
       - sources/nereon-syntax/rsd-nereon-configuration-syntax.adoc
+
+  collection:
+    organization: "Ribose"
+    name: "Ribose samples in Metanorma"
