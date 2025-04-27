@@ -31,6 +31,9 @@ jobs:
       - name: Setup Metanorma toolchain
         uses: actions-mn/setup@main
 
+      - name: Install latest gems
+        uses: metanorma/ci/docker-gem-install@main
+
       - name: Metanorma generate site
         uses: actions-mn/build-and-publish@main
         with:
