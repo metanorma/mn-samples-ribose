@@ -1,0 +1,46 @@
+# Test workflow for actions-mn/setup with extra flavors
+# This replaces the docker.yml workflow to test the new consolidated setup action
+name: test-setup-with-flavors
+
+on:
+  push:
+    branches: [ test/setup-action-flavors ]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+  packages: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.head_ref || github.ref_name }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: true
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+
+      - name: Setup Metanorma with Ribose flavor
+        uses: actions-mn/setup@feat/add-extra-flavors-support
+        with:
+          installation-method: gem
+          extra-flavors: ribose
+          # ribose is a public flavor, no token needed
+
+      - name: Metanorma generate site
+        uses: actions-mn/build-and-publish@v1
+        with:
+          agree-to-terms: true
+          destination: artifact
