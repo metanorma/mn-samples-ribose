@@ -33,7 +33,7 @@ jobs:
           ruby-version: '3.2'
 
       - name: Setup Metanorma with Ribose flavor
-        uses: actions-mn/setup@feat/add-extra-flavors-support
+        uses: actions-mn/setup@v3
         with:
           installation-method: gem
           extra-flavors: ribose
