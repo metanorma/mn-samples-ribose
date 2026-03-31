@@ -35,6 +35,9 @@ jobs:
           installation-method: gem
           extra-flavors: ribose
 
+      - name: Install latest gems
+        uses: metanorma/ci/docker-gem-install@main
+
       - name: Metanorma generate site
         uses: actions-mn/build-and-publish@v1
         with:
