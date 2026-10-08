@@ -1,6 +1,6 @@
 <bibdata type="standard">
-<title language="en" format="text/plain">Comments in response to public comment period of NISTIR 8214A</title>
-<docidentifier type="Ribose">Rept 11021</docidentifier><docnumber>11021</docnumber><date type="published"><on>2020-02-10</on></date><contributor><role type="author"/><organization>
+<title language="en" type="main">Comments in response to public comment period of NISTIR 8214A</title>
+<docidentifier primary="true" type="Ribose Group Inc.">Rept 11021</docidentifier><docnumber>11021</docnumber><date type="published"><on>2020-02-10</on></date><contributor><role type="author"/><organization>
 <name>Ribose Group Inc.</name>
 </organization></contributor><contributor><role type="author"/><person>
 <name><completename>Ronald Tse</completename></name>
@@ -22,8 +22,12 @@
 <name><completename>Jeffrey Lau</completename></name>
 <affiliation><organization>
 <name>Ribose</name>
-</organization></affiliation></person></contributor><contributor><role type="publisher"/><organization>
+</organization></affiliation></person></contributor><contributor><role type="author"><description>committee</description></role><organization>
 <name>Ribose Group Inc.</name>
-</organization></contributor><edition>1.0</edition><language>en</language><script>Latn</script><status><stage>published</stage></status><copyright><from>2022</from><owner><organization>
+<subdivision type="Committee" subtype="technical">
+<name>RNP and Confium team</name>
+</subdivision></organization></contributor><contributor><role type="publisher"/><organization>
 <name>Ribose Group Inc.</name>
-</organization></owner></copyright><ext><doctype abbreviation="Rept">report</doctype><editorialgroup><committee type="technical">RNP and Confium team</committee></editorialgroup><security>unrestricted</security><recipient>nistir-8214A-comments@nist.gov</recipient></ext></bibdata>
+</organization></contributor><edition>1.0</edition><language>en</language><script>Latn</script><status><stage>published</stage></status><copyright><from>2026</from><owner><organization>
+<name>Ribose Group Inc.</name>
+</organization></owner></copyright><ext><doctype abbreviation="Rept">report</doctype><flavor>ribose</flavor><security>unrestricted</security><recipient>nistir-8214A-comments@nist.gov</recipient></ext></bibdata>
