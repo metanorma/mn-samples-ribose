@@ -1,9 +1,9 @@
 source "https://rubygems.org"
 
-gem "metanorma-cli"
-gem "metanorma-ribose"
+gem "metanorma-cli", github: "metanorma/metanorma-cli", branch: "main"
+gem "metanorma-ribose", github: "metanorma/metanorma-ribose", branch: "main"
 gem "relaton", "= 3.0.0.pre.alpha.11"
-gem "relaton-render", "= 3.0.0.pre.alpha.19"
+gem "relaton-render", "= 3.0.0.pre.alpha.19", github: "metanorma/relaton-render", branch: "main"
 gem "relaton-bib", "2.2.0.pre.alpha.1"
 gem "pubid", github: "pubid/pubid", branch: "main"
 gem "moxml", github: "lutaml/moxml", branch: "main"
