@@ -1,0 +1,13 @@
+<bibdata type="standard">
+<title language="en" type="main">Configuration management — Nereon configuration model — Object configuration and schema syntax</title>
+<docidentifier primary="true" type="Ribose">XXXXX(d)</docidentifier><docnumber>XXXXX</docnumber><date type="updated"><on>2018-10-08</on></date><contributor><role type="author"/><organization>
+<name>Ribose Asia Limited</name>
+<abbreviation>Ribose</abbreviation></organization></contributor><contributor><role type="author"><description>committee</description></role><organization>
+<name>Ribose Asia Limited</name>
+<subdivision type="Committee" subtype="technical">
+<name>Configuration management</name>
+</subdivision></organization></contributor><contributor><role type="publisher"/><organization>
+<name>Ribose Asia Limited</name>
+<abbreviation>Ribose</abbreviation></organization></contributor><edition>1</edition><version>2018-10-08</version><language>en</language><script>Latn</script><status><stage>draft-standard</stage></status><copyright><from>2018</from><owner><organization>
+<name>Ribose Asia Limited</name>
+<abbreviation>Ribose</abbreviation></organization></owner></copyright><ext><doctype>standard</doctype><flavor>ribose</flavor></ext></bibdata>
