@@ -994,9 +994,9 @@ namespace ClownRSA {
     <region iso="MD"/>
   </place>
 </bibitem>
-</references></sections><bibliography><references id="_f16c6063-26c2-c169-e7ab-715cb81f7211" normative="false" obligation="informative" semx-id="_f16c6063-26c2-c169-e7ab-715cb81f7211" displayorder="14">
-<title id="_79a2af9e-6853-19a3-fcb8-27eb8dad0c44" semx-id="_50ceb1e1-516f-2673-d73d-4f0c58b4d023">Bibliography</title><fmt-title depth="1" id="_2da55403-b11b-078e-f7e8-f49a7def2e71"><semx element="title" source="_79a2af9e-6853-19a3-fcb8-27eb8dad0c44">Bibliography</semx></fmt-title><bibitem id="ISO_8000" type="standard" schema-version="v1.5.6" anchor="ISO_8000" semx-id="_acc6ef2d-cd26-94f2-4f34-0c560d71fad9"><biblio-tag>[1]<tab/>ISO 8000 (all parts), </biblio-tag><formattedref>International Organization for Standardization (committee). <em>Data quality</em>. Fourth edition. 2020. Geneva: International Organization for Standardization. <fmt-link target="https://www.iso.org/standard/80543.html">https://www.iso.org/standard/80543.html</fmt-link>.</formattedref>
-  <fetched>2026-10-08</fetched>
+</references></sections><bibliography><references id="_1ec44d57-d474-bee2-4050-0c98cef17598" normative="false" obligation="informative" semx-id="_1ec44d57-d474-bee2-4050-0c98cef17598" displayorder="14">
+<title id="_79a2af9e-6853-19a3-fcb8-27eb8dad0c44" semx-id="_50ceb1e1-516f-2673-d73d-4f0c58b4d023">Bibliography</title><fmt-title depth="1" id="_2da55403-b11b-078e-f7e8-f49a7def2e71"><semx element="title" source="_79a2af9e-6853-19a3-fcb8-27eb8dad0c44">Bibliography</semx></fmt-title><bibitem id="ISO_8000" type="standard" schema-version="v1.5.6" anchor="ISO_8000" semx-id="_83ab4e7b-90dd-b639-c9f6-35999913a3e7"><biblio-tag>[1]<tab/>ISO 8000 (all parts), </biblio-tag><formattedref>International Organization for Standardization (committee). <em>Data quality</em>. Fourth edition. 2020. Geneva: International Organization for Standardization. <fmt-link target="https://www.iso.org/standard/80543.html">https://www.iso.org/standard/80543.html</fmt-link>.</formattedref>
+  <fetched>2026-10-15</fetched>
   
 <title language="en" script="Latn" type="title-main">Data quality</title>
 
@@ -1161,8 +1161,8 @@ namespace ClownRSA {
   <place>
     <city>Geneva</city>
   </place>
-</bibitem><bibitem id="ISO-IEC_27000" type="standard" schema-version="v1.5.6" anchor="ISO-IEC_27000" semx-id="_627393c8-c023-3e79-21c1-ae1a234f8493"><biblio-tag>[2]<tab/>ISO/IEC 27000, </biblio-tag><formattedref>International Organization for Standardization (committee). <em>Information technology — Security techniques — Information security management systems — Overview and vocabulary</em>. Fifth edition. Geneva: International Organization for Standardization and International Electrotechnical Commission. <fmt-link target="https://www.iso.org/standard/73906.html">https://www.iso.org/standard/73906.html</fmt-link>.</formattedref>
-  <fetched>2026-10-08</fetched>
+</bibitem><bibitem id="ISO-IEC_27000" type="standard" schema-version="v1.5.6" anchor="ISO-IEC_27000" semx-id="_c8f5044c-26b9-e43e-2f46-94e1366e0f97"><biblio-tag>[2]<tab/>ISO/IEC 27000, </biblio-tag><formattedref>International Organization for Standardization (committee). <em>Information technology — Security techniques — Information security management systems — Overview and vocabulary</em>. Fifth edition. Geneva: International Organization for Standardization and International Electrotechnical Commission. <fmt-link target="https://www.iso.org/standard/73906.html">https://www.iso.org/standard/73906.html</fmt-link>.</formattedref>
+  <fetched>2026-10-15</fetched>
   
 <title language="en" script="Latn" type="title-intro">Information technology</title>
 
@@ -1372,8 +1372,8 @@ namespace ClownRSA {
   <place>
     <city>Geneva</city>
   </place>
-</bibitem><bibitem id="ISO-IEC_27001" type="standard" schema-version="v1.5.6" anchor="ISO-IEC_27001" semx-id="_e8336119-08b5-48f3-3a4a-3a43dd34bd06"><biblio-tag>[3]<tab/>ISO/IEC 27001, </biblio-tag><formattedref>International Organization for Standardization (committee). <em>Information technology — Security techniques — Information security management systems — Requirements</em>. Second edition. Geneva: International Organization for Standardization and International Electrotechnical Commission. <fmt-link target="https://www.iso.org/standard/54534.html">https://www.iso.org/standard/54534.html</fmt-link>.</formattedref>
-  <fetched>2026-10-08</fetched>
+</bibitem><bibitem id="ISO-IEC_27001" type="standard" schema-version="v1.5.6" anchor="ISO-IEC_27001" semx-id="_d4c6d98d-ee0f-03fd-399a-897ee66e350e"><biblio-tag>[3]<tab/>ISO/IEC 27001, </biblio-tag><formattedref>International Organization for Standardization (committee). <em>Information technology — Security techniques — Information security management systems — Requirements</em>. Second edition. Geneva: International Organization for Standardization and International Electrotechnical Commission. <fmt-link target="https://www.iso.org/standard/54534.html">https://www.iso.org/standard/54534.html</fmt-link>.</formattedref>
+  <fetched>2026-10-15</fetched>
   
 <title language="en" script="Latn" type="title-intro">Information technology</title>
 
@@ -1639,8 +1639,8 @@ namespace ClownRSA {
   <place>
     <city>Geneva</city>
   </place>
-</bibitem><bibitem id="ISO-IEC_27017" type="standard" schema-version="v1.5.6" anchor="ISO-IEC_27017" semx-id="_d2835008-efb6-44dc-9ea2-067100a615ac"><biblio-tag>[4]<tab/>ISO/IEC 27017, </biblio-tag><formattedref>International Organization for Standardization (committee). <em>Information technology — Security techniques — Code of practice for information security controls based on ISO/IEC 27002 for cloud services</em>. First edition. Geneva: International Organization for Standardization and International Electrotechnical Commission. <fmt-link target="https://www.iso.org/standard/43757.html">https://www.iso.org/standard/43757.html</fmt-link>.</formattedref>
-  <fetched>2026-10-08</fetched>
+</bibitem><bibitem id="ISO-IEC_27017" type="standard" schema-version="v1.5.6" anchor="ISO-IEC_27017" semx-id="_b5eb8c3a-644c-d53f-699e-eca14574fa78"><biblio-tag>[4]<tab/>ISO/IEC 27017, </biblio-tag><formattedref>International Organization for Standardization (committee). <em>Information technology — Security techniques — Code of practice for information security controls based on ISO/IEC 27002 for cloud services</em>. First edition. Geneva: International Organization for Standardization and International Electrotechnical Commission. <fmt-link target="https://www.iso.org/standard/43757.html">https://www.iso.org/standard/43757.html</fmt-link>.</formattedref>
+  <fetched>2026-10-15</fetched>
   
 <title language="en" script="Latn" type="title-intro">Information technology</title>
 
@@ -1832,8 +1832,8 @@ namespace ClownRSA {
   <place>
     <city>Geneva</city>
   </place>
-</bibitem><bibitem id="ISO-IEC_27018" type="standard" schema-version="v1.5.6" anchor="ISO-IEC_27018" semx-id="_ef5c3019-8fc4-c140-f389-2634cb7fa570"><biblio-tag>[5]<tab/>ISO/IEC 27018, </biblio-tag><formattedref>International Organization for Standardization (committee). <em>Information technology — Security techniques — Code of practice for protection of personally identifiable information (PII) in public clouds acting as PII processors</em>. Second edition. Geneva: International Organization for Standardization and International Electrotechnical Commission. <fmt-link target="https://www.iso.org/standard/76559.html">https://www.iso.org/standard/76559.html</fmt-link>.</formattedref>
-  <fetched>2026-10-08</fetched>
+</bibitem><bibitem id="ISO-IEC_27018" type="standard" schema-version="v1.5.6" anchor="ISO-IEC_27018" semx-id="_026ccbbd-ac89-a983-3ba4-dd4cd30dcf98"><biblio-tag>[5]<tab/>ISO/IEC 27018, </biblio-tag><formattedref>International Organization for Standardization (committee). <em>Information technology — Security techniques — Code of practice for protection of personally identifiable information (PII) in public clouds acting as PII processors</em>. Second edition. Geneva: International Organization for Standardization and International Electrotechnical Commission. <fmt-link target="https://www.iso.org/standard/76559.html">https://www.iso.org/standard/76559.html</fmt-link>.</formattedref>
+  <fetched>2026-10-15</fetched>
   
 <title language="en" script="Latn" type="title-intro">Information technology</title>
 
@@ -2043,8 +2043,8 @@ namespace ClownRSA {
   <place>
     <city>Geneva</city>
   </place>
-</bibitem><bibitem id="ISO-IEC_27701" type="standard" schema-version="v1.5.6" anchor="ISO-IEC_27701" semx-id="_efe1f8e3-3302-f138-4a45-a7294c3bfc49"><biblio-tag>[6]<tab/>ISO/IEC 27701, </biblio-tag><formattedref>International Organization for Standardization (committee). <em>Security techniques — Extension to ISO/IEC 27001 and ISO/IEC 27002 for privacy information management — Requirements and guidelines</em>. First edition. Geneva: International Organization for Standardization and International Electrotechnical Commission. <fmt-link target="https://www.iso.org/standard/71670.html">https://www.iso.org/standard/71670.html</fmt-link>.</formattedref>
-  <fetched>2026-10-08</fetched>
+</bibitem><bibitem id="ISO-IEC_27701" type="standard" schema-version="v1.5.6" anchor="ISO-IEC_27701" semx-id="_eda17ff0-c1ef-1af9-02d7-ac27b3be7081"><biblio-tag>[6]<tab/>ISO/IEC 27701, </biblio-tag><formattedref>International Organization for Standardization (committee). <em>Security techniques — Extension to ISO/IEC 27001 and ISO/IEC 27002 for privacy information management — Requirements and guidelines</em>. First edition. Geneva: International Organization for Standardization and International Electrotechnical Commission. <fmt-link target="https://www.iso.org/standard/71670.html">https://www.iso.org/standard/71670.html</fmt-link>.</formattedref>
+  <fetched>2026-10-15</fetched>
   
 <title language="en" script="Latn" type="title-intro">Security techniques</title>
 
@@ -2240,8 +2240,8 @@ namespace ClownRSA {
 <name>ISO</name>
 </organization></contributor><contributor><role type="publisher"/><organization>
 <name>IEC</name>
-</organization></contributor><language>en</language><script>Latn</script></bibitem><bibitem id="ISO-IEC_20000-1" type="standard" schema-version="v1.5.6" anchor="ISO-IEC_20000-1" semx-id="_e3bb12bd-8587-d21e-bb7d-d3458e5398bd"><biblio-tag>[8]<tab/>ISO/IEC 20000-1, </biblio-tag><formattedref>International Organization for Standardization (committee). <em>Information technology — Service management — Part 1: Service management system requirements</em>. Third edition. Geneva: International Organization for Standardization and International Electrotechnical Commission. <fmt-link target="https://www.iso.org/standard/70636.html">https://www.iso.org/standard/70636.html</fmt-link>.</formattedref>
-  <fetched>2026-10-08</fetched>
+</organization></contributor><language>en</language><script>Latn</script></bibitem><bibitem id="ISO-IEC_20000-1" type="standard" schema-version="v1.5.6" anchor="ISO-IEC_20000-1" semx-id="_482b0dfd-1687-bc79-f384-b155f17827d6"><biblio-tag>[8]<tab/>ISO/IEC 20000-1, </biblio-tag><formattedref>International Organization for Standardization (committee). <em>Information technology — Service management — Part 1: Service management system requirements</em>. Third edition. Geneva: International Organization for Standardization and International Electrotechnical Commission. <fmt-link target="https://www.iso.org/standard/70636.html">https://www.iso.org/standard/70636.html</fmt-link>.</formattedref>
+  <fetched>2026-10-15</fetched>
   
 <title language="en" script="Latn" type="title-intro">Information technology</title>
 
@@ -2451,8 +2451,8 @@ namespace ClownRSA {
   <place>
     <city>Geneva</city>
   </place>
-</bibitem><bibitem id="ISO_9001" type="standard" schema-version="v1.5.6" anchor="ISO_9001" semx-id="_c990710c-ee30-fb7f-5245-84a611f8225f"><biblio-tag>[9]<tab/>ISO 9001, </biblio-tag><formattedref>International Organization for Standardization (committee). <em>Quality management systems — Requirements</em>. Fifth edition. Geneva: International Organization for Standardization. <fmt-link target="https://www.iso.org/standard/62085.html">https://www.iso.org/standard/62085.html</fmt-link>.</formattedref>
-  <fetched>2026-10-08</fetched>
+</bibitem><bibitem id="ISO_9001" type="standard" schema-version="v1.5.6" anchor="ISO_9001" semx-id="_e5ac2c93-36ad-96ca-989c-c88146237ec0"><biblio-tag>[9]<tab/>ISO 9001, </biblio-tag><formattedref>International Organization for Standardization (committee). <em>Quality management systems — Requirements</em>. Fifth edition. Geneva: International Organization for Standardization. <fmt-link target="https://www.iso.org/standard/62085.html">https://www.iso.org/standard/62085.html</fmt-link>.</formattedref>
+  <fetched>2026-10-15</fetched>
   
 <title language="en" script="Latn" type="title-intro">Quality management systems</title>
 
