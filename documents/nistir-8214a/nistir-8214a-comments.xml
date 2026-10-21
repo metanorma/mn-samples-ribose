@@ -921,9 +921,9 @@ namespace ClownRSA {
     <region iso="MD"/>
   </place>
 </bibitem>
-</references><references id="_1ec44d57-d474-bee2-4050-0c98cef17598" normative="false" obligation="informative">
-<title id="_50ceb1e1-516f-2673-d73d-4f0c58b4d023">Bibliography</title><bibitem id="_83ab4e7b-90dd-b639-c9f6-35999913a3e7" type="standard" schema-version="v1.5.6" anchor="ISO_8000">
-  <fetched>2026-10-15</fetched>
+</references><references id="_1e53a969-b76f-344e-2f1c-a3cdf1be5816" normative="false" obligation="informative">
+<title id="_50ceb1e1-516f-2673-d73d-4f0c58b4d023">Bibliography</title><bibitem id="_7059e19e-cbe2-4849-138f-3d5daf4afa78" type="standard" schema-version="v1.5.6" anchor="ISO_8000">
+  <fetched>2026-10-21</fetched>
   
 <title language="en" script="Latn" type="title-main">Data quality</title>
 
@@ -1088,8 +1088,8 @@ namespace ClownRSA {
   <place>
     <city>Geneva</city>
   </place>
-</bibitem><bibitem id="_c8f5044c-26b9-e43e-2f46-94e1366e0f97" type="standard" schema-version="v1.5.6" anchor="ISO-IEC_27000">
-  <fetched>2026-10-15</fetched>
+</bibitem><bibitem id="_523015a4-756e-1d5f-176a-724dc9c94a48" type="standard" schema-version="v1.5.6" anchor="ISO-IEC_27000">
+  <fetched>2026-10-21</fetched>
   
 <title language="en" script="Latn" type="title-intro">Information technology</title>
 
@@ -1299,8 +1299,8 @@ namespace ClownRSA {
   <place>
     <city>Geneva</city>
   </place>
-</bibitem><bibitem id="_d4c6d98d-ee0f-03fd-399a-897ee66e350e" type="standard" schema-version="v1.5.6" anchor="ISO-IEC_27001">
-  <fetched>2026-10-15</fetched>
+</bibitem><bibitem id="_64f02b3b-2d62-72f8-a818-50a491df4818" type="standard" schema-version="v1.5.6" anchor="ISO-IEC_27001">
+  <fetched>2026-10-21</fetched>
   
 <title language="en" script="Latn" type="title-intro">Information technology</title>
 
@@ -1566,8 +1566,8 @@ namespace ClownRSA {
   <place>
     <city>Geneva</city>
   </place>
-</bibitem><bibitem id="_b5eb8c3a-644c-d53f-699e-eca14574fa78" type="standard" schema-version="v1.5.6" anchor="ISO-IEC_27017">
-  <fetched>2026-10-15</fetched>
+</bibitem><bibitem id="_694803db-30ad-e08d-227f-06ab61fd077a" type="standard" schema-version="v1.5.6" anchor="ISO-IEC_27017">
+  <fetched>2026-10-21</fetched>
   
 <title language="en" script="Latn" type="title-intro">Information technology</title>
 
@@ -1759,8 +1759,8 @@ namespace ClownRSA {
   <place>
     <city>Geneva</city>
   </place>
-</bibitem><bibitem id="_026ccbbd-ac89-a983-3ba4-dd4cd30dcf98" type="standard" schema-version="v1.5.6" anchor="ISO-IEC_27018">
-  <fetched>2026-10-15</fetched>
+</bibitem><bibitem id="_f153c02e-ebc2-b3a3-e26e-34454da9e92b" type="standard" schema-version="v1.5.6" anchor="ISO-IEC_27018">
+  <fetched>2026-10-21</fetched>
   
 <title language="en" script="Latn" type="title-intro">Information technology</title>
 
@@ -1970,8 +1970,8 @@ namespace ClownRSA {
   <place>
     <city>Geneva</city>
   </place>
-</bibitem><bibitem id="_eda17ff0-c1ef-1af9-02d7-ac27b3be7081" type="standard" schema-version="v1.5.6" anchor="ISO-IEC_27701">
-  <fetched>2026-10-15</fetched>
+</bibitem><bibitem id="_b9bf4c85-7c5b-8845-9d61-6fe472696c33" type="standard" schema-version="v1.5.6" anchor="ISO-IEC_27701">
+  <fetched>2026-10-21</fetched>
   
 <title language="en" script="Latn" type="title-intro">Security techniques</title>
 
@@ -2167,8 +2167,8 @@ namespace ClownRSA {
 <name>ISO</name>
 </organization></contributor><contributor><role type="publisher"/><organization>
 <name>IEC</name>
-</organization></contributor><language>en</language><script>Latn</script></bibitem><bibitem id="_482b0dfd-1687-bc79-f384-b155f17827d6" type="standard" schema-version="v1.5.6" anchor="ISO-IEC_20000-1">
-  <fetched>2026-10-15</fetched>
+</organization></contributor><language>en</language><script>Latn</script></bibitem><bibitem id="_2bcd582c-98d4-1e05-8c72-fed0cfd051ce" type="standard" schema-version="v1.5.6" anchor="ISO-IEC_20000-1">
+  <fetched>2026-10-21</fetched>
   
 <title language="en" script="Latn" type="title-intro">Information technology</title>
 
@@ -2378,8 +2378,8 @@ namespace ClownRSA {
   <place>
     <city>Geneva</city>
   </place>
-</bibitem><bibitem id="_e5ac2c93-36ad-96ca-989c-c88146237ec0" type="standard" schema-version="v1.5.6" anchor="ISO_9001">
-  <fetched>2026-10-15</fetched>
+</bibitem><bibitem id="_d1b5cfff-8509-5150-cb22-a67ef21d2819" type="standard" schema-version="v1.5.6" anchor="ISO_9001">
+  <fetched>2026-10-21</fetched>
   
 <title language="en" script="Latn" type="title-intro">Quality management systems</title>
 
