@@ -4,3 +4,5 @@
 
 * [[[RSASHARE,1]]] Michael Malkin, Thomas D. Wu, Dan Boneh. _Experimenting with Shared Generation of RSA keys_. NDSS 1999.
 
+* [[[RFC7525,RFC 7525]]] E. Rescorla. _Recommendations for Secure Use of Transport Layer Security (TLS) and Datagram Transport Layer Security (DTLS)_. IETF BCP 195, RFC 7525, May 2015.
+
