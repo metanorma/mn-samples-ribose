@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<metanorma xmlns="https://www.metanorma.org/ns/standoc" type="presentation" version="2.9.0" schema-version="v2.2.0" flavor="ribose">
+<metanorma xmlns="https://www.metanorma.org/ns/standoc" type="presentation" version="2.9.2" schema-version="v2.3.0" flavor="ribose">
 <bibdata type="standard">
 <title language="en" type="main">Comments in response to public comment period of NISTIR 8214A</title>
 <docidentifier primary="true" type="Ribose Group Inc.">Rept 11021</docidentifier><docnumber>11021</docnumber><date type="published"><on>2020-02-10</on></date><contributor><role type="author"/><organization>
@@ -37,7 +37,7 @@
 </localized-string><localized-string key="norm_with_refs_pref" language="en">The following documents are referred to in the text in such a way that some or all of their content constitutes requirements of this document. For dated references, only the edition cited applies. For undated references, the latest edition of the referenced document (including any amendments) applies.</localized-string><localized-string key="norm_empty_pref" language="en">There are no normative references in this document.</localized-string><localized-string key="external_terms_boilerplate" language="en">For the purposes of this document, the terms and definitions given in % apply.
 </localized-string><localized-string key="internal_external_terms_boilerplate" language="en">For the purposes of this document, the terms and definitions given in % and the following apply.
 </localized-string><localized-string key="no_information_available" language="en">[NO INFORMATION AVAILABLE]</localized-string><localized-string key="term_defined_in" language="en">(%)</localized-string><localized-string key="binary_and" language="en">%1 <conn>and</conn> %2</localized-string><localized-string key="multiple_and" language="en">%1<enum-comma>,</enum-comma> <conn>and</conn> %2</localized-string><localized-string key="binary_or" language="en">%1 <conn>or</conn> %2</localized-string><localized-string key="multiple_or" language="en">%1<enum-comma>,</enum-comma> <conn>or</conn> %2</localized-string><localized-string key="chain_and" language="en">%1 <conn>and</conn> %2</localized-string><localized-string key="chain_or" language="en">%1 <conn>or</conn> %2</localized-string><localized-string key="chain_from" language="en">%1 <conn>from</conn> %2</localized-string><localized-string key="chain_to" language="en">%1 <conn>to</conn> %2</localized-string><localized-string key="nested_xref" language="en">%1<comma>,</comma> %2</localized-string><localized-string key="list_nested_xref" language="en">%1 %2</localized-string><localized-string key="SpelloutRules" language="en">spellout-ordinal</localized-string><localized-string key="OrdinalRules" language="en">digits-ordinal</localized-string><localized-string key="note" language="en">NOTE</localized-string><localized-string key="note_xref" language="en">Note</localized-string><localized-string key="termnote" language="en">Note % to entry</localized-string><localized-string key="para_xref" language="en">Paragraph</localized-string><localized-string key="list" language="en">List</localized-string><localized-string key="deflist" language="en">Definition List</localized-string><localized-string key="figure" language="en">Figure</localized-string><localized-string key="diagram" language="en">Diagram</localized-string><localized-string key="formula" language="en">Formula</localized-string><localized-string key="inequality" language="en">Formula</localized-string><localized-string key="table" language="en">Table</localized-string><localized-string key="requirement" language="en">Requirement</localized-string><localized-string key="recommendation" language="en">Recommendation</localized-string><localized-string key="permission" language="en">Permission</localized-string><localized-string key="box" language="en">Box</localized-string><localized-string key="no_identifier" language="en">(NO ID)</localized-string><localized-string key="recommendationtest" language="en">Recommendation test</localized-string><localized-string key="requirementtest" language="en">Requirement test</localized-string><localized-string key="permissiontest" language="en">Permission test</localized-string><localized-string key="recommendationclass" language="en">Recommendations class</localized-string><localized-string key="requirementclass" language="en">Requirements class</localized-string><localized-string key="permissionclass" language="en">Permissions class</localized-string><localized-string key="abstracttest" language="en">Abstract test</localized-string><localized-string key="conformanceclass" language="en">Conformance class</localized-string><localized-string key="key" language="en">Key</localized-string><localized-string key="example" language="en">EXAMPLE</localized-string><localized-string key="example_xref" language="en">Example</localized-string><localized-string key="where" language="en">where</localized-string><localized-string key="where_one" language="en">where</localized-string><localized-string key="wholeoftext" language="en">Whole of text</localized-string><localized-string key="draft_label" language="en">draft</localized-string><localized-string key="inform_annex" language="en">informative</localized-string><localized-string key="norm_annex" language="en">normative</localized-string><localized-string key="modified" language="en">modified</localized-string><localized-string key="adapted" language="en">adapted</localized-string><localized-string key="deprecated" language="en">DEPRECATED</localized-string><localized-string key="source" language="en">SOURCE</localized-string><localized-string key="and" language="en">and</localized-string><localized-string key="all_parts" language="en">All Parts</localized-string><localized-string key="edition_ordinal" language="en">{{ var1 | ordinal_word: '', '' }} edition</localized-string><localized-string key="edition_cardinal" language="en">edition {{ var1 }}</localized-string><localized-string key="edition" language="en">edition</localized-string><localized-string key="version" language="en">version</localized-string><localized-string key="toc_figures" language="en">List of figures</localized-string><localized-string key="toc_tables" language="en">List of tables</localized-string><localized-string key="toc_recommendations" language="en">List of recommendations</localized-string><localized-string key="toc_examples" language="en">List of examples</localized-string><localized-string key="month_january" language="en">January</localized-string><localized-string key="month_february" language="en">February</localized-string><localized-string key="month_march" language="en">March</localized-string><localized-string key="month_april" language="en">April</localized-string><localized-string key="month_may" language="en">May</localized-string><localized-string key="month_june" language="en">June</localized-string><localized-string key="month_july" language="en">July</localized-string><localized-string key="month_august" language="en">August</localized-string><localized-string key="month_september" language="en">September</localized-string><localized-string key="month_october" language="en">October</localized-string><localized-string key="month_november" language="en">November</localized-string><localized-string key="month_december" language="en">December</localized-string><localized-string key="obligation" language="en">Obligation</localized-string><localized-string key="admonition.danger" language="en">Danger</localized-string><localized-string key="admonition.warning" language="en">Warning</localized-string><localized-string key="admonition.caution" language="en">Caution</localized-string><localized-string key="admonition.important" language="en">Important</localized-string><localized-string key="admonition.safety_precautions" language="en">Safety Precautions</localized-string><localized-string key="admonition.editorial" language="en">Editorial Note</localized-string><localized-string key="title_prefixes.part" language="en">Part {{ var1 }}</localized-string><localized-string key="title_prefixes.amendment" language="en">Amendment {{ var1 }}</localized-string><localized-string key="title_prefixes.corrigendum" language="en">Corrigendum {{ var1 }}</localized-string><localized-string key="title_prefixes.addendum" language="en">Addendum {{ var1 }}</localized-string><localized-string key="title_prefixes.supplement" language="en">Supplement {{ var1 }}</localized-string><localized-string key="title_prefixes.annex" language="en">Annex {{ var1 }}</localized-string><localized-string key="title_prefixes.appendix" language="en">Appendix {{ var1 }}</localized-string><localized-string key="locality.section" language="en">Section</localized-string><localized-string key="locality.clause" language="en">Clause</localized-string><localized-string key="locality.definition" language="en">Definition</localized-string><localized-string key="locality.part" language="en">Part</localized-string><localized-string key="locality.paragraph" language="en">Paragraph</localized-string><localized-string key="locality.chapter" language="en">Chapter</localized-string><localized-string key="locality.page" language="en">Page</localized-string><localized-string key="locality.table" language="en">Table</localized-string><localized-string key="locality.annex" language="en">Annex</localized-string><localized-string key="locality.figure" language="en">Figure</localized-string><localized-string key="locality.example" language="en">Example</localized-string><localized-string key="locality.note" language="en">Note</localized-string><localized-string key="locality.formula" language="en">Formula</localized-string><localized-string key="grammar_abbrevs.masculine" language="en">m</localized-string><localized-string key="grammar_abbrevs.feminine" language="en">f</localized-string><localized-string key="grammar_abbrevs.neuter" language="en">n</localized-string><localized-string key="grammar_abbrevs.common" language="en">common</localized-string><localized-string key="grammar_abbrevs.singular" language="en">sg</localized-string><localized-string key="grammar_abbrevs.dual" language="en">dual</localized-string><localized-string key="grammar_abbrevs.pl" language="en">pl</localized-string><localized-string key="grammar_abbrevs.isPreposition" language="en">prep</localized-string><localized-string key="grammar_abbrevs.isParticiple" language="en">part</localized-string><localized-string key="grammar_abbrevs.isAdjective" language="en">adj</localized-string><localized-string key="grammar_abbrevs.isAdverb" language="en">adv</localized-string><localized-string key="grammar_abbrevs.isNoun" language="en">noun</localized-string><localized-string key="grammar_abbrevs.isVerb" language="en">verb</localized-string><localized-string key="relatedterms.deprecates" language="en">deprecates</localized-string><localized-string key="relatedterms.supersedes" language="en">supersedes</localized-string><localized-string key="relatedterms.narrower" language="en">narrower</localized-string><localized-string key="relatedterms.broader" language="en">broader</localized-string><localized-string key="relatedterms.equivalent" language="en">equivalent</localized-string><localized-string key="relatedterms.compare" language="en">compare</localized-string><localized-string key="relatedterms.contrast" language="en">contrast</localized-string><localized-string key="relatedterms.see" language="en">see</localized-string><localized-string key="relatedterms.seealso" language="en">see also</localized-string><localized-string key="Clause.sg" language="en">Clause</localized-string><localized-string key="Clause.pl" language="en">Clauses</localized-string><localized-string key="Definition.sg" language="en">Definition</localized-string><localized-string key="Definition.pl" language="en">Definitions</localized-string><localized-string key="Annex.sg" language="en">Annex</localized-string><localized-string key="Annex.pl" language="en">Annexes</localized-string><localized-string key="Appendix.sg" language="en">Appendix</localized-string><localized-string key="Appendix.pl" language="en">Appendixes</localized-string><localized-string key="Note.sg" language="en">Note</localized-string><localized-string key="Note.pl" language="en">Notes</localized-string><localized-string key="Note_%_to_entry.sg" language="en">Note % to entry</localized-string><localized-string key="Note_%_to_entry.pl" language="en">Notes % to entry</localized-string><localized-string key="List.sg" language="en">List</localized-string><localized-string key="List.pl" language="en">Lists</localized-string><localized-string key="Figure.sg" language="en">Figure</localized-string><localized-string key="Figure.pl" language="en">Figures</localized-string><localized-string key="Formula.sg" language="en">Formula</localized-string><localized-string key="Formula.pl" language="en">Formulas</localized-string><localized-string key="Table.sg" language="en">Table</localized-string><localized-string key="Table.pl" language="en">Tables</localized-string><localized-string key="Requirement.sg" language="en">Requirement</localized-string><localized-string key="Requirement.pl" language="en">Requirements</localized-string><localized-string key="Recommendation.sg" language="en">Recommendation</localized-string><localized-string key="Recommendation.pl" language="en">Recommendations</localized-string><localized-string key="Permission.sg" language="en">Permission</localized-string><localized-string key="Permission.pl" language="en">Permissions</localized-string><localized-string key="Example.sg" language="en">Example</localized-string><localized-string key="Example.pl" language="en">Examples</localized-string><localized-string key="Part.sg" language="en">Part</localized-string><localized-string key="Part.pl" language="en">Parts</localized-string><localized-string key="Section.sg" language="en">Section</localized-string><localized-string key="Section.pl" language="en">Sections</localized-string><localized-string key="Paragraph.sg" language="en">Paragraph</localized-string><localized-string key="Paragraph.pl" language="en">Paragraphs</localized-string><localized-string key="Chapter.sg" language="en">Chapter</localized-string><localized-string key="Chapter.pl" language="en">Chapters</localized-string><localized-string key="Page.sg" language="en">Page</localized-string><localized-string key="Page.pl" language="en">Pages</localized-string><localized-string key="punct.colon" language="en">:</localized-string><localized-string key="punct.comma" language="en">,</localized-string><localized-string key="punct.enum-comma" language="en">,</localized-string><localized-string key="punct.semicolon" language="en">;</localized-string><localized-string key="punct.period" language="en">.</localized-string><localized-string key="punct.close-paren" language="en">)</localized-string><localized-string key="punct.open-paren" language="en">(</localized-string><localized-string key="punct.close-bracket" language="en">]</localized-string><localized-string key="punct.open-bracket" language="en">[</localized-string><localized-string key="punct.question-mark" language="en">?</localized-string><localized-string key="punct.exclamation-mark" language="en">!</localized-string><localized-string key="punct.em-dash" language="en">—</localized-string><localized-string key="punct.en-dash" language="en">–</localized-string><localized-string key="punct.number-en-dash" language="en">–</localized-string><localized-string key="punct.open-quote" language="en">“</localized-string><localized-string key="punct.close-quote" language="en">”</localized-string><localized-string key="punct.open-nested-quote" language="en">‘</localized-string><localized-string key="punct.close-nested-quote" language="en">’</localized-string><localized-string key="punct.ellipse" language="en">…</localized-string><localized-string key="language" language="en">en</localized-string><localized-string key="script" language="en">Latn</localized-string></localized-strings><metanorma-extension><semantic-metadata><stage-published>true</stage-published></semantic-metadata>
-<presentation-metadata><toc-heading-levels>2</toc-heading-levels><html-toc-heading-levels>2</html-toc-heading-levels><doc-toc-heading-levels>2</doc-toc-heading-levels><pdf-toc-heading-levels>2</pdf-toc-heading-levels></presentation-metadata><source-highlighter-css>sourcecode table td { padding: 5px; }
+<presentation-metadata><output-extensions>xml,html,doc,rxl</output-extensions><toc-heading-levels>2</toc-heading-levels><html-toc-heading-levels>2</html-toc-heading-levels><doc-toc-heading-levels>2</doc-toc-heading-levels><pdf-toc-heading-levels>2</pdf-toc-heading-levels></presentation-metadata><source-highlighter-css>sourcecode table td { padding: 5px; }
 sourcecode table pre { margin: 0; }
 sourcecode, sourcecode .w {
   color: #444444;
@@ -940,7 +940,7 @@ namespace ClownRSA {
 
 <references id="_97e6c478-c7a9-4836-372c-9dce4eed096a" normative="true" obligation="informative" semx-id="_97e6c478-c7a9-4836-372c-9dce4eed096a" displayorder="3">
 <title id="_ac74ba90-2deb-a911-4194-91885b8ba62a" semx-id="_270c5ee6-077e-f285-ff95-287984a30140">Normative references</title><fmt-title depth="1" id="_852b2414-3fed-fae4-d83a-e9fdd0571c3f"><span class="fmt-caption-label"><semx element="autonum" source="_97e6c478-c7a9-4836-372c-9dce4eed096a">2</semx></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_ac74ba90-2deb-a911-4194-91885b8ba62a">Normative references</semx></fmt-title><fmt-xref-label><span class="fmt-element-name">Clause</span> <semx element="autonum" source="_97e6c478-c7a9-4836-372c-9dce4eed096a">2</semx></fmt-xref-label><p id="_49996d2b-65c1-916b-9bbf-42b933aa0025" semx-id="_49996d2b-65c1-916b-9bbf-42b933aa0025">The following documents are referred to in the text in such a way that some or all of their content constitutes requirements of this document. For dated references, only the edition cited applies. For undated references, the latest edition of the referenced document (including any amendments) applies.</p>
-<bibitem id="NISTIR_8214A" type="standard" schema-version="v1.5.6" anchor="NISTIR_8214A" semx-id="_e0aabffd-aa0d-fb7f-7b04-18c4aaabcc68"><biblio-tag>NIST IR 8214A, </biblio-tag><formattedref>BRAND O, LU S T. A. N., DAVIDSON, MICHAEL. and VASSILEV, APOSTOL. <em>NIST roadmap toward criteria for threshold schemes for cryptographic primitives</em>. 2020. Gaithersburg: Information Technology Laboratory (National Institute of Standards and Technology).</formattedref>
+<bibitem id="NISTIR_8214A" type="standard" schema-version="v1.5.6" anchor="NISTIR_8214A" semx-id="_e0aabffd-aa0d-fb7f-7b04-18c4aaabcc68"><biblio-tag>NIST IR 8214A, </biblio-tag><formattedref>Brand o, Lu s T. A. N., Davidson, Michael., and Vassilev, Apostol. <em>NIST roadmap toward criteria for threshold schemes for cryptographic primitives</em>. <em>NISTIR; NIST IR; NIST interagency report; NIST internal report</em>, no. 8214A. Gaithersburg: Information Technology Laboratory (National Institute of Standards and Technology), 2020. Available at: <link target="https://doi.org/10.6028/NIST.IR.8214A" id="_fd1d926c-0d66-6645-1d5b-2a168ba13bde">https://doi.org/10.6028/NIST.IR.8214A</link><semx element="link" source="_fd1d926c-0d66-6645-1d5b-2a168ba13bde"><fmt-link target="https://doi.org/10.6028/NIST.IR.8214A">https://doi.org/10.6028/NIST.IR.8214A</fmt-link></semx>.</formattedref>
   
 <title language="en" script="Latn" type="main">NIST roadmap toward criteria for threshold schemes for cryptographic primitives</title>
 
@@ -994,9 +994,9 @@ namespace ClownRSA {
     <region iso="MD"/>
   </place>
 </bibitem>
-</references></sections><bibliography><references id="_e3e05d7d-a952-6971-8f4e-e95efe271fcd" normative="false" obligation="informative" semx-id="_e3e05d7d-a952-6971-8f4e-e95efe271fcd" displayorder="14">
-<title id="_79a2af9e-6853-19a3-fcb8-27eb8dad0c44" semx-id="_50ceb1e1-516f-2673-d73d-4f0c58b4d023">Bibliography</title><fmt-title depth="1" id="_2da55403-b11b-078e-f7e8-f49a7def2e71"><semx element="title" source="_79a2af9e-6853-19a3-fcb8-27eb8dad0c44">Bibliography</semx></fmt-title><bibitem id="ISO_8000" type="standard" schema-version="v1.5.6" anchor="ISO_8000" semx-id="_8986a4f0-cdfa-9b64-52cb-2f00bb180111"><biblio-tag>[1]<tab/>ISO 8000 (all parts), </biblio-tag><formattedref>International Organization for Standardization (committee). <em>Data quality</em>. Fourth edition. 2020. Geneva: International Organization for Standardization. <fmt-link target="https://www.iso.org/standard/80543.html">https://www.iso.org/standard/80543.html</fmt-link>.</formattedref>
-  <fetched>2026-10-27</fetched>
+</references></sections><bibliography><references id="_fdf4c5fa-934a-ea99-8206-fdac10b708a8" normative="false" obligation="informative" semx-id="_fdf4c5fa-934a-ea99-8206-fdac10b708a8" displayorder="14">
+<title id="_79a2af9e-6853-19a3-fcb8-27eb8dad0c44" semx-id="_50ceb1e1-516f-2673-d73d-4f0c58b4d023">Bibliography</title><fmt-title depth="1" id="_2da55403-b11b-078e-f7e8-f49a7def2e71"><semx element="title" source="_79a2af9e-6853-19a3-fcb8-27eb8dad0c44">Bibliography</semx></fmt-title><bibitem id="ISO_8000" type="standard" schema-version="v1.5.6" anchor="ISO_8000" semx-id="_46d892f4-fbdc-deef-bed4-6f8705b5d43f"><biblio-tag>[1]<tab/>ISO 8000 (all parts), </biblio-tag><formattedref>INTERNATIONAL ORGANIZATION FOR STANDARDIZATION (ISO). <em>Data quality</em>. Report no. 8000. Fourth edition. Geneva: International Organization for Standardization, 2020. Available at: <link target="https://www.iso.org/standard/80543.html" id="_8b48b412-6df7-23f8-fbcb-98fc82f5e3df">https://www.iso.org/standard/80543.html</link><semx element="link" source="_8b48b412-6df7-23f8-fbcb-98fc82f5e3df"><fmt-link target="https://www.iso.org/standard/80543.html">https://www.iso.org/standard/80543.html</fmt-link></semx>.</formattedref>
+  <fetched>2026-11-10</fetched>
   
 <title language="en" script="Latn" type="title-main">Data quality</title>
 
@@ -1013,7 +1013,6 @@ namespace ClownRSA {
   <uri type="obp">https://www.iso.org/obp/ui/en/#!iso:std:80543:en</uri>
   <uri type="rss">https://www.iso.org/contents/data/standard/08/05/80543.detail.rss</uri><docidentifier type="metanorma-ordinal">[1]</docidentifier>
   <docidentifier type="ISO" primary="true">ISO 8000 (all parts)</docidentifier>
-  <docidentifier type="iso-undated">iso-undated ISO 8000 (all parts)</docidentifier>
   <docidentifier type="iso-reference">iso-reference ISO 8000(E) (all parts)</docidentifier>
   <docidentifier type="URN">URN urn:iso:std:iso:8000:ser</docidentifier><docidentifier scope="biblio-tag">ISO 8000 (all parts)</docidentifier>
   <docnumber>8000</docnumber>
@@ -1042,7 +1041,7 @@ namespace ClownRSA {
         
 <name>Industrial data</name>
 
-        <identifier id="_8aa01aa8-b1ef-510e-d5de-9fff0d3e9e68">ISO/TC 184/SC 4</identifier><fmt-identifier><tt><semx element="identifier" source="_8aa01aa8-b1ef-510e-d5de-9fff0d3e9e68">ISO/TC 184/SC 4</semx></tt></fmt-identifier>
+        <identifier id="_a10e37c3-c6a5-05de-b33a-e0aeafc78320">ISO/TC 184/SC 4</identifier><fmt-identifier><tt><semx element="identifier" source="_a10e37c3-c6a5-05de-b33a-e0aeafc78320">ISO/TC 184/SC 4</semx></tt></fmt-identifier>
       </subdivision>
       <abbreviation>ISO</abbreviation>
     </organization>
@@ -1083,8 +1082,36 @@ namespace ClownRSA {
   </relation>
   <relation type="instanceOf">
     <bibitem>
+      <formattedref>ISO 8000-8</formattedref>
+      <docidentifier type="ISO" primary="true">ISO 8000-8</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO 8000-66</formattedref>
+      <docidentifier type="ISO" primary="true">ISO 8000-66</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO 8000-64</formattedref>
+      <docidentifier type="ISO" primary="true">ISO 8000-64</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
       <formattedref>ISO 8000-63:2019</formattedref>
       <docidentifier type="ISO" primary="true">ISO 8000-63:2019</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO 8000-63</formattedref>
+      <docidentifier type="ISO" primary="true">ISO 8000-63</docidentifier>
     </bibitem>
 
   </relation>
@@ -1097,8 +1124,50 @@ namespace ClownRSA {
   </relation>
   <relation type="instanceOf">
     <bibitem>
+      <formattedref>ISO 8000-62</formattedref>
+      <docidentifier type="ISO" primary="true">ISO 8000-62</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
       <formattedref>ISO 8000-61:2016</formattedref>
       <docidentifier type="ISO" primary="true">ISO 8000-61:2016</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO 8000-61</formattedref>
+      <docidentifier type="ISO" primary="true">ISO 8000-61</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO 8000-51</formattedref>
+      <docidentifier type="ISO" primary="true">ISO 8000-51</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO 8000-220</formattedref>
+      <docidentifier type="ISO" primary="true">ISO 8000-220</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO 8000-210</formattedref>
+      <docidentifier type="ISO" primary="true">ISO 8000-210</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO 8000-150</formattedref>
+      <docidentifier type="ISO" primary="true">ISO 8000-150</docidentifier>
     </bibitem>
 
   </relation>
@@ -1111,8 +1180,22 @@ namespace ClownRSA {
   </relation>
   <relation type="instanceOf">
     <bibitem>
+      <formattedref>ISO 8000-140</formattedref>
+      <docidentifier type="ISO" primary="true">ISO 8000-140</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
       <formattedref>ISO 8000-130:2016</formattedref>
       <docidentifier type="ISO" primary="true">ISO 8000-130:2016</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO 8000-130</formattedref>
+      <docidentifier type="ISO" primary="true">ISO 8000-130</docidentifier>
     </bibitem>
 
   </relation>
@@ -1125,8 +1208,43 @@ namespace ClownRSA {
   </relation>
   <relation type="instanceOf">
     <bibitem>
+      <formattedref>ISO 8000-120</formattedref>
+      <docidentifier type="ISO" primary="true">ISO 8000-120</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO 8000-119</formattedref>
+      <docidentifier type="ISO" primary="true">ISO 8000-119</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO 8000-118</formattedref>
+      <docidentifier type="ISO" primary="true">ISO 8000-118</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO 8000-117</formattedref>
+      <docidentifier type="ISO" primary="true">ISO 8000-117</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
       <formattedref>ISO 8000-116:2019</formattedref>
       <docidentifier type="ISO" primary="true">ISO 8000-116:2019</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO 8000-116</formattedref>
+      <docidentifier type="ISO" primary="true">ISO 8000-116</docidentifier>
     </bibitem>
 
   </relation>
@@ -1139,8 +1257,29 @@ namespace ClownRSA {
   </relation>
   <relation type="instanceOf">
     <bibitem>
+      <formattedref>ISO 8000-115</formattedref>
+      <docidentifier type="ISO" primary="true">ISO 8000-115</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO 8000-114</formattedref>
+      <docidentifier type="ISO" primary="true">ISO 8000-114</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
       <formattedref>ISO 8000-110:2009</formattedref>
       <docidentifier type="ISO" primary="true">ISO 8000-110:2009</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO 8000-110</formattedref>
+      <docidentifier type="ISO" primary="true">ISO 8000-110</docidentifier>
     </bibitem>
 
   </relation>
@@ -1153,16 +1292,247 @@ namespace ClownRSA {
   </relation>
   <relation type="instanceOf">
     <bibitem>
+      <formattedref>ISO 8000-102</formattedref>
+      <docidentifier type="ISO" primary="true">ISO 8000-102</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
       <formattedref>ISO 8000-100:2016</formattedref>
       <docidentifier type="ISO" primary="true">ISO 8000-100:2016</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO 8000-100</formattedref>
+      <docidentifier type="ISO" primary="true">ISO 8000-100</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO 8000-1</formattedref>
+      <docidentifier type="ISO" primary="true">ISO 8000-1</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO/WDAR 8000-115</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/WDAR 8000-115</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO/WDAR 8000-110</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/WDAR 8000-110</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO/WDAR 8000-102</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/WDAR 8000-102</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO/WDA 8000-8</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/WDA 8000-8</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO/WDA 8000-63</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/WDA 8000-63</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO/WDA 8000-62</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/WDA 8000-62</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO/WDA 8000-61</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/WDA 8000-61</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO/WDA 8000-140</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/WDA 8000-140</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO/WDA 8000-130</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/WDA 8000-130</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO/WDA 8000-120</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/WDA 8000-120</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO/WDA 8000-116</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/WDA 8000-116</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO/WDA 8000-100</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/WDA 8000-100</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO/WDA 8000-1</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/WDA 8000-1</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO/WD 8000-260</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/WD 8000-260</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO/WD 8000-1</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/WD 8000-1</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO/PWI 8000-64</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/PWI 8000-64</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO/NP 8000-9</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/NP 8000-9</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO/NP 8000-51</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/NP 8000-51</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO/NP 8000-50</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/NP 8000-50</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO/NP 8000-40</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/NP 8000-40</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO/NP 8000-30</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/NP 8000-30</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO/NP 8000-20</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/NP 8000-20</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO/NP 8000-150</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/NP 8000-150</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO/NP 8000-119</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/NP 8000-119</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO/NP 8000-100</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/NP 8000-100</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO/NP 8000-10</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/NP 8000-10</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO/DIS 8000-200</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/DIS 8000-200</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO/CD 8000-60</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/CD 8000-60</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO/CD 8000-200</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/CD 8000-200</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO/AWI 8000-3</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/AWI 8000-3</docidentifier>
     </bibitem>
 
   </relation>
   <place>
     <city>Geneva</city>
   </place>
-</bibitem><bibitem id="ISO-IEC_27000" type="standard" schema-version="v1.5.6" anchor="ISO-IEC_27000" semx-id="_849db359-8dca-4e6e-72c5-9e9e6aee41b7"><biblio-tag>[2]<tab/>ISO/IEC 27000, </biblio-tag><formattedref>International Organization for Standardization (committee). <em>Information technology — Security techniques — Information security management systems — Overview and vocabulary</em>. Fifth edition. Geneva: International Organization for Standardization and International Electrotechnical Commission. <fmt-link target="https://www.iso.org/standard/73906.html">https://www.iso.org/standard/73906.html</fmt-link>.</formattedref>
-  <fetched>2026-10-27</fetched>
+</bibitem><bibitem id="ISO-IEC_27000" type="standard" schema-version="v1.5.6" anchor="ISO-IEC_27000" semx-id="_31de10d2-d1a6-1036-6bc9-05a6cf7973d1"><biblio-tag>[2]<tab/>ISO/IEC 27000, </biblio-tag><formattedref>INTERNATIONAL ORGANIZATION FOR STANDARDIZATION (ISO). <em>Information technology — Security techniques — Information security management systems — Overview and vocabulary</em>. Report no. 27000. Fifth edition. Geneva: International Organization for Standardization; International Electrotechnical Commission, Available at: <link target="https://www.iso.org/standard/73906.html" id="_6afa1aee-26bb-8e1c-ba7b-610b554cde13">https://www.iso.org/standard/73906.html</link><semx element="link" source="_6afa1aee-26bb-8e1c-ba7b-610b554cde13"><fmt-link target="https://www.iso.org/standard/73906.html">https://www.iso.org/standard/73906.html</fmt-link></semx>.</formattedref>
+  <fetched>2026-11-10</fetched>
   
 <title language="en" script="Latn" type="title-intro">Information technology</title>
 
@@ -1191,7 +1561,6 @@ namespace ClownRSA {
   <uri type="obp">https://www.iso.org/obp/ui/en/#!iso:std:73906:en</uri>
   <uri type="rss">https://www.iso.org/contents/data/standard/07/39/73906.detail.rss</uri><docidentifier type="metanorma-ordinal">[2]</docidentifier>
   <docidentifier type="ISO" primary="true">ISO/IEC 27000</docidentifier>
-  <docidentifier type="iso-undated">iso-undated ISO/IEC 27000</docidentifier>
   <docidentifier type="iso-reference">iso-reference ISO/IEC 27000(E)</docidentifier>
   <docidentifier type="URN">URN urn:iso:std:iso-iec:27000:stage-95.99</docidentifier><docidentifier scope="biblio-tag">ISO/IEC 27000</docidentifier>
   <docnumber>27000</docnumber>
@@ -1227,7 +1596,7 @@ namespace ClownRSA {
         
 <name>Information security, cybersecurity and privacy protection</name>
 
-        <identifier id="_a0672772-1c07-e96f-bc2d-5871622574f2">ISO/IEC JTC 1/SC 27</identifier><fmt-identifier><tt><semx element="identifier" source="_a0672772-1c07-e96f-bc2d-5871622574f2">ISO/IEC JTC 1/SC 27</semx></tt></fmt-identifier>
+        <identifier id="_20b53e45-5275-4b0e-d1a2-9e3fe1d83e12">ISO/IEC JTC 1/SC 27</identifier><fmt-identifier><tt><semx element="identifier" source="_20b53e45-5275-4b0e-d1a2-9e3fe1d83e12">ISO/IEC JTC 1/SC 27</semx></tt></fmt-identifier>
       </subdivision>
       <abbreviation>ISO</abbreviation>
     </organization>
@@ -1329,7 +1698,7 @@ namespace ClownRSA {
             
 <name>Information security, cybersecurity and privacy protection</name>
 
-            <identifier id="_2b26d311-175e-1a64-c2ae-0b59fbdab0ae">ISO/IEC JTC 1/SC 27</identifier><fmt-identifier><tt><semx element="identifier" source="_2b26d311-175e-1a64-c2ae-0b59fbdab0ae">ISO/IEC JTC 1/SC 27</semx></tt></fmt-identifier>
+            <identifier id="_493f21f4-8a94-5f30-1031-f807298ace32">ISO/IEC JTC 1/SC 27</identifier><fmt-identifier><tt><semx element="identifier" source="_493f21f4-8a94-5f30-1031-f807298ace32">ISO/IEC JTC 1/SC 27</semx></tt></fmt-identifier>
           </subdivision>
           <abbreviation>ISO</abbreviation>
         </organization>
@@ -1372,8 +1741,8 @@ namespace ClownRSA {
   <place>
     <city>Geneva</city>
   </place>
-</bibitem><bibitem id="ISO-IEC_27001" type="standard" schema-version="v1.5.6" anchor="ISO-IEC_27001" semx-id="_907a9005-e099-4d72-cf58-2f3e9958bff1"><biblio-tag>[3]<tab/>ISO/IEC 27001, </biblio-tag><formattedref>International Organization for Standardization (committee). <em>Information technology — Security techniques — Information security management systems — Requirements</em>. Second edition. Geneva: International Organization for Standardization and International Electrotechnical Commission. <fmt-link target="https://www.iso.org/standard/54534.html">https://www.iso.org/standard/54534.html</fmt-link>.</formattedref>
-  <fetched>2026-10-27</fetched>
+</bibitem><bibitem id="ISO-IEC_27001" type="standard" schema-version="v1.5.6" anchor="ISO-IEC_27001" semx-id="_c7e471fd-0d97-0930-a3f2-7a8a3f2258aa"><biblio-tag>[3]<tab/>ISO/IEC 27001, </biblio-tag><formattedref>INTERNATIONAL ORGANIZATION FOR STANDARDIZATION (ISO). <em>Information technology — Security techniques — Information security management systems — Requirements</em>. Report no. 27001. Second edition. Geneva: International Organization for Standardization; International Electrotechnical Commission, Available at: <link target="https://www.iso.org/standard/54534.html" id="_16a9066b-e035-68d2-b70b-aac864485889">https://www.iso.org/standard/54534.html</link><semx element="link" source="_16a9066b-e035-68d2-b70b-aac864485889"><fmt-link target="https://www.iso.org/standard/54534.html">https://www.iso.org/standard/54534.html</fmt-link></semx>.</formattedref>
+  <fetched>2026-11-10</fetched>
   
 <title language="en" script="Latn" type="title-intro">Information technology</title>
 
@@ -1402,7 +1771,6 @@ namespace ClownRSA {
   <uri type="obp">https://www.iso.org/obp/ui/en/#!iso:std:54534:en</uri>
   <uri type="rss">https://www.iso.org/contents/data/standard/05/45/54534.detail.rss</uri><docidentifier type="metanorma-ordinal">[3]</docidentifier>
   <docidentifier type="ISO" primary="true">ISO/IEC 27001</docidentifier>
-  <docidentifier type="iso-undated">iso-undated ISO/IEC 27001</docidentifier>
   <docidentifier type="iso-reference">iso-reference ISO/IEC 27001(E)</docidentifier>
   <docidentifier type="URN">URN urn:iso:std:iso-iec:27001:stage-95.99</docidentifier><docidentifier scope="biblio-tag">ISO/IEC 27001</docidentifier>
   <docnumber>27001</docnumber>
@@ -1438,7 +1806,7 @@ namespace ClownRSA {
         
 <name>Information security, cybersecurity and privacy protection</name>
 
-        <identifier id="_eec96085-eec8-8f61-3f87-512cdfe5b011">ISO/IEC JTC 1/SC 27</identifier><fmt-identifier><tt><semx element="identifier" source="_eec96085-eec8-8f61-3f87-512cdfe5b011">ISO/IEC JTC 1/SC 27</semx></tt></fmt-identifier>
+        <identifier id="_383f140b-0cce-5531-5169-5cdde8696d35">ISO/IEC JTC 1/SC 27</identifier><fmt-identifier><tt><semx element="identifier" source="_383f140b-0cce-5531-5169-5cdde8696d35">ISO/IEC JTC 1/SC 27</semx></tt></fmt-identifier>
       </subdivision>
       <abbreviation>ISO</abbreviation>
     </organization>
@@ -1568,7 +1936,7 @@ namespace ClownRSA {
             
 <name>Information security, cybersecurity and privacy protection</name>
 
-            <identifier id="_ad9edf57-1f0c-15aa-776b-f263fffd1427">ISO/IEC JTC 1/SC 27</identifier><fmt-identifier><tt><semx element="identifier" source="_ad9edf57-1f0c-15aa-776b-f263fffd1427">ISO/IEC JTC 1/SC 27</semx></tt></fmt-identifier>
+            <identifier id="_2f0af908-e2ea-eff5-1d44-a8c90b36b824">ISO/IEC JTC 1/SC 27</identifier><fmt-identifier><tt><semx element="identifier" source="_2f0af908-e2ea-eff5-1d44-a8c90b36b824">ISO/IEC JTC 1/SC 27</semx></tt></fmt-identifier>
           </subdivision>
           <abbreviation>ISO</abbreviation>
         </organization>
@@ -1639,8 +2007,8 @@ namespace ClownRSA {
   <place>
     <city>Geneva</city>
   </place>
-</bibitem><bibitem id="ISO-IEC_27017" type="standard" schema-version="v1.5.6" anchor="ISO-IEC_27017" semx-id="_2893374f-0e6b-9de0-da25-a7b8de34a273"><biblio-tag>[4]<tab/>ISO/IEC 27017, </biblio-tag><formattedref>International Organization for Standardization (committee). <em>Information technology — Security techniques — Code of practice for information security controls based on ISO/IEC 27002 for cloud services</em>. First edition. Geneva: International Organization for Standardization and International Electrotechnical Commission. <fmt-link target="https://www.iso.org/standard/43757.html">https://www.iso.org/standard/43757.html</fmt-link>.</formattedref>
-  <fetched>2026-10-27</fetched>
+</bibitem><bibitem id="ISO-IEC_27017" type="standard" schema-version="v1.5.6" anchor="ISO-IEC_27017" semx-id="_9c69a984-e32d-353a-8d01-3346a0ed45d4"><biblio-tag>[4]<tab/>ISO/IEC 27017, </biblio-tag><formattedref>INTERNATIONAL ORGANIZATION FOR STANDARDIZATION (ISO). <em>Information technology — Security techniques — Code of practice for information security controls based on ISO/IEC 27002 for cloud services</em>. Report no. 27017. First edition. Geneva: International Organization for Standardization; International Electrotechnical Commission, Available at: <link target="https://www.iso.org/standard/43757.html" id="_f61bd0e3-d985-38be-0605-496b5efdb6a2">https://www.iso.org/standard/43757.html</link><semx element="link" source="_f61bd0e3-d985-38be-0605-496b5efdb6a2"><fmt-link target="https://www.iso.org/standard/43757.html">https://www.iso.org/standard/43757.html</fmt-link></semx>.</formattedref>
+  <fetched>2026-11-10</fetched>
   
 <title language="en" script="Latn" type="title-intro">Information technology</title>
 
@@ -1669,7 +2037,6 @@ namespace ClownRSA {
   <uri type="obp">https://www.iso.org/obp/ui/en/#!iso:std:43757:en</uri>
   <uri type="rss">https://www.iso.org/contents/data/standard/04/37/43757.detail.rss</uri><docidentifier type="metanorma-ordinal">[4]</docidentifier>
   <docidentifier type="ISO" primary="true">ISO/IEC 27017</docidentifier>
-  <docidentifier type="iso-undated">iso-undated ISO/IEC 27017</docidentifier>
   <docidentifier type="iso-reference">iso-reference ISO/IEC 27017(E)</docidentifier>
   <docidentifier type="URN">URN urn:iso:std:iso-iec:27017:stage-95.99</docidentifier><docidentifier scope="biblio-tag">ISO/IEC 27017</docidentifier>
   <docnumber>27017</docnumber>
@@ -1705,7 +2072,7 @@ namespace ClownRSA {
         
 <name>Information security, cybersecurity and privacy protection</name>
 
-        <identifier id="_8d11d532-69b5-b5e4-1136-e1c50084bca8">ISO/IEC JTC 1/SC 27</identifier><fmt-identifier><tt><semx element="identifier" source="_8d11d532-69b5-b5e4-1136-e1c50084bca8">ISO/IEC JTC 1/SC 27</semx></tt></fmt-identifier>
+        <identifier id="_fe7a2ee2-c496-c27b-5227-175b2b0477da">ISO/IEC JTC 1/SC 27</identifier><fmt-identifier><tt><semx element="identifier" source="_fe7a2ee2-c496-c27b-5227-175b2b0477da">ISO/IEC JTC 1/SC 27</semx></tt></fmt-identifier>
       </subdivision>
       <abbreviation>ISO</abbreviation>
     </organization>
@@ -1798,7 +2165,7 @@ namespace ClownRSA {
             
 <name>Information security, cybersecurity and privacy protection</name>
 
-            <identifier id="_0f7ecae6-9b2e-b59d-ab30-11a5627c1b2d">ISO/IEC JTC 1/SC 27</identifier><fmt-identifier><tt><semx element="identifier" source="_0f7ecae6-9b2e-b59d-ab30-11a5627c1b2d">ISO/IEC JTC 1/SC 27</semx></tt></fmt-identifier>
+            <identifier id="_df8f3616-c2a9-1f8b-153d-2a673522b6b4">ISO/IEC JTC 1/SC 27</identifier><fmt-identifier><tt><semx element="identifier" source="_df8f3616-c2a9-1f8b-153d-2a673522b6b4">ISO/IEC JTC 1/SC 27</semx></tt></fmt-identifier>
           </subdivision>
           <abbreviation>ISO</abbreviation>
         </organization>
@@ -1832,8 +2199,8 @@ namespace ClownRSA {
   <place>
     <city>Geneva</city>
   </place>
-</bibitem><bibitem id="ISO-IEC_27018" type="standard" schema-version="v1.5.6" anchor="ISO-IEC_27018" semx-id="_ceaba122-2b62-cb77-0ead-8750ed4cec04"><biblio-tag>[5]<tab/>ISO/IEC 27018, </biblio-tag><formattedref>International Organization for Standardization (committee). <em>Information technology — Security techniques — Code of practice for protection of personally identifiable information (PII) in public clouds acting as PII processors</em>. Second edition. Geneva: International Organization for Standardization and International Electrotechnical Commission. <fmt-link target="https://www.iso.org/standard/76559.html">https://www.iso.org/standard/76559.html</fmt-link>.</formattedref>
-  <fetched>2026-10-27</fetched>
+</bibitem><bibitem id="ISO-IEC_27018" type="standard" schema-version="v1.5.6" anchor="ISO-IEC_27018" semx-id="_91de6c50-249f-0a0b-5606-43ad034b36b9"><biblio-tag>[5]<tab/>ISO/IEC 27018, </biblio-tag><formattedref>INTERNATIONAL ORGANIZATION FOR STANDARDIZATION (ISO). <em>Information technology — Security techniques — Code of practice for protection of personally identifiable information (PII) in public clouds acting as PII processors</em>. Report no. 27018. Second edition. Geneva: International Organization for Standardization; International Electrotechnical Commission, Available at: <link target="https://www.iso.org/standard/76559.html" id="_3237a1a0-4f42-c369-d18a-f0a8d45dc6ed">https://www.iso.org/standard/76559.html</link><semx element="link" source="_3237a1a0-4f42-c369-d18a-f0a8d45dc6ed"><fmt-link target="https://www.iso.org/standard/76559.html">https://www.iso.org/standard/76559.html</fmt-link></semx>.</formattedref>
+  <fetched>2026-11-10</fetched>
   
 <title language="en" script="Latn" type="title-intro">Information technology</title>
 
@@ -1862,7 +2229,6 @@ namespace ClownRSA {
   <uri type="obp">https://www.iso.org/obp/ui/en/#!iso:std:76559:en</uri>
   <uri type="rss">https://www.iso.org/contents/data/standard/07/65/76559.detail.rss</uri><docidentifier type="metanorma-ordinal">[5]</docidentifier>
   <docidentifier type="ISO" primary="true">ISO/IEC 27018</docidentifier>
-  <docidentifier type="iso-undated">iso-undated ISO/IEC 27018</docidentifier>
   <docidentifier type="iso-reference">iso-reference ISO/IEC 27018(E)</docidentifier>
   <docidentifier type="URN">URN urn:iso:std:iso-iec:27018:stage-95.99</docidentifier><docidentifier scope="biblio-tag">ISO/IEC 27018</docidentifier>
   <docnumber>27018</docnumber>
@@ -1898,7 +2264,7 @@ namespace ClownRSA {
         
 <name>Information security, cybersecurity and privacy protection</name>
 
-        <identifier id="_b02607cb-fcf1-85b5-b71d-bdfce730c63d">ISO/IEC JTC 1/SC 27</identifier><fmt-identifier><tt><semx element="identifier" source="_b02607cb-fcf1-85b5-b71d-bdfce730c63d">ISO/IEC JTC 1/SC 27</semx></tt></fmt-identifier>
+        <identifier id="_419328fc-225b-e9c1-59c0-3f2d3016bead">ISO/IEC JTC 1/SC 27</identifier><fmt-identifier><tt><semx element="identifier" source="_419328fc-225b-e9c1-59c0-3f2d3016bead">ISO/IEC JTC 1/SC 27</semx></tt></fmt-identifier>
       </subdivision>
       <abbreviation>ISO</abbreviation>
     </organization>
@@ -2000,7 +2366,7 @@ namespace ClownRSA {
             
 <name>Information security, cybersecurity and privacy protection</name>
 
-            <identifier id="_135f696d-ca5a-588e-eb17-9dd964277316">ISO/IEC JTC 1/SC 27</identifier><fmt-identifier><tt><semx element="identifier" source="_135f696d-ca5a-588e-eb17-9dd964277316">ISO/IEC JTC 1/SC 27</semx></tt></fmt-identifier>
+            <identifier id="_a2b71db9-5dc9-1bae-9af5-c0f0fe197fff">ISO/IEC JTC 1/SC 27</identifier><fmt-identifier><tt><semx element="identifier" source="_a2b71db9-5dc9-1bae-9af5-c0f0fe197fff">ISO/IEC JTC 1/SC 27</semx></tt></fmt-identifier>
           </subdivision>
           <abbreviation>ISO</abbreviation>
         </organization>
@@ -2043,8 +2409,8 @@ namespace ClownRSA {
   <place>
     <city>Geneva</city>
   </place>
-</bibitem><bibitem id="ISO-IEC_27701" type="standard" schema-version="v1.5.6" anchor="ISO-IEC_27701" semx-id="_e7ba11ff-b616-991b-39d1-5eedc0fcdc28"><biblio-tag>[6]<tab/>ISO/IEC 27701, </biblio-tag><formattedref>International Organization for Standardization (committee). <em>Security techniques — Extension to ISO/IEC 27001 and ISO/IEC 27002 for privacy information management — Requirements and guidelines</em>. First edition. Geneva: International Organization for Standardization and International Electrotechnical Commission. <fmt-link target="https://www.iso.org/standard/71670.html">https://www.iso.org/standard/71670.html</fmt-link>.</formattedref>
-  <fetched>2026-10-27</fetched>
+</bibitem><bibitem id="ISO-IEC_27701" type="standard" schema-version="v1.5.6" anchor="ISO-IEC_27701" semx-id="_e17c950c-9aee-8d4f-3bd9-bbe4a9a63f33"><biblio-tag>[6]<tab/>ISO/IEC 27701, </biblio-tag><formattedref>INTERNATIONAL ORGANIZATION FOR STANDARDIZATION (ISO). <em>Security techniques — Extension to ISO/IEC 27001 and ISO/IEC 27002 for privacy information management — Requirements and guidelines</em>. Report no. 27701. First edition. Geneva: International Organization for Standardization; International Electrotechnical Commission, Available at: <link target="https://www.iso.org/standard/71670.html" id="_23bbb9f8-9ddc-becd-7187-e7fa62f6ff0e">https://www.iso.org/standard/71670.html</link><semx element="link" source="_23bbb9f8-9ddc-becd-7187-e7fa62f6ff0e"><fmt-link target="https://www.iso.org/standard/71670.html">https://www.iso.org/standard/71670.html</fmt-link></semx>.</formattedref>
+  <fetched>2026-11-10</fetched>
   
 <title language="en" script="Latn" type="title-intro">Security techniques</title>
 
@@ -2073,7 +2439,6 @@ namespace ClownRSA {
   <uri type="obp">https://www.iso.org/obp/ui/en/#!iso:std:71670:en</uri>
   <uri type="rss">https://www.iso.org/contents/data/standard/07/16/71670.detail.rss</uri><docidentifier type="metanorma-ordinal">[6]</docidentifier>
   <docidentifier type="ISO" primary="true">ISO/IEC 27701</docidentifier>
-  <docidentifier type="iso-undated">iso-undated ISO/IEC 27701</docidentifier>
   <docidentifier type="iso-reference">iso-reference ISO/IEC 27701(E)</docidentifier>
   <docidentifier type="URN">URN urn:iso:std:iso-iec:27701:stage-95.99</docidentifier><docidentifier scope="biblio-tag">ISO/IEC 27701</docidentifier>
   <docnumber>27701</docnumber>
@@ -2109,7 +2474,7 @@ namespace ClownRSA {
         
 <name>Information security, cybersecurity and privacy protection</name>
 
-        <identifier id="_cec1b7dc-0f9d-9468-e610-c7a04e2deb35">ISO/IEC JTC 1/SC 27</identifier><fmt-identifier><tt><semx element="identifier" source="_cec1b7dc-0f9d-9468-e610-c7a04e2deb35">ISO/IEC JTC 1/SC 27</semx></tt></fmt-identifier>
+        <identifier id="_67f57435-067f-e03e-cc7e-bb475f1d7a06">ISO/IEC JTC 1/SC 27</identifier><fmt-identifier><tt><semx element="identifier" source="_67f57435-067f-e03e-cc7e-bb475f1d7a06">ISO/IEC JTC 1/SC 27</semx></tt></fmt-identifier>
       </subdivision>
       <abbreviation>ISO</abbreviation>
     </organization>
@@ -2201,7 +2566,7 @@ namespace ClownRSA {
             
 <name>Information security, cybersecurity and privacy protection</name>
 
-            <identifier id="_7925a872-9df0-b901-7fdf-fb22be61ee10">ISO/IEC JTC 1/SC 27</identifier><fmt-identifier><tt><semx element="identifier" source="_7925a872-9df0-b901-7fdf-fb22be61ee10">ISO/IEC JTC 1/SC 27</semx></tt></fmt-identifier>
+            <identifier id="_aae7da63-2abf-f3fa-203d-84827ced1972">ISO/IEC JTC 1/SC 27</identifier><fmt-identifier><tt><semx element="identifier" source="_aae7da63-2abf-f3fa-203d-84827ced1972">ISO/IEC JTC 1/SC 27</semx></tt></fmt-identifier>
           </subdivision>
           <abbreviation>ISO</abbreviation>
         </organization>
@@ -2234,14 +2599,14 @@ namespace ClownRSA {
   <place>
     <city>Geneva</city>
   </place>
-</bibitem><bibitem anchor="ISO-IEC_22301" id="ISO-IEC_22301" type="standard" semx-id="_d886d094-3cf4-ac34-cf2c-471f227c6a2d"><biblio-tag>[7]<tab/>ISO/IEC 22301, </biblio-tag><formattedref>ISO and IEC. <em>AUTOFILL</em>.</formattedref>
+</bibitem><bibitem anchor="ISO-IEC_22301" id="ISO-IEC_22301" type="standard" semx-id="_d886d094-3cf4-ac34-cf2c-471f227c6a2d"><biblio-tag>[7]<tab/>ISO/IEC 22301, </biblio-tag><formattedref><em>AUTOFILL</em>. Report no. 22301. ISO; IEC.</formattedref>
 <title format="text/plain">AUTOFILL</title><docidentifier type="metanorma-ordinal">[7]</docidentifier>
 <docidentifier type="ISO">ISO/IEC 22301</docidentifier><docidentifier scope="biblio-tag">ISO/IEC 22301</docidentifier><docnumber>22301</docnumber><contributor><role type="publisher"/><organization>
 <name>ISO</name>
 </organization></contributor><contributor><role type="publisher"/><organization>
 <name>IEC</name>
-</organization></contributor><language>en</language><script>Latn</script></bibitem><bibitem id="ISO-IEC_20000-1" type="standard" schema-version="v1.5.6" anchor="ISO-IEC_20000-1" semx-id="_a362476b-8fd9-8d7c-cde3-6b57e5877e2b"><biblio-tag>[8]<tab/>ISO/IEC 20000-1, </biblio-tag><formattedref>International Organization for Standardization (committee). <em>Information technology — Service management — Part 1: Service management system requirements</em>. Third edition. Geneva: International Organization for Standardization and International Electrotechnical Commission. <fmt-link target="https://www.iso.org/standard/70636.html">https://www.iso.org/standard/70636.html</fmt-link>.</formattedref>
-  <fetched>2026-10-27</fetched>
+</organization></contributor><language>en</language><script>Latn</script></bibitem><bibitem id="ISO-IEC_20000-1" type="standard" schema-version="v1.5.6" anchor="ISO-IEC_20000-1" semx-id="_8bb68e34-1291-3bae-681d-e5421f28f2e9"><biblio-tag>[8]<tab/>ISO/IEC 20000-1, </biblio-tag><formattedref>INTERNATIONAL ORGANIZATION FOR STANDARDIZATION (ISO). <em>Information technology — Service management — Part 1: Service management system requirements</em>. Report no. 20000. Third edition. Geneva: International Organization for Standardization; International Electrotechnical Commission, Available at: <link target="https://www.iso.org/standard/70636.html" id="_fbbb791d-bb3e-2cd4-223e-3ec943d4a6f8">https://www.iso.org/standard/70636.html</link><semx element="link" source="_fbbb791d-bb3e-2cd4-223e-3ec943d4a6f8"><fmt-link target="https://www.iso.org/standard/70636.html">https://www.iso.org/standard/70636.html</fmt-link></semx>.</formattedref>
+  <fetched>2026-11-10</fetched>
   
 <title language="en" script="Latn" type="title-intro">Information technology</title>
 
@@ -2270,7 +2635,6 @@ namespace ClownRSA {
   <uri type="obp">https://www.iso.org/obp/ui/en/#!iso:std:70636:en</uri>
   <uri type="rss">https://www.iso.org/contents/data/standard/07/06/70636.detail.rss</uri><docidentifier type="metanorma-ordinal">[8]</docidentifier>
   <docidentifier type="ISO" primary="true">ISO/IEC 20000-1</docidentifier>
-  <docidentifier type="iso-undated">iso-undated ISO/IEC 20000-1</docidentifier>
   <docidentifier type="iso-reference">iso-reference ISO/IEC 20000-1(E)</docidentifier>
   <docidentifier type="URN">URN urn:iso:std:iso-iec:20000:-1:stage-90.93</docidentifier><docidentifier scope="biblio-tag">ISO/IEC 20000-1</docidentifier>
   <docnumber>20000</docnumber>
@@ -2306,7 +2670,7 @@ namespace ClownRSA {
         
 <name>IT service management and IT governance</name>
 
-        <identifier id="_f3ab298e-e366-1cab-b1f0-96f4f47d50aa">ISO/IEC JTC 1/SC 40</identifier><fmt-identifier><tt><semx element="identifier" source="_f3ab298e-e366-1cab-b1f0-96f4f47d50aa">ISO/IEC JTC 1/SC 40</semx></tt></fmt-identifier>
+        <identifier id="_bee7ecbb-cc08-6bce-0d2d-991fb2525c27">ISO/IEC JTC 1/SC 40</identifier><fmt-identifier><tt><semx element="identifier" source="_bee7ecbb-cc08-6bce-0d2d-991fb2525c27">ISO/IEC JTC 1/SC 40</semx></tt></fmt-identifier>
       </subdivision>
       <abbreviation>ISO</abbreviation>
     </organization>
@@ -2408,7 +2772,7 @@ namespace ClownRSA {
             
 <name>IT service management and IT governance</name>
 
-            <identifier id="_2a0fb1c6-cdc8-6d14-36a8-a4e033ef06e4">ISO/IEC JTC 1/SC 40</identifier><fmt-identifier><tt><semx element="identifier" source="_2a0fb1c6-cdc8-6d14-36a8-a4e033ef06e4">ISO/IEC JTC 1/SC 40</semx></tt></fmt-identifier>
+            <identifier id="_16244467-7158-4dff-ecdb-a9d4237880f7">ISO/IEC JTC 1/SC 40</identifier><fmt-identifier><tt><semx element="identifier" source="_16244467-7158-4dff-ecdb-a9d4237880f7">ISO/IEC JTC 1/SC 40</semx></tt></fmt-identifier>
           </subdivision>
           <abbreviation>ISO</abbreviation>
         </organization>
@@ -2451,8 +2815,8 @@ namespace ClownRSA {
   <place>
     <city>Geneva</city>
   </place>
-</bibitem><bibitem id="ISO_9001" type="standard" schema-version="v1.5.6" anchor="ISO_9001" semx-id="_d2f14a9e-5a78-af1f-7ceb-b4f5a35d4a2f"><biblio-tag>[9]<tab/>ISO 9001, </biblio-tag><formattedref>International Organization for Standardization (committee). <em>Quality management systems — Requirements</em>. Fifth edition. Geneva: International Organization for Standardization. <fmt-link target="https://www.iso.org/standard/62085.html">https://www.iso.org/standard/62085.html</fmt-link>.</formattedref>
-  <fetched>2026-10-27</fetched>
+</bibitem><bibitem id="ISO_9001" type="standard" schema-version="v1.5.6" anchor="ISO_9001" semx-id="_684e287b-1c71-2d93-80df-6c16ec2f2ae6"><biblio-tag>[9]<tab/>ISO 9001, </biblio-tag><formattedref>INTERNATIONAL ORGANIZATION FOR STANDARDIZATION (ISO). <em>Quality management systems — Requirements</em>. Report no. 9001. Fifth edition. Geneva: International Organization for Standardization, Available at: <link target="https://www.iso.org/standard/62085.html" id="_b789e642-e6db-1a78-13e2-b35dce262013">https://www.iso.org/standard/62085.html</link><semx element="link" source="_b789e642-e6db-1a78-13e2-b35dce262013"><fmt-link target="https://www.iso.org/standard/62085.html">https://www.iso.org/standard/62085.html</fmt-link></semx>.</formattedref>
+  <fetched>2026-11-10</fetched>
   
 <title language="en" script="Latn" type="title-intro">Quality management systems</title>
 
@@ -2475,7 +2839,6 @@ namespace ClownRSA {
   <uri type="obp">https://www.iso.org/obp/ui/en/#!iso:std:62085:en</uri>
   <uri type="rss">https://www.iso.org/contents/data/standard/06/20/62085.detail.rss</uri><docidentifier type="metanorma-ordinal">[9]</docidentifier>
   <docidentifier type="ISO" primary="true">ISO 9001</docidentifier>
-  <docidentifier type="iso-undated">iso-undated ISO 9001</docidentifier>
   <docidentifier type="iso-reference">iso-reference ISO 9001(E)</docidentifier>
   <docidentifier type="URN">URN urn:iso:std:iso:9001:stage-95.99</docidentifier><docidentifier scope="biblio-tag">ISO 9001</docidentifier>
   <docnumber>9001</docnumber>
@@ -2501,7 +2864,7 @@ namespace ClownRSA {
         
 <name>Quality systems</name>
 
-        <identifier id="_0ab493c5-faf8-5657-5e8e-5c7d9e4700c9">ISO/TC 176/SC 2</identifier><fmt-identifier><tt><semx element="identifier" source="_0ab493c5-faf8-5657-5e8e-5c7d9e4700c9">ISO/TC 176/SC 2</semx></tt></fmt-identifier>
+        <identifier id="_db872c72-221e-9037-80d8-853eef4be71f">ISO/TC 176/SC 2</identifier><fmt-identifier><tt><semx element="identifier" source="_db872c72-221e-9037-80d8-853eef4be71f">ISO/TC 176/SC 2</semx></tt></fmt-identifier>
       </subdivision>
       <abbreviation>ISO</abbreviation>
     </organization>
@@ -2601,7 +2964,7 @@ namespace ClownRSA {
             
 <name>Quality systems</name>
 
-            <identifier id="_e55d4188-b1a6-5fdd-a7bf-f7bc962058cf">ISO/TC 176/SC 2</identifier><fmt-identifier><tt><semx element="identifier" source="_e55d4188-b1a6-5fdd-a7bf-f7bc962058cf">ISO/TC 176/SC 2</semx></tt></fmt-identifier>
+            <identifier id="_17193d11-d184-2526-29a8-378fd81450ff">ISO/TC 176/SC 2</identifier><fmt-identifier><tt><semx element="identifier" source="_17193d11-d184-2526-29a8-378fd81450ff">ISO/TC 176/SC 2</semx></tt></fmt-identifier>
           </subdivision>
           <abbreviation>ISO</abbreviation>
         </organization>

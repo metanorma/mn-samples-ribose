@@ -8,15 +8,11 @@ thead th { font-weight: bold; background-color: aqua; }
 .severity3 { font-style: italic; color: grey; }
 </style>
 </head><body><h1>/__w/mn-samples-ribose/mn-samples-ribose/_site/documents/nereon-syntax/rsd-nereon-configuration-syntax.err.html errors</h1>
-<ul><li><p><b><a href="#Relaton">Relaton</a></b>: Severity 3: <b>1</b> error</p></li>
-
-<li><p><b><a href="#Anchors">Anchors</a></b>: Severity 1: <b>1</b> error</p></li>
+<ul><li><p><b><a href="#Relaton">Relaton</a></b>: Severity 3: <b>2</b> errors</p></li>
 
 <li><p><b><a href="#Style">Style</a></b>: Severity 2: <b>7</b> errors</p></li>
 
-<li><p><b><a href="#Metanorma_XML_Syntax">Metanorma XML Syntax</a></b>: Severity 2: <b>2</b> errors</p></li>
-
-<li><p><b><a href="#Crossreferences">Crossreferences</a></b>: Severity 1: <b>2</b> errors</p></li>
+<li><p><b><a href="#Metanorma_XML_Syntax">Metanorma XML Syntax</a></b>: Severity 2: <b>14</b> errors</p></li>
 </ul>
 <h2 id="Relaton">Relaton</h2>
 <table border="1">
@@ -26,17 +22,9 @@ thead th { font-weight: bold; background-color: aqua; }
 <tr class="severity3">
 <td></td><th><code>1</code></th><td>RELATON_4</td>
 <td>(Error from Relaton) <code>1</code> does not have a recognised prefix</td><td><pre></pre></td><td>3</td></tr>
-</tbody></table>
-<h2 id="Anchors">Anchors</h2>
-<table border="1">
-<thead><th width="5%">Line</th><th width="20%">ID</th><th width="10%">Error</th>
-<th width="20%">Message</th><th width="40%">Context</th><th width="5%">Severity</th></thead>
-<tbody>
-<tr class="severity1">
-<td>000141</td><th><code><a href='/__w/mn-samples-ribose/mn-samples-ribose/_site/documents/nereon-syntax/rsd-nereon-configuration-syntax.html#_1a25329c-e742-5272-7b0a-6d58db6a3e8b'>_1a25329c-e742-5272-7b0a-6d58db6a3e8b</a></code></th><td>STANDOC_38</td>
-<td>Crossreference target RFC7525 is undefined</td><td><pre>&lt;xref target=&quot;RFC7525&quot;&gt;
-  &lt;display-text&gt;section 6.3&lt;/display-text&gt;
-&lt;/xref&gt;</pre></td><td>1</td></tr>
+<tr class="severity3">
+<td></td><th><code>1</code></th><td>RELATON_4</td>
+<td>(Error from Relaton) <code>1</code> is not a recognized standards identifier</td><td><pre></pre></td><td>3</td></tr>
 </tbody></table>
 <h2 id="Style">Style</h2>
 <table border="1">
@@ -100,21 +88,45 @@ thead th { font-weight: bold; background-color: aqua; }
 <tbody>
 <tr class="severity2">
 <td></td><th><code>XML Line 000083:74</code></th><td>STANDOC_7</td>
-<td>element "terms" not allowed here; expected the element end-tag or element "admonition", "amend", "annotation", "bookmark", "columnbreak", "dl", "example", "figure",​ "form", "formula", "hr", "imagemap", "note", "ol", "p", "pagebreak", "passthrough", "permission", "pre", "quote", "recommendation", "requirement", "sourcecode", "svgmap",​ "table", "toc" or "ul"</td><td><pre></pre></td><td>2</td></tr>
+<td>element "terms" not allowed here; expected the element end-tag</td><td><pre></pre></td><td>2</td></tr>
+<tr class="severity2">
+<td></td><th><code>XML Line 000083:74</code></th><td>STANDOC_7</td>
+<td>found attribute "id", but no attributes allowed here</td><td><pre></pre></td><td>2</td></tr>
+<tr class="severity2">
+<td></td><th><code>XML Line 000083:74</code></th><td>STANDOC_7</td>
+<td>found attribute "obligation", but no attributes allowed here</td><td><pre></pre></td><td>2</td></tr>
 <tr class="severity2">
 <td></td><th><code>XML Line 000165:95</code></th><td>STANDOC_7</td>
-<td>element "definitions" not allowed here; expected the element end-tag or element "admonition", "amend", "annotation", "bookmark", "columnbreak", "dl", "example", "figure",​ "form", "formula", "hr", "imagemap", "note", "ol", "p", "pagebreak", "passthrough", "permission", "pre", "quote", "recommendation", "requirement", "sourcecode", "svgmap",​ "table", "toc" or "ul"</td><td><pre></pre></td><td>2</td></tr>
-</tbody></table>
-<h2 id="Crossreferences">Crossreferences</h2>
-<table border="1">
-<thead><th width="5%">Line</th><th width="20%">ID</th><th width="10%">Error</th>
-<th width="20%">Message</th><th width="40%">Context</th><th width="5%">Severity</th></thead>
-<tbody>
-<tr class="severity1">
-<td></td><th><code><a href='/__w/mn-samples-ribose/mn-samples-ribose/_site/documents/nereon-syntax/rsd-nereon-configuration-syntax.html#_1a25329c-e742-5272-7b0a-6d58db6a3e8b'>_1a25329c-e742-5272-7b0a-6d58db6a3e8b</a></code></th><td>ISODOC_1</td>
-<td>Anchor RFC7525 pointed to by fmt-xref is not defined in the document</td><td><pre>&lt;fmt-xref xmlns=&quot;https://www.metanorma.org/ns/standoc&quot; target=&quot;RFC7525&quot;&gt;section 6.3&lt;/fmt-xref&gt;</pre></td><td>1</td></tr>
-<tr class="severity1">
-<td>000141</td><th><code><a href='/__w/mn-samples-ribose/mn-samples-ribose/_site/documents/nereon-syntax/rsd-nereon-configuration-syntax.html#_e0c0f7b2-46d3-4f87-b6de-7134fe8ea852'>_e0c0f7b2-46d3-4f87-b6de-7134fe8ea852</a></code></th><td>ISODOC_1</td>
-<td>Anchor RFC7525 pointed to by xref is not defined in the document</td><td><pre>&lt;xref xmlns=&quot;https://www.metanorma.org/ns/standoc&quot; target=&quot;RFC7525&quot; id=&quot;_e0c0f7b2-46d3-4f87-b6de-7134fe8ea852&quot;&gt;section 6.3&lt;/xref&gt;</pre></td><td>1</td></tr>
+<td>element "definitions" not allowed here; expected the element end-tag</td><td><pre></pre></td><td>2</td></tr>
+<tr class="severity2">
+<td></td><th><code>XML Line 000165:95</code></th><td>STANDOC_7</td>
+<td>found attribute "id", but no attributes allowed here</td><td><pre></pre></td><td>2</td></tr>
+<tr class="severity2">
+<td></td><th><code>XML Line 000165:95</code></th><td>STANDOC_7</td>
+<td>found attribute "obligation", but no attributes allowed here</td><td><pre></pre></td><td>2</td></tr>
+<tr class="severity2">
+<td></td><th><code>XML Line 000165:95</code></th><td>STANDOC_7</td>
+<td>found attribute "type", but no attributes allowed here</td><td><pre></pre></td><td>2</td></tr>
+<tr class="severity2">
+<td></td><th><code>XML Line 000289:47</code></th><td>STANDOC_7</td>
+<td>element "p" not allowed here; expected the element end-tag</td><td><pre></pre></td><td>2</td></tr>
+<tr class="severity2">
+<td></td><th><code>XML Line 000291:75</code></th><td>STANDOC_7</td>
+<td>element "clause" not allowed here; expected the element end-tag</td><td><pre></pre></td><td>2</td></tr>
+<tr class="severity2">
+<td></td><th><code>XML Line 000291:75</code></th><td>STANDOC_7</td>
+<td>found attribute "id", but no attributes allowed here</td><td><pre></pre></td><td>2</td></tr>
+<tr class="severity2">
+<td></td><th><code>XML Line 000291:75</code></th><td>STANDOC_7</td>
+<td>found attribute "obligation", but no attributes allowed here</td><td><pre></pre></td><td>2</td></tr>
+<tr class="severity2">
+<td></td><th><code>XML Line 000504:75</code></th><td>STANDOC_7</td>
+<td>element "clause" not allowed here; expected the element end-tag</td><td><pre></pre></td><td>2</td></tr>
+<tr class="severity2">
+<td></td><th><code>XML Line 000504:75</code></th><td>STANDOC_7</td>
+<td>found attribute "id", but no attributes allowed here</td><td><pre></pre></td><td>2</td></tr>
+<tr class="severity2">
+<td></td><th><code>XML Line 000504:75</code></th><td>STANDOC_7</td>
+<td>found attribute "obligation", but no attributes allowed here</td><td><pre></pre></td><td>2</td></tr>
 </tbody></table>
 </body></html>

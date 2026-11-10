@@ -1,7 +1,7 @@
 MIME-Version: 1.0
-Content-Type: multipart/related; boundary="----=_NextPart_97b6a09f.1086.4cec"
+Content-Type: multipart/related; boundary="----=_NextPart_338f5905.3f79.45c6"
 
-------=_NextPart_97b6a09f.1086.4cec
+------=_NextPart_338f5905.3f79.45c6
 Content-ID: <rsd-nereon-configuration-syntax.htm>
 Content-Disposition: inline; filename="rsd-nereon-configuration-syntax.htm"
 Content-Type: text/html; charset="utf-8"
@@ -102,10 +102,10 @@ p.MsoNormal, li.MsoNormal, div.MsoNormal {
   mso-style-qformat: yes;
   mso-style-parent: "";
   margin: 0cm;
-  margin-bottom: 12.0pt;
+  margin-bottom: 12pt;
   mso-pagination: widow-orphan;
-  font-size: 12.0pt;
-  font-family: "Source Sans Pro","Arial",sans-serif;
+  font-size: 12pt;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
   mso-fareast-font-family: "Times New Roman";
   mso-ansi-language: EN-US;
   mso-fareast-language: EN-US;
@@ -117,12 +117,12 @@ p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph {
   mso-style-qformat: yes;
   margin-top: 0cm;
   margin-right: 0cm;
-  margin-bottom: 12.0pt;
+  margin-bottom: 12pt;
   /* do not put in margin-left, it is specific to list level */
   /*mso-add-space:auto;*/
   mso-pagination: widow-orphan;
-  font-size: 12.0pt;
-  font-family: "Source Sans Pro","Arial",sans-serif;
+  font-size: 12pt;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
   mso-ansi-language: EN-AU;
   mso-fareast-language: EN-US;
 }
@@ -134,12 +134,12 @@ p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphC
   mso-style-type: export-only;
   margin-top: 0cm;
   margin-right: 0cm;
-  margin-bottom: 12.0pt;
+  margin-bottom: 12pt;
   /* do not put in margin-left, it is specific to list level */
   /*mso-add-space:auto;*/
   mso-pagination: widow-orphan;
-  font-size: 12.0pt;
-  font-family: "Source Sans Pro","Arial",sans-serif;
+  font-size: 12pt;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
   mso-ansi-language: EN-AU;
   mso-fareast-language: EN-US;
 }
@@ -151,12 +151,12 @@ p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagrap
   mso-style-type: export-only;
   margin-top: 0cm;
   margin-right: 0cm;
-  margin-bottom: 12.0pt;
+  margin-bottom: 12pt;
   /* do not put in margin-left, it is specific to list level */
   /*mso-add-space:auto;*/
   mso-pagination: widow-orphan;
-  font-size: 12.0pt;
-  font-family: "Source Sans Pro","Arial",sans-serif;
+  font-size: 12pt;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
   mso-ansi-language: EN-AU;
   mso-fareast-language: EN-US;
 }
@@ -168,12 +168,12 @@ p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxS
   mso-style-type: export-only;
   margin-top: 0cm;
   margin-right: 0cm;
-  margin-bottom: 12.0pt;
+  margin-bottom: 12pt;
   /* do not put in margin-left, it is specific to list level */
   /*mso-add-space:auto;*/
   mso-pagination: widow-orphan;
-  font-size: 12.0pt;
-  font-family: "Source Sans Pro","Arial",sans-serif;
+  font-size: 12pt;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
   mso-ansi-language: EN-AU;
   mso-fareast-language: EN-US;
 }
@@ -186,7 +186,7 @@ p.MsoCommentText, li.MsoCommentText, div.MsoCommentText {
   margin-bottom: 0.0001pt;
   mso-pagination: widow-orphan;
   font-size: 10pt;
-  font-family: "Source Sans Pro","Arial",sans-serif;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
   mso-fareast-font-family: "Times New Roman";
   mso-ansi-language: EN-US;
   mso-fareast-language: EN-US;
@@ -198,8 +198,8 @@ p.MsoHeader, li.MsoHeader, div.MsoHeader {
   margin-bottom: 0.0001pt;
   mso-pagination: widow-orphan;
   tab-stops: center 216pt right 482pt;
-  font-size: 12.0pt;
-  font-family: "Source Sans Pro","Arial",sans-serif;
+  font-size: 12pt;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
   mso-fareast-font-family: "Times New Roman";
   mso-ansi-language: EN-US;
   mso-fareast-language: EN-US;
@@ -211,8 +211,8 @@ p.MsoHeaderLandscape, li.MsoHeaderLandscape, div.MsoHeaderLandscape {
   margin-bottom: 0.0001pt;
   mso-pagination: widow-orphan;
   tab-stops: center 367pt right 734pt;
-  font-size: 12.0pt;
-  font-family: "Source Sans Pro","Arial",sans-serif;
+  font-size: 12pt;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
   mso-fareast-font-family: "Times New Roman";
   mso-ansi-language: EN-US;
   mso-fareast-language: EN-US;
@@ -225,7 +225,7 @@ p.MsoFooter, li.MsoFooter, div.MsoFooter {
   mso-pagination: widow-orphan;
   tab-stops: right 482pt;
   font-size: 10pt;
-  font-family: "Source Sans Pro","Arial",sans-serif;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
   mso-fareast-font-family: "Times New Roman";
   mso-ansi-language: EN-US;
   mso-fareast-language: EN-US;
@@ -238,7 +238,7 @@ p.MsoFooterLandscape, li.MsoFooterLandscape, div.MsoFooterLandscape {
   mso-pagination: widow-orphan;
   tab-stops: right 734pt;
   font-size: 10pt;
-  font-family: "Source Sans Pro","Arial",sans-serif;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
   mso-fareast-font-family: "Times New Roman";
   mso-ansi-language: EN-US;
   mso-fareast-language: EN-US;
@@ -260,8 +260,8 @@ p.MsoBodyText, li.MsoBodyText, div.MsoBodyText {
   margin-left: 0cm;
   margin-bottom: 0.0001pt;
   mso-pagination: widow-orphan;
-  font-size: 12.0pt;
-  font-family: "Source Sans Pro","Arial",sans-serif;
+  font-size: 12pt;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
   mso-fareast-font-family: "Times New Roman";
   mso-bidi-font-family: "Times New Roman";
   mso-ansi-language: EN-US;
@@ -376,7 +376,7 @@ p.MsoCommentSubject, li.MsoCommentSubject, div.MsoCommentSubject {
   margin-bottom: 0.0001pt;
   mso-pagination: widow-orphan;
   font-size: 10pt;
-  font-family: "Source Sans Pro","Arial",sans-serif;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
   mso-fareast-font-family: "Times New Roman";
   mso-ansi-language: EN-US;
   mso-fareast-language: EN-US;
@@ -426,7 +426,7 @@ h1, .h1 {
   mso-style-next: Normal;
   margin-top: 13.5pt;
   margin-right: 0cm;
-  margin-bottom: 12.0pt;
+  margin-bottom: 12pt;
   margin-left: 0cm;
   text-indent: 0cm;
   line-height: 13.5pt;
@@ -435,9 +435,9 @@ h1, .h1 {
   mso-hyphenate: none;
   tab-stops: 20pt list 21.6pt left 28pt;
   font-size: 13pt;
-  mso-bidi-font-size: 11.0pt;
-  font-family: "Source Sans Pro","Arial",sans-serif;
-  mso-fareast-font-family: "Source Sans Pro","Arial",sans-serif;
+  mso-bidi-font-size: 11pt;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
+  mso-fareast-font-family: "Source Sans Pro", "Arial", sans-serif;
   color: #0E1A85;
   font-weight: normal;
   mso-font-kerning: 0pt;
@@ -459,7 +459,7 @@ h1.Annex {
   mso-style-next: Normal;
   margin-top: 3pt;
   margin-right: 0cm;
-  margin-bottom: 12.0pt;
+  margin-bottom: 12pt;
   margin-left: 0cm;
   text-indent: 0cm;
   line-height: 12.5pt;
@@ -472,10 +472,10 @@ h1.Annex {
   mso-hyphenate: none;
   tab-stops: 20pt list 21.6pt left 28pt;
   font-size: 13pt;
-  mso-bidi-font-size: 11.0pt;
-  font-family: "Source Sans Pro","Arial",sans-serif;
+  mso-bidi-font-size: 11pt;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
   font-weight: normal;
-  mso-fareast-font-family: "Source Sans Pro","Arial",sans-serif;
+  mso-fareast-font-family: "Source Sans Pro", "Arial", sans-serif;
   color: #0E1A85;
   mso-font-kerning: 0pt;
   mso-ansi-language: EN-GB;
@@ -492,7 +492,7 @@ h1.Annex {
   mso-style-next: Normal;
   margin-top: 3pt;
   margin-right: 0cm;
-  margin-bottom: 12.0pt;
+  margin-bottom: 12pt;
   margin-left: 0cm;
   text-indent: 0cm;
   line-height: 12.5pt;
@@ -501,11 +501,11 @@ h1.Annex {
   mso-outline-level: 2;
   mso-hyphenate: none;
   tab-stops: 27pt 35pt;
-  font-size: 12.0pt;
-  mso-bidi-font-size: 11.0pt;
-  font-family: "Source Sans Pro","Arial",sans-serif;
+  font-size: 12pt;
+  mso-bidi-font-size: 11pt;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
   font-weight: normal;
-  mso-fareast-font-family: "Source Sans Pro","Arial",sans-serif;
+  mso-fareast-font-family: "Source Sans Pro", "Arial", sans-serif;
   color: #0E1A85;
   mso-ansi-language: EN-GB;
   mso-fareast-language: JA;
@@ -522,7 +522,7 @@ h2, .h2 {
   mso-style-next: Normal;
   margin-top: 3pt;
   margin-right: 0cm;
-  margin-bottom: 12.0pt;
+  margin-bottom: 12pt;
   margin-left: 0cm;
   text-indent: 0cm;
   line-height: 12.5pt;
@@ -530,11 +530,11 @@ h2, .h2 {
   page-break-after: avoid;
   mso-hyphenate: none;
   tab-stops: 27pt 35pt;
-  font-size: 12.0pt;
-  mso-bidi-font-size: 11.0pt;
-  font-family: "Source Sans Pro","Arial",sans-serif;
+  font-size: 12pt;
+  mso-bidi-font-size: 11pt;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
   font-weight: normal;
-  mso-fareast-font-family: "Source Sans Pro","Arial",sans-serif;
+  mso-fareast-font-family: "Source Sans Pro", "Arial", sans-serif;
   color: #0E1A85;
   mso-ansi-language: EN-GB;
   mso-fareast-language: JA;
@@ -556,19 +556,19 @@ h3, .h3 {
   mso-style-next: Normal;
   margin-top: 3pt;
   margin-right: 0cm;
-  margin-bottom: 12.0pt;
+  margin-bottom: 12pt;
   margin-left: 0cm;
   text-indent: 0cm;
-  line-height: 12.0pt;
+  line-height: 12pt;
   mso-pagination: widow-orphan;
   page-break-after: avoid;
   mso-hyphenate: none;
   tab-stops: list 36pt left 44pt;
-  font-size: 12.0pt;
-  font-family: "Source Sans Pro","Arial",sans-serif;
+  font-size: 12pt;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
   font-weight: normal;
   color: #0E1A85;
-  mso-fareast-font-family: "Source Sans Pro","Arial",sans-serif;
+  mso-fareast-font-family: "Source Sans Pro", "Arial", sans-serif;
   mso-ansi-language: EN-GB;
   mso-fareast-language: JA;
   mso-bidi-font-weight: normal;
@@ -589,19 +589,19 @@ h4, .h4 {
   mso-style-next: Normal;
   margin-top: 3pt;
   margin-right: 0cm;
-  margin-bottom: 12.0pt;
+  margin-bottom: 12pt;
   margin-left: 0cm;
   text-indent: 0cm;
-  line-height: 12.0pt;
+  line-height: 12pt;
   mso-pagination: widow-orphan;
   page-break-after: avoid;
   mso-hyphenate: none;
   tab-stops: 51.05pt 57pt 68pt;
-  font-size: 12.0pt;
-  font-family: "Source Sans Pro","Arial",sans-serif;
+  font-size: 12pt;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
   font-weight: normal;
   color: #0E1A85;
-  mso-fareast-font-family: "Source Sans Pro","Arial",sans-serif;
+  mso-fareast-font-family: "Source Sans Pro", "Arial", sans-serif;
   mso-ansi-language: EN-GB;
   mso-fareast-language: JA;
   mso-bidi-font-weight: normal;
@@ -622,18 +622,18 @@ h5, .h5 {
   mso-style-next: Normal;
   margin-top: 3pt;
   margin-right: 0cm;
-  margin-bottom: 12.0pt;
+  margin-bottom: 12pt;
   margin-left: 0cm;
   text-indent: 0cm;
-  line-height: 12.0pt;
+  line-height: 12pt;
   mso-pagination: widow-orphan;
   page-break-after: avoid;
   mso-hyphenate: none;
   tab-stops: 51.05pt list 54pt;
-  font-size: 12.0pt;
-  font-family: "Source Sans Pro","Arial",sans-serif;
+  font-size: 12pt;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
   font-weight: normal;
-  mso-fareast-font-family: "Source Sans Pro","Arial",sans-serif;
+  mso-fareast-font-family: "Source Sans Pro", "Arial", sans-serif;
   color: #0E1A85;
   mso-ansi-language: EN-GB;
   mso-fareast-language: JA;
@@ -655,19 +655,19 @@ h6, .h6 {
   mso-style-next: Normal;
   margin-top: 3pt;
   margin-right: 0cm;
-  margin-bottom: 12.0pt;
+  margin-bottom: 12pt;
   margin-left: 0cm;
   text-indent: 0cm;
-  line-height: 12.0pt;
+  line-height: 12pt;
   mso-pagination: widow-orphan;
   page-break-after: avoid;
   mso-hyphenate: none;
   tab-stops: 51.05pt list 72pt;
-  font-size: 12.0pt;
-  font-family: "Source Sans Pro","Arial",sans-serif;
+  font-size: 12pt;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
   font-weight: normal;
   color: #0E1A85;
-  mso-fareast-font-family: "Source Sans Pro","Arial",sans-serif;
+  mso-fareast-font-family: "Source Sans Pro", "Arial", sans-serif;
   mso-ansi-language: EN-GB;
   mso-fareast-language: JA;
   mso-bidi-font-weight: normal;
@@ -689,14 +689,14 @@ p.MsoToc1, li.MsoToc1, div.MsoToc1 {
   margin-left: 36pt;
   margin-bottom: 0.0001pt;
   text-indent: -36pt;
-  line-height: 12.0pt;
+  line-height: 12pt;
   mso-pagination: widow-orphan;
   mso-hyphenate: none;
   tab-stops: 20.15pt 36pt right dotted 487.6pt;
-  font-size: 12.0pt;
-  font-family: "Source Sans Pro","Arial",sans-serif;
-  mso-fareast-font-family: "Source Sans Pro","Arial",sans-serif;
-  mso-bidi-font-family: "Source Sans Pro","Arial",sans-serif;
+  font-size: 12pt;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
+  mso-fareast-font-family: "Source Sans Pro", "Arial", sans-serif;
+  mso-bidi-font-family: "Source Sans Pro", "Arial", sans-serif;
   mso-ansi-language: EN-GB;
   font-weight: normal;
   mso-bidi-font-weight: normal;
@@ -715,14 +715,14 @@ p.MsoToc2, li.MsoToc2, div.MsoToc2 {
   margin-left: 36pt;
   margin-bottom: 0.0001pt;
   text-indent: -36pt;
-  line-height: 12.0pt;
+  line-height: 12pt;
   mso-pagination: widow-orphan;
   mso-hyphenate: none;
   tab-stops: 20.15pt 36pt right dotted 487.6pt;
-  font-size: 12.0pt;
-  font-family: "Source Sans Pro","Arial",sans-serif;
-  mso-fareast-font-family: "Source Sans Pro","Arial",sans-serif;
-  mso-bidi-font-family: "Source Sans Pro","Arial",sans-serif;
+  font-size: 12pt;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
+  mso-fareast-font-family: "Source Sans Pro", "Arial", sans-serif;
+  mso-bidi-font-family: "Source Sans Pro", "Arial", sans-serif;
   mso-ansi-language: EN-GB;
   font-weight: normal;
   mso-bidi-font-weight: normal;
@@ -741,14 +741,14 @@ p.MsoToc3, li.MsoToc3, div.MsoToc3 {
   margin-left: 36pt;
   margin-bottom: 0.0001pt;
   text-indent: -36pt;
-  line-height: 12.0pt;
+  line-height: 12pt;
   mso-pagination: widow-orphan;
   mso-hyphenate: none;
   tab-stops: 20.15pt 36pt right dotted 487.6pt;
-  font-size: 12.0pt;
-  font-family: "Source Sans Pro","Arial",sans-serif;
-  mso-fareast-font-family: "Source Sans Pro","Arial",sans-serif;
-  mso-bidi-font-family: "Source Sans Pro","Arial",sans-serif;
+  font-size: 12pt;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
+  mso-fareast-font-family: "Source Sans Pro", "Arial", sans-serif;
+  mso-bidi-font-family: "Source Sans Pro", "Arial", sans-serif;
   mso-ansi-language: EN-GB;
   font-weight: normal;
   mso-bidi-font-weight: normal;
@@ -772,9 +772,9 @@ p.MsoToc4, li.MsoToc4, div.MsoToc4 {
   mso-hyphenate: none;
   tab-stops: 20.15pt 47.9pt right dotted 487.6pt;
   font-size: 10.5pt;
-  font-family: "Source Sans Pro","Arial",sans-serif;
-  mso-fareast-font-family: "Source Sans Pro","Arial",sans-serif;
-  mso-bidi-font-family: "Source Sans Pro","Arial",sans-serif;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
+  mso-fareast-font-family: "Source Sans Pro", "Arial", sans-serif;
+  mso-bidi-font-family: "Source Sans Pro", "Arial", sans-serif;
   mso-ansi-language: EN-GB;
   font-weight: bold;
   mso-bidi-font-weight: normal;
@@ -798,9 +798,9 @@ p.MsoToc5, li.MsoToc5, div.MsoToc5 {
   mso-hyphenate: none;
   tab-stops: 20.15pt 47.9pt right dotted 487.6pt;
   font-size: 10.5pt;
-  font-family: "Source Sans Pro","Arial",sans-serif;
-  mso-fareast-font-family: "Source Sans Pro","Arial",sans-serif;
-  mso-bidi-font-family: "Source Sans Pro","Arial",sans-serif;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
+  mso-fareast-font-family: "Source Sans Pro", "Arial", sans-serif;
+  mso-bidi-font-family: "Source Sans Pro", "Arial", sans-serif;
   mso-ansi-language: EN-GB;
   font-weight: bold;
   mso-bidi-font-weight: normal;
@@ -824,9 +824,9 @@ p.MsoToc6, li.MsoToc6, div.MsoToc6 {
   mso-hyphenate: none;
   tab-stops: 20.15pt 55pt right dotted 487.6pt;
   font-size: 10.5pt;
-  font-family: "Source Sans Pro","Arial",sans-serif;
-  mso-fareast-font-family: "Source Sans Pro","Arial",sans-serif;
-  mso-bidi-font-family: "Source Sans Pro","Arial",sans-serif;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
+  mso-fareast-font-family: "Source Sans Pro", "Arial", sans-serif;
+  mso-bidi-font-family: "Source Sans Pro", "Arial", sans-serif;
   mso-ansi-language: EN-GB;
   font-weight: bold;
   mso-bidi-font-weight: normal;
@@ -850,9 +850,9 @@ p.MsoToc7, li.MsoToc7, div.MsoToc7 {
   mso-hyphenate: none;
   tab-stops: 20.15pt 62.7pt right dotted 487.6pt;
   font-size: 10.5pt;
-  font-family: "Source Sans Pro","Arial",sans-serif;
-  mso-fareast-font-family: "Source Sans Pro","Arial",sans-serif;
-  mso-bidi-font-family: "Source Sans Pro","Arial",sans-serif;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
+  mso-fareast-font-family: "Source Sans Pro", "Arial", sans-serif;
+  mso-bidi-font-family: "Source Sans Pro", "Arial", sans-serif;
   mso-ansi-language: EN-GB;
   font-weight: bold;
   mso-bidi-font-weight: normal;
@@ -876,9 +876,9 @@ p.MsoToc8, li.MsoToc8, div.MsoToc8 {
   mso-hyphenate: none;
   tab-stops: 20.15pt 70.3pt right dotted 487.6pt;
   font-size: 10.5pt;
-  font-family: "Source Sans Pro","Arial",sans-serif;
-  mso-fareast-font-family: "Source Sans Pro","Arial",sans-serif;
-  mso-bidi-font-family: "Source Sans Pro","Arial",sans-serif;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
+  mso-fareast-font-family: "Source Sans Pro", "Arial", sans-serif;
+  mso-bidi-font-family: "Source Sans Pro", "Arial", sans-serif;
   mso-ansi-language: EN-GB;
   font-weight: bold;
   mso-bidi-font-weight: normal;
@@ -902,9 +902,9 @@ p.MsoToc9, li.MsoToc9, div.MsoToc9 {
   mso-hyphenate: none;
   tab-stops: 20.15pt 78pt right dotted 487.6pt;
   font-size: 10.5pt;
-  font-family: "Source Sans Pro","Arial",sans-serif;
-  mso-fareast-font-family: "Source Sans Pro","Arial",sans-serif;
-  mso-bidi-font-family: "Source Sans Pro","Arial",sans-serif;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
+  mso-fareast-font-family: "Source Sans Pro", "Arial", sans-serif;
+  mso-bidi-font-family: "Source Sans Pro", "Arial", sans-serif;
   mso-ansi-language: EN-GB;
   font-weight: bold;
   mso-bidi-font-weight: normal;
@@ -922,16 +922,16 @@ p.MsoFootnoteText, li.MsoFootnoteText, div.MsoFootnoteText {
   mso-style-link: "Footnote Text Char";
   margin-top: 0cm;
   margin-right: 0cm;
-  margin-bottom: 12.0pt;
+  margin-bottom: 12pt;
   margin-left: 0cm;
   text-align: justify;
-  line-height: 12.0pt;
+  line-height: 12pt;
   mso-pagination: widow-orphan;
   tab-stops: 20.15pt;
-  font-size: 10.0pt;
-  font-family: "Source Sans Pro","Arial",sans-serif;
-  mso-fareast-font-family: "Source Sans Pro","Arial",sans-serif;
-  mso-bidi-font-family: "Source Sans Pro","Arial",sans-serif;
+  font-size: 10pt;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
+  mso-fareast-font-family: "Source Sans Pro", "Arial", sans-serif;
+  mso-bidi-font-family: "Source Sans Pro", "Arial", sans-serif;
   mso-ansi-language: EN-GB;
   mso-fareast-language: EN-US;
 }
@@ -946,12 +946,12 @@ p.MsoBodyText, li.MsoBodyText, div.MsoBodyText {
   margin-bottom: 6pt;
   margin-left: 0cm;
   text-align: justify;
-  line-height: 12.0pt;
+  line-height: 12pt;
   mso-pagination: widow-orphan;
-  font-size: 12.0pt;
-  font-family: "Source Sans Pro","Arial",sans-serif;
-  mso-fareast-font-family: "Source Sans Pro","Arial",sans-serif;
-  mso-bidi-font-family: "Source Sans Pro","Arial",sans-serif;
+  font-size: 12pt;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
+  mso-fareast-font-family: "Source Sans Pro", "Arial", sans-serif;
+  mso-bidi-font-family: "Source Sans Pro", "Arial", sans-serif;
   mso-ansi-language: EN-GB;
 }
 
@@ -963,12 +963,12 @@ span.Heading1Char {
   mso-style-parent: "";
   mso-style-link: "Heading 1";
   mso-ansi-font-size: 13pt;
-  font-family: "Source Sans Pro","Arial",sans-serif;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
   color: #0E1A85;
   font-weight: normal;
   mso-ascii-font-family: Cambria;
-  mso-fareast-font-family: "Source Sans Pro","Arial",sans-serif;
-  mso-hansi-font-family: "Source Sans Pro","Arial",sans-serif;
+  mso-fareast-font-family: "Source Sans Pro", "Arial", sans-serif;
+  mso-hansi-font-family: "Source Sans Pro", "Arial", sans-serif;
   mso-ansi-language: EN-GB;
   mso-fareast-language: JA;
   mso-bidi-font-weight: normal;
@@ -981,13 +981,13 @@ span.Heading2Char {
   mso-style-locked: yes;
   mso-style-parent: "";
   mso-style-link: "Heading 2";
-  mso-ansi-font-size: 12.0pt;
-  font-family: "Source Sans Pro","Arial",sans-serif;
+  mso-ansi-font-size: 12pt;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
   color: #0E1A85;
   font-weight: normal;
   mso-ascii-font-family: Cambria;
-  mso-fareast-font-family: "Source Sans Pro","Arial",sans-serif;
-  mso-hansi-font-family: "Source Sans Pro","Arial",sans-serif;
+  mso-fareast-font-family: "Source Sans Pro", "Arial", sans-serif;
+  mso-hansi-font-family: "Source Sans Pro", "Arial", sans-serif;
   mso-ansi-language: EN-GB;
   mso-fareast-language: JA;
   mso-bidi-font-weight: normal;
@@ -1000,13 +1000,13 @@ span.Heading3Char {
   mso-style-locked: yes;
   mso-style-parent: "";
   mso-style-link: "Heading 3";
-  mso-ansi-font-size: 11.0pt;
-  font-family: "Source Sans Pro","Arial",sans-serif;
+  mso-ansi-font-size: 11pt;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
   color: #0E1A85;
   font-weight: normal;
-  mso-ascii-font-family: "Source Sans Pro","Arial",sans-serif;
-  mso-fareast-font-family: "Source Sans Pro","Arial",sans-serif;
-  mso-hansi-font-family: "Source Sans Pro","Arial",sans-serif;
+  mso-ascii-font-family: "Source Sans Pro", "Arial", sans-serif;
+  mso-fareast-font-family: "Source Sans Pro", "Arial", sans-serif;
+  mso-hansi-font-family: "Source Sans Pro", "Arial", sans-serif;
   mso-ansi-language: EN-GB;
   mso-fareast-language: JA;
   mso-bidi-font-weight: normal;
@@ -1019,13 +1019,13 @@ span.Heading4Char {
   mso-style-locked: yes;
   mso-style-parent: "";
   mso-style-link: "Heading 4";
-  mso-ansi-font-size: 11.0pt;
-  font-family: "Source Sans Pro","Arial",sans-serif;
+  mso-ansi-font-size: 11pt;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
   color: #0E1A85;
   font-weight: normal;
-  mso-ascii-font-family: "Source Sans Pro","Arial",sans-serif;
-  mso-fareast-font-family: "Source Sans Pro","Arial",sans-serif;
-  mso-hansi-font-family: "Source Sans Pro","Arial",sans-serif;
+  mso-ascii-font-family: "Source Sans Pro", "Arial", sans-serif;
+  mso-fareast-font-family: "Source Sans Pro", "Arial", sans-serif;
+  mso-hansi-font-family: "Source Sans Pro", "Arial", sans-serif;
   mso-ansi-language: EN-GB;
   mso-fareast-language: JA;
   mso-bidi-font-weight: normal;
@@ -1038,13 +1038,13 @@ span.Heading5Char {
   mso-style-locked: yes;
   mso-style-parent: "";
   mso-style-link: "Heading 5";
-  mso-ansi-font-size: 11.0pt;
-  font-family: "Source Sans Pro","Arial",sans-serif;
+  mso-ansi-font-size: 11pt;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
   color: #0E1A85;
   font-weight: normal;
-  mso-ascii-font-family: "Source Sans Pro","Arial",sans-serif;
-  mso-fareast-font-family: "Source Sans Pro","Arial",sans-serif;
-  mso-hansi-font-family: "Source Sans Pro","Arial",sans-serif;
+  mso-ascii-font-family: "Source Sans Pro", "Arial", sans-serif;
+  mso-fareast-font-family: "Source Sans Pro", "Arial", sans-serif;
+  mso-hansi-font-family: "Source Sans Pro", "Arial", sans-serif;
   mso-ansi-language: EN-GB;
   mso-fareast-language: JA;
   mso-bidi-font-weight: normal;
@@ -1057,13 +1057,13 @@ span.Heading6Char {
   mso-style-locked: yes;
   mso-style-parent: "";
   mso-style-link: "Heading 6";
-  mso-ansi-font-size: 11.0pt;
-  font-family: "Source Sans Pro","Arial",sans-serif;
+  mso-ansi-font-size: 11pt;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
   color: #0E1A85;
   font-weight: normal;
-  mso-ascii-font-family: "Source Sans Pro","Arial",sans-serif;
-  mso-fareast-font-family: "Source Sans Pro","Arial",sans-serif;
-  mso-hansi-font-family: "Source Sans Pro","Arial",sans-serif;
+  mso-ascii-font-family: "Source Sans Pro", "Arial", sans-serif;
+  mso-fareast-font-family: "Source Sans Pro", "Arial", sans-serif;
+  mso-hansi-font-family: "Source Sans Pro", "Arial", sans-serif;
   mso-ansi-language: EN-GB;
   mso-fareast-language: JA;
   mso-bidi-font-weight: normal;
@@ -1080,10 +1080,10 @@ p.Tablebody, li.Tablebody, div.Tablebody {
   line-height: 10.5pt;
   mso-pagination: widow-orphan;
   font-size: 10pt;
-  mso-bidi-font-size: 11.0pt;
-  font-family: "Source Sans Pro","Arial",sans-serif;
-  mso-fareast-font-family: "Source Sans Pro","Arial",sans-serif;
-  mso-bidi-font-family: "Source Sans Pro","Arial",sans-serif;
+  mso-bidi-font-size: 11pt;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
+  mso-fareast-font-family: "Source Sans Pro", "Arial", sans-serif;
+  mso-bidi-font-family: "Source Sans Pro", "Arial", sans-serif;
   mso-ansi-language: EN-GB;
 }
 
@@ -1092,19 +1092,19 @@ p.TOCTitle, li.TOCTitle, div.TOCTitle {
   mso-style-unhide: no;
   margin-top: 0in;
   margin-right: 0in;
-  margin-bottom: 12.0pt;
+  margin-bottom: 12pt;
   margin-left: 0in;
   text-align: left;
   page-break-after: avoid;
   mso-pagination: none;
   mso-hyphenate: none;
   mso-layout-grid-align: none;
-  font-size: 12.0pt;
+  font-size: 12pt;
   mso-bidi-font-size: 10pt;
   font-weight: bold;
-  font-family: "Source Sans Pro","Arial",sans-serif;
-  mso-fareast-font-family: "Source Sans Pro","Arial",sans-serif;
-  mso-bidi-font-family: "Source Sans Pro","Arial",sans-serif;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
+  mso-fareast-font-family: "Source Sans Pro", "Arial", sans-serif;
+  mso-bidi-font-family: "Source Sans Pro", "Arial", sans-serif;
   mso-fareast-language: EN-US;
 }
 
@@ -1135,8 +1135,8 @@ p.TOCTitle, li.TOCTitle, div.TOCTitle {
   text-indent: 0cm;
   mso-ansi-font-size: 14pt;
   mso-bidi-font-size: 14pt;
-  font-family: "Source Sans Pro","Arial",sans-serif;
-  mso-bidi-font-family: "Source Sans Pro","Arial",sans-serif;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
+  mso-bidi-font-family: "Source Sans Pro", "Arial", sans-serif;
   mso-ansi-font-weight: bold;
   mso-ansi-font-style: normal;
 }
@@ -1147,7 +1147,7 @@ p.TOCTitle, li.TOCTitle, div.TOCTitle {
   mso-level-number-position: left;
   margin-left: 0cm;
   text-indent: 0cm;
-  mso-bidi-font-family: "Source Sans Pro","Arial",sans-serif;
+  mso-bidi-font-family: "Source Sans Pro", "Arial", sans-serif;
   mso-ansi-font-weight: bold;
   mso-ansi-font-style: normal;
 }
@@ -1158,7 +1158,7 @@ p.TOCTitle, li.TOCTitle, div.TOCTitle {
   mso-level-number-position: left;
   margin-left: 0cm;
   text-indent: 0cm;
-  mso-bidi-font-family: "Source Sans Pro","Arial",sans-serif;
+  mso-bidi-font-family: "Source Sans Pro", "Arial", sans-serif;
   mso-ansi-font-weight: bold;
   mso-ansi-font-style: normal;
 }
@@ -1169,7 +1169,7 @@ p.TOCTitle, li.TOCTitle, div.TOCTitle {
   mso-level-number-position: left;
   margin-left: 0cm;
   text-indent: 0cm;
-  mso-bidi-font-family: "Source Sans Pro","Arial",sans-serif;
+  mso-bidi-font-family: "Source Sans Pro", "Arial", sans-serif;
   mso-ansi-font-weight: bold;
   mso-ansi-font-style: normal;
 }
@@ -1180,7 +1180,7 @@ p.TOCTitle, li.TOCTitle, div.TOCTitle {
   mso-level-number-position: left;
   margin-left: 0cm;
   text-indent: 0cm;
-  mso-bidi-font-family: "Source Sans Pro","Arial",sans-serif;
+  mso-bidi-font-family: "Source Sans Pro", "Arial", sans-serif;
   mso-ansi-font-weight: bold;
   mso-ansi-font-style: normal;
 }
@@ -1191,7 +1191,7 @@ p.TOCTitle, li.TOCTitle, div.TOCTitle {
   mso-level-number-position: left;
   margin-left: 0cm;
   text-indent: 0cm;
-  mso-bidi-font-family: "Source Sans Pro","Arial",sans-serif;
+  mso-bidi-font-family: "Source Sans Pro", "Arial", sans-serif;
   mso-ansi-font-weight: bold;
   mso-ansi-font-style: normal;
 }
@@ -1203,7 +1203,7 @@ p.TOCTitle, li.TOCTitle, div.TOCTitle {
   mso-level-number-position: left;
   margin-left: 0cm;
   text-indent: 0cm;
-  mso-bidi-font-family: "Source Sans Pro","Arial",sans-serif;
+  mso-bidi-font-family: "Source Sans Pro", "Arial", sans-serif;
 }
 @list l0:level8 {
   mso-level-reset-level: level2;
@@ -1213,7 +1213,7 @@ p.TOCTitle, li.TOCTitle, div.TOCTitle {
   mso-level-number-position: left;
   margin-left: 0cm;
   text-indent: 0cm;
-  mso-bidi-font-family: "Source Sans Pro","Arial",sans-serif;
+  mso-bidi-font-family: "Source Sans Pro", "Arial", sans-serif;
 }
 @list l0:level9 {
   mso-level-number-format: roman-lower;
@@ -1222,7 +1222,7 @@ p.TOCTitle, li.TOCTitle, div.TOCTitle {
   mso-level-number-position: left;
   margin-left: 0cm;
   text-indent: 0cm;
-  mso-bidi-font-family: "Source Sans Pro","Arial",sans-serif;
+  mso-bidi-font-family: "Source Sans Pro", "Arial", sans-serif;
 }
 @list l1 {
   mso-list-id: 866942648;
@@ -1235,7 +1235,7 @@ p.TOCTitle, li.TOCTitle, div.TOCTitle {
   mso-level-number-position: left;
   margin-left: 21.6pt;
   text-indent: -21.6pt;
-  mso-bidi-font-family: "Source Sans Pro","Arial",sans-serif;
+  mso-bidi-font-family: "Source Sans Pro", "Arial", sans-serif;
   mso-ansi-font-weight: bold;
   mso-ansi-font-style: normal;
 }
@@ -1246,7 +1246,7 @@ p.TOCTitle, li.TOCTitle, div.TOCTitle {
   mso-level-number-position: left;
   margin-left: 0cm;
   text-indent: 0cm;
-  mso-bidi-font-family: "Source Sans Pro","Arial",sans-serif;
+  mso-bidi-font-family: "Source Sans Pro", "Arial", sans-serif;
   mso-ansi-font-weight: bold;
   mso-ansi-font-style: normal;
 }
@@ -1257,7 +1257,7 @@ p.TOCTitle, li.TOCTitle, div.TOCTitle {
   mso-level-number-position: left;
   margin-left: 0cm;
   text-indent: 0cm;
-  mso-bidi-font-family: "Source Sans Pro","Arial",sans-serif;
+  mso-bidi-font-family: "Source Sans Pro", "Arial", sans-serif;
   mso-ansi-font-weight: bold;
   mso-ansi-font-style: normal;
 }
@@ -1268,7 +1268,7 @@ p.TOCTitle, li.TOCTitle, div.TOCTitle {
   mso-level-number-position: left;
   margin-left: 0cm;
   text-indent: 0cm;
-  mso-bidi-font-family: "Source Sans Pro","Arial",sans-serif;
+  mso-bidi-font-family: "Source Sans Pro", "Arial", sans-serif;
   mso-ansi-font-weight: bold;
   mso-ansi-font-style: normal;
 }
@@ -1279,7 +1279,7 @@ p.TOCTitle, li.TOCTitle, div.TOCTitle {
   mso-level-number-position: left;
   margin-left: 0cm;
   text-indent: 0cm;
-  mso-bidi-font-family: "Source Sans Pro","Arial",sans-serif;
+  mso-bidi-font-family: "Source Sans Pro", "Arial", sans-serif;
   mso-ansi-font-weight: bold;
   mso-ansi-font-style: normal;
 }
@@ -1290,7 +1290,7 @@ p.TOCTitle, li.TOCTitle, div.TOCTitle {
   mso-level-number-position: left;
   margin-left: 0cm;
   text-indent: 0cm;
-  mso-bidi-font-family: "Source Sans Pro","Arial",sans-serif;
+  mso-bidi-font-family: "Source Sans Pro", "Arial", sans-serif;
   mso-ansi-font-weight: bold;
   mso-ansi-font-style: normal;
 }
@@ -1300,7 +1300,7 @@ p.TOCTitle, li.TOCTitle, div.TOCTitle {
   mso-level-number-position: left;
   margin-left: 0cm;
   text-indent: 0cm;
-  mso-bidi-font-family: "Source Sans Pro","Arial",sans-serif;
+  mso-bidi-font-family: "Source Sans Pro", "Arial", sans-serif;
 }
 @list l1:level8 {
   mso-level-text: "%1.%2.%3.%4.%5.%6.%7.%8";
@@ -1308,7 +1308,7 @@ p.TOCTitle, li.TOCTitle, div.TOCTitle {
   mso-level-number-position: left;
   margin-left: 0cm;
   text-indent: 0cm;
-  mso-bidi-font-family: "Source Sans Pro","Arial",sans-serif;
+  mso-bidi-font-family: "Source Sans Pro", "Arial", sans-serif;
 }
 @list l1:level9 {
   mso-level-text: "%1.%2.%3.%4.%5.%6.%7.%8.%9";
@@ -1316,7 +1316,7 @@ p.TOCTitle, li.TOCTitle, div.TOCTitle {
   mso-level-number-position: left;
   margin-left: 0cm;
   text-indent: 0cm;
-  mso-bidi-font-family: "Source Sans Pro","Arial",sans-serif;
+  mso-bidi-font-family: "Source Sans Pro", "Arial", sans-serif;
 }
 /* ordered list */
 @list l2 {
@@ -1537,8 +1537,8 @@ table.MsoNormalTable {
   mso-para-margin: 0cm;
   mso-para-margin-bottom: 0.0001pt;
   mso-pagination: widow-orphan;
-  font-size: 12.0pt;
-  font-family: "Source Sans Pro","Arial",sans-serif;
+  font-size: 12pt;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
 }
 
 ol {
@@ -1666,8 +1666,8 @@ p.Sourcecode, li.Sourcecode, div.Sourcecode, pre.Sourcecode, pre {
   text-align: left;
   mso-pagination: widow-orphan;
   tab-stops: 45.8pt 91.6pt 137.4pt 183.2pt 229pt 274.8pt 320.6pt 366.4pt 412.2pt 458pt 503.8pt 549.6pt 595.4pt 641.2pt 687pt 732.8pt;
-  font-size: 10.0pt;
-  font-family: "Source Code Pro",monospace;
+  font-size: 10pt;
+  font-family: "Source Code Pro", monospace;
   mso-fareast-font-family: Calibri;
   mso-bidi-font-family: "Courier New";
   mso-ansi-language: EN-GB;
@@ -1685,7 +1685,7 @@ p.pseudocode, li.pseudocode, div.pseudocode {
   mso-pagination: widow-orphan;
   tab-stops: 45.8pt 91.6pt 137.4pt 183.2pt 229pt 274.8pt 320.6pt 366.4pt 412.2pt 458pt 503.8pt 549.6pt 595.4pt 641.2pt 687pt 732.8pt;
   font-size: 10.5pt;
-  font-family: "Source Sans Pro","Arial",sans-serif;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
   mso-fareast-font-family: Calibri;
   mso-bidi-font-family: "Courier New";
   mso-ansi-language: EN-GB;
@@ -1697,17 +1697,17 @@ p.Biblio, li.Biblio, div.Biblio, p.NormRef, li.NormRef, div.NormRef {
   mso-style-parent: "";
   margin-top: 0cm;
   margin-right: 0cm;
-  margin-bottom: 12.0pt;
+  margin-bottom: 12pt;
   margin-left: 33.15pt;
   text-indent: -33.15pt;
   tab-stops: 33.15pt;
-  line-height: 12.0pt;
+  line-height: 12pt;
   mso-pagination: widow-orphan;
-  font-size: 12.0pt;
+  font-size: 12pt;
   font-weight: normal;
-  font-family: "Source Sans Pro","Arial",sans-serif;
-  mso-fareast-font-family: "Source Sans Pro","Arial",sans-serif;
-  mso-bidi-font-family: "Source Sans Pro","Arial",sans-serif;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
+  mso-fareast-font-family: "Source Sans Pro", "Arial", sans-serif;
+  mso-bidi-font-family: "Source Sans Pro", "Arial", sans-serif;
   mso-ansi-language: EN-GB;
 }
 
@@ -1720,15 +1720,15 @@ p.FigureTitle {
   margin-bottom: 6pt;
   margin-left: 0cm;
   text-align: center;
-  line-height: 12.0pt;
+  line-height: 12pt;
   page-break-before: avoid;
   mso-pagination: widow-orphan;
   tab-stops: 20.15pt;
-  font-size: 11.0pt;
+  font-size: 11pt;
   font-weight: bold;
-  font-family: "Source Sans Pro","Arial",sans-serif;
-  mso-fareast-font-family: "Source Sans Pro","Arial",sans-serif;
-  mso-bidi-font-family: "Source Sans Pro","Arial",sans-serif;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
+  mso-fareast-font-family: "Source Sans Pro", "Arial", sans-serif;
+  mso-bidi-font-family: "Source Sans Pro", "Arial", sans-serif;
   mso-ansi-language: EN-GB;
 }
 
@@ -1741,15 +1741,15 @@ p.SourceTitle {
   margin-bottom: 6pt;
   margin-left: 0cm;
   text-align: center;
-  line-height: 12.0pt;
+  line-height: 12pt;
   page-break-before: avoid;
   mso-pagination: widow-orphan;
   tab-stops: 20.15pt;
-  font-size: 11.0pt;
+  font-size: 11pt;
   font-weight: bold;
-  font-family: "Source Sans Pro","Arial",sans-serif;
-  mso-fareast-font-family: "Source Sans Pro","Arial",sans-serif;
-  mso-bidi-font-family: "Source Sans Pro","Arial",sans-serif;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
+  mso-fareast-font-family: "Source Sans Pro", "Arial", sans-serif;
+  mso-bidi-font-family: "Source Sans Pro", "Arial", sans-serif;
   mso-ansi-language: EN-GB;
 }
 
@@ -1762,15 +1762,15 @@ p.AdmonitionTitle, p.RecommendationTitle {
   margin-bottom: 6pt;
   margin-left: 0cm;
   text-align: center;
-  line-height: 12.0pt;
+  line-height: 12pt;
   page-break-after: avoid;
   mso-pagination: widow-orphan;
   tab-stops: 20.15pt;
-  font-size: 11.0pt;
+  font-size: 11pt;
   font-weight: bold;
-  font-family: "Source Sans Pro","Arial",sans-serif;
-  mso-fareast-font-family: "Source Sans Pro","Arial",sans-serif;
-  mso-bidi-font-family: "Source Sans Pro","Arial",sans-serif;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
+  mso-fareast-font-family: "Source Sans Pro", "Arial", sans-serif;
+  mso-bidi-font-family: "Source Sans Pro", "Arial", sans-serif;
   mso-ansi-language: EN-GB;
 }
 
@@ -1784,13 +1784,13 @@ p.TableTitle, p.ListTitle {
   margin-left: 0cm;
   text-align: center;
   page-break-after: avoid;
-  line-height: 12.0pt;
+  line-height: 12pt;
   mso-pagination: widow-orphan;
   tab-stops: 20.15pt;
-  font-size: 11.0pt;
-  font-family: "Source Sans Pro","Arial",sans-serif;
-  mso-fareast-font-family: "Source Sans Pro","Arial",sans-serif;
-  mso-bidi-font-family: "Source Sans Pro","Arial",sans-serif;
+  font-size: 11pt;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
+  mso-fareast-font-family: "Source Sans Pro", "Arial", sans-serif;
+  mso-bidi-font-family: "Source Sans Pro", "Arial", sans-serif;
   mso-ansi-language: EN-GB;
 }
 
@@ -1800,21 +1800,21 @@ p.Note, div.Note, li.Note, p.TableFootnote, div.TableFootnote, li.TableFootnote 
   mso-style-parent: "";
   margin-top: 0cm;
   margin-right: 0cm;
-  margin-bottom: 12.0pt;
+  margin-bottom: 12pt;
   margin-left: 0cm;
   text-align: justify;
-  line-height: 12.0pt;
+  line-height: 12pt;
   mso-pagination: widow-orphan;
   tab-stops: 20.15pt;
-  mso-bidi-font-size: 11.0pt;
-  mso-fareast-font-family: "Source Sans Pro","Arial",sans-serif;
-  mso-bidi-font-family: "Source Sans Pro","Arial",sans-serif;
+  mso-bidi-font-size: 11pt;
+  mso-fareast-font-family: "Source Sans Pro", "Arial", sans-serif;
+  mso-bidi-font-family: "Source Sans Pro", "Arial", sans-serif;
   mso-ansi-language: EN-GB;
 }
 
 p.Note, li.Note, p.TableFootnote, div.TableFootnote, li.TableFootnote {
-  font-size: 11.0pt;
-  font-family: "Source Sans Pro","Arial",sans-serif;
+  font-size: 11pt;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
 }
 
 p.ANNEX, li.ANNEX, div.ANNEX {
@@ -1836,12 +1836,12 @@ p.ANNEX, li.ANNEX, div.ANNEX {
   mso-outline-level: 1;
   mso-list: l0 level1 lfo12;
   tab-stops: 20.15pt;
-  font-size: 12.0pt;
-  mso-bidi-font-size: 11.0pt;
-  font-family: "Source Sans Pro","Arial",sans-serif;
+  font-size: 12pt;
+  mso-bidi-font-size: 11pt;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
   color: #0E1A85;
-  mso-fareast-font-family: "Source Sans Pro","Arial",sans-serif;
-  mso-bidi-font-family: "Source Sans Pro","Arial",sans-serif;
+  mso-fareast-font-family: "Source Sans Pro", "Arial", sans-serif;
+  mso-bidi-font-family: "Source Sans Pro", "Arial", sans-serif;
   mso-ansi-language: EN-GB;
   mso-fareast-language: JA;
   mso-bidi-font-weight: normal;
@@ -1860,12 +1860,12 @@ p.BiblioTitle, li.BiblioTitle, div.BiblioTitle {
   mso-pagination: widow-orphan;
   mso-outline-level: 1;
   tab-stops: 20.15pt;
-  font-size: 12.0pt;
-  mso-bidi-font-size: 11.0pt;
-  font-family: "Source Sans Pro","Arial",sans-serif;
+  font-size: 12pt;
+  mso-bidi-font-size: 11pt;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
   color: #0E1A85;
-  mso-fareast-font-family: "Source Sans Pro","Arial",sans-serif;
-  mso-bidi-font-family: "Source Sans Pro","Arial",sans-serif;
+  mso-fareast-font-family: "Source Sans Pro", "Arial", sans-serif;
+  mso-bidi-font-family: "Source Sans Pro", "Arial", sans-serif;
   mso-ansi-language: EN-GB;
   mso-bidi-font-weight: normal;
 }
@@ -1876,16 +1876,16 @@ p.Definition, li.Definition, div.Definition {
   mso-style-unhide: no;
   margin-top: 0cm;
   margin-right: 0cm;
-  margin-bottom: 12.0pt;
+  margin-bottom: 12pt;
   margin-left: 0cm;
   text-align: justify;
-  line-height: 12.0pt;
+  line-height: 12pt;
   mso-pagination: widow-orphan;
   tab-stops: 20.15pt;
-  font-size: 12.0pt;
-  font-family: "Source Sans Pro","Arial",sans-serif;
-  mso-fareast-font-family: "Source Sans Pro","Arial",sans-serif;
-  mso-bidi-font-family: "Source Sans Pro","Arial",sans-serif;
+  font-size: 12pt;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
+  mso-fareast-font-family: "Source Sans Pro", "Arial", sans-serif;
+  mso-bidi-font-family: "Source Sans Pro", "Arial", sans-serif;
   mso-ansi-language: EN-GB;
 }
 
@@ -1905,12 +1905,12 @@ p.ForewordTitle, li.ForewordTitle, div.ForewordTitle {
   mso-outline-level: 1;
   mso-hyphenate: none;
   tab-stops: 20.15pt;
-  font-size: 12.0pt;
-  mso-bidi-font-size: 11.0pt;
-  font-family: "Source Sans Pro","Arial",sans-serif;
+  font-size: 12pt;
+  mso-bidi-font-size: 11pt;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
   color: #0E1A85;
-  mso-fareast-font-family: "Source Sans Pro","Arial",sans-serif;
-  mso-bidi-font-family: "Source Sans Pro","Arial",sans-serif;
+  mso-fareast-font-family: "Source Sans Pro", "Arial", sans-serif;
+  mso-bidi-font-family: "Source Sans Pro", "Arial", sans-serif;
   mso-ansi-language: EN-GB;
   mso-bidi-font-weight: normal;
 }
@@ -1931,12 +1931,12 @@ p.IntroTitle, li.IntroTitle, div.IntroTitle {
   mso-outline-level: 1;
   mso-hyphenate: none;
   tab-stops: 20.15pt;
-  font-size: 12.0pt;
-  mso-bidi-font-size: 11.0pt;
-  font-family: "Source Sans Pro","Arial",sans-serif;
+  font-size: 12pt;
+  mso-bidi-font-size: 11pt;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
   color: #0E1A85;
-  mso-fareast-font-family: "Source Sans Pro","Arial",sans-serif;
-  mso-bidi-font-family: "Source Sans Pro","Arial",sans-serif;
+  mso-fareast-font-family: "Source Sans Pro", "Arial", sans-serif;
+  mso-bidi-font-family: "Source Sans Pro", "Arial", sans-serif;
   mso-ansi-language: EN-GB;
   page-break-before: always;
   mso-bidi-font-weight: normal;
@@ -1956,12 +1956,12 @@ p.TitlePageSubhead, li.TitlePageSubhead, div.TitlePageSubhead {
   page-break-after: avoid;
   mso-hyphenate: none;
   tab-stops: 20.15pt;
-  font-size: 12.0pt;
-  mso-bidi-font-size: 11.0pt;
-  font-family: "Source Sans Pro","Arial",sans-serif;
+  font-size: 12pt;
+  mso-bidi-font-size: 11pt;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
   color: #0E1A85;
-  mso-fareast-font-family: "Source Sans Pro","Arial",sans-serif;
-  mso-bidi-font-family: "Source Sans Pro","Arial",sans-serif;
+  mso-fareast-font-family: "Source Sans Pro", "Arial", sans-serif;
+  mso-bidi-font-family: "Source Sans Pro", "Arial", sans-serif;
   mso-ansi-language: EN-GB;
   mso-bidi-font-weight: normal;
 }
@@ -1973,15 +1973,15 @@ p.Terms, li.Terms, div.Terms {
   mso-style-next: Definition;
   margin: 0cm;
   margin-bottom: 0.0001pt;
-  line-height: 12.0pt;
+  line-height: 12pt;
   mso-pagination: widow-orphan;
   page-break-after: avoid;
   mso-hyphenate: none;
   tab-stops: 20.15pt;
-  font-size: 12.0pt;
-  font-family: "Source Sans Pro","Arial",sans-serif;
-  mso-fareast-font-family: "Source Sans Pro","Arial",sans-serif;
-  mso-bidi-font-family: "Source Sans Pro","Arial",sans-serif;
+  font-size: 12pt;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
+  mso-fareast-font-family: "Source Sans Pro", "Arial", sans-serif;
+  mso-bidi-font-family: "Source Sans Pro", "Arial", sans-serif;
   mso-ansi-language: EN-GB;
   mso-bidi-font-weight: normal;
 }
@@ -1993,15 +1993,15 @@ p.AltTerms, li.AltTerms, div.AltTerms {
   mso-style-next: Definition;
   margin: 0cm;
   margin-bottom: 0.0001pt;
-  line-height: 12.0pt;
+  line-height: 12pt;
   mso-pagination: widow-orphan;
   page-break-after: avoid;
   mso-hyphenate: none;
   tab-stops: 20.15pt;
-  font-size: 12.0pt;
-  font-family: "Source Sans Pro","Arial",sans-serif;
-  mso-fareast-font-family: "Source Sans Pro","Arial",sans-serif;
-  mso-bidi-font-family: "Source Sans Pro","Arial",sans-serif;
+  font-size: 12pt;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
+  mso-fareast-font-family: "Source Sans Pro", "Arial", sans-serif;
+  mso-bidi-font-family: "Source Sans Pro", "Arial", sans-serif;
   mso-ansi-language: EN-GB;
   mso-bidi-font-weight: normal;
 }
@@ -2013,15 +2013,15 @@ p.DeprecatedTerms, li.DeprecatedTerms, div.DeprecatedTerms {
   mso-style-next: Definition;
   margin: 0cm;
   margin-bottom: 0.0001pt;
-  line-height: 12.0pt;
+  line-height: 12pt;
   mso-pagination: widow-orphan;
   page-break-after: avoid;
   mso-hyphenate: none;
   tab-stops: 20.15pt;
-  font-size: 12.0pt;
-  font-family: "Source Sans Pro","Arial",sans-serif;
-  mso-fareast-font-family: "Source Sans Pro","Arial",sans-serif;
-  mso-bidi-font-family: "Source Sans Pro","Arial",sans-serif;
+  font-size: 12pt;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
+  mso-fareast-font-family: "Source Sans Pro", "Arial", sans-serif;
+  mso-bidi-font-family: "Source Sans Pro", "Arial", sans-serif;
   mso-ansi-language: EN-GB;
   mso-bidi-font-weight: normal;
 }
@@ -2033,14 +2033,14 @@ p.TermNum, li.TermNum, div.TermNum {
   mso-style-next: "Term(s)";
   margin: 0cm;
   margin-bottom: 0.0001pt;
-  line-height: 12.0pt;
+  line-height: 12pt;
   mso-pagination: widow-orphan;
   page-break-after: avoid;
   tab-stops: 20.15pt;
-  font-size: 12.0pt;
-  font-family: "Source Sans Pro","Arial",sans-serif;
-  mso-fareast-font-family: "Source Sans Pro","Arial",sans-serif;
-  mso-bidi-font-family: "Source Sans Pro","Arial",sans-serif;
+  font-size: 12pt;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
+  mso-fareast-font-family: "Source Sans Pro", "Arial", sans-serif;
+  mso-bidi-font-family: "Source Sans Pro", "Arial", sans-serif;
   mso-ansi-language: EN-GB;
   font-weight: bold;
   mso-bidi-font-weight: normal;
@@ -2062,12 +2062,12 @@ p.zzContents, li.zzContents, div.zzContents {
   page-break-after: avoid;
   mso-hyphenate: none;
   tab-stops: 20.15pt;
-  font-size: 12.0pt;
-  mso-bidi-font-size: 11.0pt;
-  font-family: "Source Sans Pro","Arial",sans-serif;
+  font-size: 12pt;
+  mso-bidi-font-size: 11pt;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
   color: #0E1A85;
-  mso-fareast-font-family: "Source Sans Pro","Arial",sans-serif;
-  mso-bidi-font-family: "Source Sans Pro","Arial",sans-serif;
+  mso-fareast-font-family: "Source Sans Pro", "Arial", sans-serif;
+  mso-bidi-font-family: "Source Sans Pro", "Arial", sans-serif;
   mso-ansi-language: EN-GB;
   mso-bidi-font-weight: normal;
 }
@@ -2079,18 +2079,18 @@ p.zzCopyright, li.zzCopyright {
   mso-style-next: Normal;
   margin-top: 0cm;
   margin-right: 14.2pt;
-  margin-bottom: 12.0pt;
+  margin-bottom: 12pt;
   margin-left: 14.2pt;
   text-align: justify;
-  line-height: 12.0pt;
+  line-height: 12pt;
   mso-pagination: widow-orphan;
   tab-stops: 20.15pt 25.7pt 481.15pt;
   padding: 0cm;
   mso-padding-alt: 1pt 4pt 1pt 4pt;
-  font-size: 12.0pt;
-  font-family: "Source Sans Pro","Arial",sans-serif;
-  mso-fareast-font-family: "Source Sans Pro","Arial",sans-serif;
-  mso-bidi-font-family: "Source Sans Pro","Arial",sans-serif;
+  font-size: 12pt;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
+  mso-fareast-font-family: "Source Sans Pro", "Arial", sans-serif;
+  mso-bidi-font-family: "Source Sans Pro", "Arial", sans-serif;
   mso-ansi-language: EN-GB;
 }
 
@@ -2115,9 +2115,9 @@ p.zzCopyright_address {
   text-autospace: none;
   padding-left: 20pt;
   mso-padding-alt-left: 20pt;
-  font-size: 12.0pt;
+  font-size: 12pt;
   text-align: left;
-  mso-bidi-font-size: 11.0pt;
+  mso-bidi-font-size: 11pt;
 }
 
 p.zzSTDTitle, li.zzSTDTitle, div.zzSTDTitle {
@@ -2135,10 +2135,10 @@ p.zzSTDTitle, li.zzSTDTitle, div.zzSTDTitle {
   mso-hyphenate: none;
   tab-stops: 20.15pt;
   font-size: 16pt;
-  mso-bidi-font-size: 11.0pt;
-  font-family: "Source Sans Pro","Arial",sans-serif;
-  mso-fareast-font-family: "Source Sans Pro","Arial",sans-serif;
-  mso-bidi-font-family: "Source Sans Pro","Arial",sans-serif;
+  mso-bidi-font-size: 11pt;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
+  mso-fareast-font-family: "Source Sans Pro", "Arial", sans-serif;
+  mso-bidi-font-family: "Source Sans Pro", "Arial", sans-serif;
   mso-ansi-language: EN-GB;
   mso-bidi-font-weight: normal;
 }
@@ -2158,10 +2158,10 @@ p.zzSTDTitle1, li.zzSTDTitle1, div.zzSTDTitle1 {
   mso-hyphenate: none;
   tab-stops: 20.15pt;
   font-size: 16pt;
-  mso-bidi-font-size: 11.0pt;
-  font-family: "Source Sans Pro","Arial",sans-serif;
-  mso-fareast-font-family: "Source Sans Pro","Arial",sans-serif;
-  mso-bidi-font-family: "Source Sans Pro","Arial",sans-serif;
+  mso-bidi-font-size: 11pt;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
+  mso-fareast-font-family: "Source Sans Pro", "Arial", sans-serif;
+  mso-bidi-font-family: "Source Sans Pro", "Arial", sans-serif;
   mso-ansi-language: EN-GB;
   font-weight: bold;
   mso-bidi-font-weight: normal;
@@ -2174,17 +2174,17 @@ p.Quote, li.Quote, div.Quote {
   margin-bottom: 0cm;
   margin-left: 36pt;
   text-align: justify;
-  line-height: 12.0pt;
+  line-height: 12pt;
   mso-pagination: widow-orphan;
   tab-stops: 20.15pt;
-  mso-fareast-font-family: "Source Sans Pro","Arial",sans-serif;
-  mso-bidi-font-family: "Source Sans Pro","Arial",sans-serif;
+  mso-fareast-font-family: "Source Sans Pro", "Arial", sans-serif;
+  mso-bidi-font-family: "Source Sans Pro", "Arial", sans-serif;
   mso-ansi-language: EN-GB;
 }
 
 p.Quote, li.Quote {
-  font-size: 12.0pt;
-  font-family: "Source Sans Pro","Arial",sans-serif;
+  font-size: 12pt;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
 }
 
 p.QuoteAttribution {
@@ -2194,13 +2194,13 @@ p.QuoteAttribution {
   margin-right: 36pt;
   margin-bottom: 0cm;
   margin-left: 36pt;
-  line-height: 12.0pt;
+  line-height: 12pt;
   mso-pagination: widow-orphan;
   tab-stops: 20.15pt;
-  font-size: 12.0pt;
-  font-family: "Source Sans Pro","Arial",sans-serif;
-  mso-fareast-font-family: "Source Sans Pro","Arial",sans-serif;
-  mso-bidi-font-family: "Source Sans Pro","Arial",sans-serif;
+  font-size: 12pt;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
+  mso-fareast-font-family: "Source Sans Pro", "Arial", sans-serif;
+  mso-bidi-font-family: "Source Sans Pro", "Arial", sans-serif;
   mso-ansi-language: EN-GB;
 }
 
@@ -2217,13 +2217,13 @@ p.Admonition, li.Admonition, div.Admonition {
   mso-border-themecolor: accent1;
   padding: 0cm;
   mso-padding-alt: 10pt 10pt 10pt 10pt;
-  mso-ascii-font-family: "Source Sans Pro","Arial",sans-serif;
+  mso-ascii-font-family: "Source Sans Pro", "Arial", sans-serif;
   mso-ascii-theme-font: minor-latin;
-  mso-fareast-font-family: "Source Sans Pro","Arial",sans-serif;
+  mso-fareast-font-family: "Source Sans Pro", "Arial", sans-serif;
   mso-fareast-theme-font: minor-fareast;
-  mso-hansi-font-family: "Source Sans Pro","Arial",sans-serif;
+  mso-hansi-font-family: "Source Sans Pro", "Arial", sans-serif;
   mso-hansi-theme-font: minor-latin;
-  mso-bidi-font-family: "Source Sans Pro","Arial",sans-serif;
+  mso-bidi-font-family: "Source Sans Pro", "Arial", sans-serif;
   mso-bidi-theme-font: minor-bidi;
   color: #4472C4;
   mso-themecolor: accent1;
@@ -2231,8 +2231,8 @@ p.Admonition, li.Admonition, div.Admonition {
 }
 
 p.Admonition, li.Admonition {
-  font-size: 12.0pt;
-  font-family: "Source Sans Pro","Arial",sans-serif;
+  font-size: 12pt;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
   font-style: italic;
 }
 
@@ -2247,8 +2247,8 @@ p.Code, li.Code, div.Code {
   mso-pagination: widow-orphan;
   tab-stops: 20.15pt;
   font-size: 10pt;
-  mso-bidi-font-size: 11.0pt;
-  font-family: "Source Code Pro",monospace;
+  mso-bidi-font-size: 11pt;
+  font-family: "Source Code Pro", monospace;
   mso-fareast-font-family: Calibri;
   mso-bidi-font-family: "Source Sans Pro";
   mso-ansi-language: EN-GB;
@@ -2260,15 +2260,15 @@ p.Formula, li.Formula, div.Formula {
   mso-style-unhide: no;
   margin-top: 0cm;
   margin-right: 0cm;
-  margin-bottom: 11.0pt;
+  margin-bottom: 11pt;
   margin-left: 20.15pt;
-  line-height: 12.0pt;
+  line-height: 12pt;
   mso-pagination: widow-orphan;
   tab-stops: right 487.45pt;
-  font-size: 12.0pt;
-  font-family: "Source Sans Pro","Arial",sans-serif;
-  mso-fareast-font-family: "Source Sans Pro","Arial",sans-serif;
-  mso-bidi-font-family: "Source Sans Pro","Arial",sans-serif;
+  font-size: 12pt;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
+  mso-fareast-font-family: "Source Sans Pro", "Arial", sans-serif;
+  mso-bidi-font-family: "Source Sans Pro", "Arial", sans-serif;
   mso-ansi-language: EN-GB;
 }
 
@@ -2383,8 +2383,8 @@ table.MsoISOTable, table.MsoISOTableBig {
   mso-yfti-tbllook: 480;
   mso-border-insideh: 0.75pt solid windowtext;
   mso-border-insidev: 0.75pt solid windowtext;
-  font-size: 12.0pt;
-  font-family: "Source Sans Pro","Arial",sans-serif;
+  font-size: 12pt;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
 }
 
 table.MsoISOTable th, table.MsoISOTableBig th {
@@ -2405,7 +2405,7 @@ table.MsoNormalTable th, table.MsoNormalTable td {
 }
 
 table.MsoISOTable p, table.MsoISOTableBig p {
-  font-size: 12.0pt;
+  font-size: 12pt;
 }
 
 table.MsoTableGrid {
@@ -2422,8 +2422,8 @@ table.MsoTableGrid {
   mso-para-margin: 0cm;
   mso-para-margin-bottom: 0.0001pt;
   mso-pagination: widow-orphan;
-  font-size: 12.0pt;
-  font-family: "Source Sans Pro","Arial",sans-serif;
+  font-size: 12pt;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
 }
 
 div.formula {
@@ -2442,7 +2442,7 @@ body {
 
 .coverpage_techcommittee {
   text-align: center;
-  font-size: 12.0pt;
+  font-size: 12pt;
 }
 
 .coverpage_docstage {
@@ -2456,14 +2456,14 @@ div.coverpage_warning {
   border: solid windowtext 1pt #485094;
   mso-border-alt: solid windowtext 0.5pt;
   padding: 1pt 4pt 1pt 4pt #485094;
-  font-size: 12.0pt;
+  font-size: 12pt;
   margin-left: 4.25pt;
   margin-right: 4.25pt;
 }
 
 .coverpage_warning {
   color: #485094;
-  font-size: 12.0pt;
+  font-size: 12pt;
 }
 
 a.TableFootnoteRef, span.TableFootnoteRef {
@@ -2473,7 +2473,7 @@ a.TableFootnoteRef, span.TableFootnoteRef {
 }
 
 aside {
-  font-size: 12.0pt;
+  font-size: 12pt;
 }
 
 .example-title {
@@ -2484,8 +2484,8 @@ aside {
 p.example, li.example, td.example {
   margin-right: 0pt;
   margin-left: 0pt;
-  font-size: 11.0pt;
-  font-family: "Source Sans Pro","Arial",sans-serif;
+  font-size: 11pt;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
 }
 
 div.example {
@@ -2500,19 +2500,19 @@ p.example, li.example, div.example, td.example {
 }
 
 td.example p.MsoListParagraph {
-  font-size: 11.0pt;
+  font-size: 11pt;
 }
 
 div.example p.MsoListParagraph {
-  font-size: 11.0pt;
+  font-size: 11pt;
 }
 
 div.Note p.MsoListParagraph {
-  font-size: 11.0pt;
+  font-size: 11pt;
 }
 
 div.Note span.stem {
-  font-size: 11.0pt;
+  font-size: 11pt;
 }
 
 div.Note p.Sourcecode, div.Note pre.Sourcecode {
@@ -2521,19 +2521,19 @@ div.Note p.Sourcecode, div.Note pre.Sourcecode {
 }
 
 div.Note table.dl {
-  font-size: 11.0pt;
+  font-size: 11pt;
   margin-left: 1cm;
 }
 
 span.note_label, span.example_label, td.example_label, td.note_label {
-  font-size: 11.0pt;
-  font-family: "Source Sans Pro","Arial",sans-serif;
+  font-size: 11pt;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
 }
 
 table.dl {
   margin-top: 0cm;
   margin-right: 0cm;
-  margin-bottom: 11.0pt;
+  margin-bottom: 11pt;
   margin-left: 20.15pt;
 }
 
@@ -2641,7 +2641,7 @@ October 08, 2018</p>
  <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
  <o:lock v:ext="edit" aspectratio="t"/>
 </v:shapetype><v:shape id="Picture_x0020_39" o:spid="_x0000_s1026" type="#_x0000_t75" alt="A close up of a logo&#10;&#10;Description automatically generated" style="position:absolute;margin-left:.15pt;margin-top:96pt;width:123.65pt;  height:31.1pt;z-index:251658240;visibility:visible;mso-wrap-style:square;  mso-width-percent:0;mso-height-percent:0;mso-wrap-distance-left:9pt;  mso-wrap-distance-top:0;mso-wrap-distance-right:9pt;  mso-wrap-distance-bottom:0;mso-position-horizontal:absolute;  mso-position-horizontal-relative:text;mso-position-vertical:absolute;  mso-position-vertical-relative:text;mso-width-percent:0;mso-height-percent:0;  mso-width-relative:page;mso-height-relative:page">
-<v:imagedata src="cid:3048778b-a243-4fee-9e0c-a211d8be6cea.png" o:title="A close up of a logo&#10;&#10;Description automatically generated" width="378" height="95"/>
+<v:imagedata src="cid:19b05e4a-6328-4f41-b9f1-b68a3e298d75.png" o:title="A close up of a logo&#10;&#10;Description automatically generated" width="378" height="95"/>
  <w:wrap type="square"/>
 </v:shape>
 </p>
@@ -2675,98 +2675,98 @@ October 08, 2018</p>
 
 </div><p class="MsoNormal"><br clear="all" style="mso-special-character:line-break;page-break-before:always"/></p><div class="TOC"><a name="_13d7055e-30fc-845a-c60e-8972faf092d9" id="_13d7055e-30fc-845a-c60e-8972faf092d9"></a><p class="zzContents">Contents</p><p class="MsoToc1"><span lang="EN-GB" xml:lang="EN-GB"><span style="mso-element:field-begin"></span><span style="mso-spacerun:yes">&#xA0;</span>TOC \o "1-2" \h \z \u <span style="mso-element:field-separator"></span></span>
 <span class="MsoHyperlink"><span lang="EN-GB" style="mso-no-proof:yes" xml:lang="EN-GB">
-<a href="#_Toc184446157">Warning for Drafts<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
+<a href="#_Toc018136096">Warning for Drafts<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-tab-count:1 dotted">. </span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-element:field-begin"></span></span>
-<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc184446157 \h </span>
+<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc018136096 \h </span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-separator"></span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">1</span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-end"></span></span></a></span></span></p>
 
 <p class="MsoToc1"><span class="MsoHyperlink"><span lang="EN-GB" style="mso-no-proof:yes" xml:lang="EN-GB">
-<a href="#_Toc824919540">Foreword<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
+<a href="#_Toc868689752">Foreword<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-tab-count:1 dotted">. </span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-element:field-begin"></span></span>
-<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc824919540 \h </span>
+<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc868689752 \h </span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-separator"></span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">1</span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-end"></span></span></a></span></span></p>
 
 <p class="MsoToc1"><span class="MsoHyperlink"><span lang="EN-GB" style="mso-no-proof:yes" xml:lang="EN-GB">
-<a href="#_Toc020780732">Introduction<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
+<a href="#_Toc272681718">Introduction<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-tab-count:1 dotted">. </span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-element:field-begin"></span></span>
-<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc020780732 \h </span>
+<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc272681718 \h </span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-separator"></span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">1</span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-end"></span></span></a></span></span></p>
 
 <p class="MsoToc1"><span class="MsoHyperlink"><span lang="EN-GB" style="mso-no-proof:yes" xml:lang="EN-GB">
-<a href="#_Toc625547321">1 Scope<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
+<a href="#_Toc808093176">1 Scope<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-tab-count:1 dotted">. </span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-element:field-begin"></span></span>
-<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc625547321 \h </span>
+<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc808093176 \h </span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-separator"></span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">1</span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-end"></span></span></a></span></span></p>
 
 <p class="MsoToc1"><span class="MsoHyperlink"><span lang="EN-GB" style="mso-no-proof:yes" xml:lang="EN-GB">
-<a href="#_Toc463369082">2 Normative references<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
+<a href="#_Toc536348290">2 Normative references<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-tab-count:1 dotted">. </span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-element:field-begin"></span></span>
-<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc463369082 \h </span>
+<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc536348290 \h </span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-separator"></span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">1</span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-end"></span></span></a></span></span></p>
 
 <p class="MsoToc1"><span class="MsoHyperlink"><span lang="EN-GB" style="mso-no-proof:yes" xml:lang="EN-GB">
-<a href="#_Toc181564155">3 Terms, definitions and symbols<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
+<a href="#_Toc860793665">3 Terms, definitions and symbols<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-tab-count:1 dotted">. </span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-element:field-begin"></span></span>
-<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc181564155 \h </span>
+<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc860793665 \h </span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-separator"></span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">1</span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-end"></span></span></a></span></span></p>
 
 <p class="MsoToc2"><span class="MsoHyperlink"><span lang="EN-GB" style="mso-no-proof:yes" xml:lang="EN-GB">
-<a href="#_Toc483045811">3.1 Terms and definitions<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
+<a href="#_Toc857239480">3.1 Terms and definitions<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-tab-count:1 dotted">. </span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-element:field-begin"></span></span>
-<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc483045811 \h </span>
+<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc857239480 \h </span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-separator"></span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">1</span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-end"></span></span></a></span></span></p>
 
 <p class="MsoToc2"><span class="MsoHyperlink"><span lang="EN-GB" style="mso-no-proof:yes" xml:lang="EN-GB">
-<a href="#_Toc278599380">3.2 Symbols<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
+<a href="#_Toc278467236">3.2 Symbols<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-tab-count:1 dotted">. </span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-element:field-begin"></span></span>
-<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc278599380 \h </span>
+<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc278467236 \h </span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-separator"></span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">1</span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-end"></span></span></a></span></span></p>
 
 <p class="MsoToc1"><span class="MsoHyperlink"><span lang="EN-GB" style="mso-no-proof:yes" xml:lang="EN-GB">
-<a href="#_Toc084354115">4 Nereon Configuration and Schema Syntax<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
+<a href="#_Toc225394288">4 Nereon Configuration and Schema Syntax<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-tab-count:1 dotted">. </span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-element:field-begin"></span></span>
-<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc084354115 \h </span>
+<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc225394288 \h </span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-separator"></span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">1</span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-end"></span></span></a></span></span></p>
 
 <p class="MsoToc2"><span class="MsoHyperlink"><span lang="EN-GB" style="mso-no-proof:yes" xml:lang="EN-GB">
-<a href="#_Toc427869382">4.1 Document Structure<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
+<a href="#_Toc351007910">4.1 Document Structure<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-tab-count:1 dotted">. </span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-element:field-begin"></span></span>
-<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc427869382 \h </span>
+<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc351007910 \h </span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-separator"></span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">1</span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-end"></span></span></a></span></span></p>
 
 <p class="MsoToc2"><span class="MsoHyperlink"><span lang="EN-GB" style="mso-no-proof:yes" xml:lang="EN-GB">
-<a href="#_Toc163722008">4.2 Interpolation<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
+<a href="#_Toc666880135">4.2 Interpolation<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-tab-count:1 dotted">. </span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-element:field-begin"></span></span>
-<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc163722008 \h </span>
+<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc666880135 \h </span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-separator"></span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">1</span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-end"></span></span></a></span></span></p>
 
 <p class="MsoToc1"><span class="MsoHyperlink"><span lang="EN-GB" style="mso-no-proof:yes" xml:lang="EN-GB">
-<a href="#_Toc634193214">Bibliography<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
+<a href="#_Toc175509486">Bibliography<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-tab-count:1 dotted">. </span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-element:field-begin"></span></span>
-<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc634193214 \h </span>
+<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc175509486 \h </span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-separator"></span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">1</span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-end"></span></span></a></span></span></p>
 
@@ -2790,7 +2790,7 @@ October 08, 2018</p>
         <a name="terms" id="terms"></a>
         <h1>3<span style="mso-tab-count:1">&#xA0; </span>Terms, definitions and symbols</h1>
         <p class="MsoNormal"><a name="_0f2bd13d-b1b2-1669-067b-a429dd7c2ced" id="_0f2bd13d-b1b2-1669-067b-a429dd7c2ced"></a>For the purposes of this document, the following terms and definitions apply.</p>
-        <div><a name="_f5897bb4-a721-4ea3-4927-980a21fe06c2" id="_f5897bb4-a721-4ea3-4927-980a21fe06c2"></a><h2>3.1<span style="mso-tab-count:1">&#xA0; </span>Terms and definitions</h2>
+        <div><a name="_fac07f2b-f9a2-3824-7093-4304c09de898" id="_fac07f2b-f9a2-3824-7093-4304c09de898"></a><h2>3.1<span style="mso-tab-count:1">&#xA0; </span>Terms and definitions</h2>
 
 <p class="Terms" style="text-align:left;"><a name="term-user" id="term-user"></a><span class="TermNum">3.1.1</span>&#xA0;user</p>
 <p class="MsoNormal"><a name="_77b3ebfa-2e84-392e-258d-80af36904da9" id="_77b3ebfa-2e84-392e-258d-80af36904da9"></a>person that utilizes a service</p>
@@ -2824,7 +2824,7 @@ October 08, 2018</p>
 <p class="MsoNormal"><a name="_d9d015b5-af68-1e21-5836-f384fcc51db4" id="_d9d015b5-af68-1e21-5836-f384fcc51db4"></a>method such that user of revoked access is unable to access data created after access revocation</p>
 
 
- <div class="Note"><a name="_224dfb71-9d8d-f89b-5c60-150818a2d613" id="_224dfb71-9d8d-f89b-5c60-150818a2d613"></a><p class="Note"><span class="termnote_label">Note 1 to entry: </span>Refer to <a href="#RFC7525">section 6.3</a></p></div>
+ <div class="Note"><a name="_b9030ab2-7ad9-6a90-ca7a-849cd34d57b9" id="_b9030ab2-7ad9-6a90-ca7a-849cd34d57b9"></a><p class="Note"><span class="termnote_label">Note 1 to entry: </span>Refer to <a href="#RFC7525">IETF&#xA0;RFC&#xA0;7525,  Section 6.3</a></p></div>
 
 <p class="Terms" style="text-align:left;"><a name="term-public-key-infrastructure" id="term-public-key-infrastructure"></a><span class="TermNum">3.1.9</span>&#xA0;public key infrastructure</p><p class="AltTerms" style="text-align:left;">PKI</p>
 
@@ -3017,7 +3017,8 @@ October 08, 2018</p>
         <br clear="all" style="mso-special-character:line-break;page-break-before:always"/>
       </p>
       <div><h1 class="Section3">Bibliography</h1>
-<p class="Biblio"><a name="RSASHARE" id="RSASHARE"></a>[1]<span style="mso-tab-count:1">&#xA0; </span>Michael Malkin, Thomas D. Wu, Dan Boneh. <i>Experimenting with Shared Generation of RSA keys</i>. NDSS 1999.</p>
+<p class="Biblio"><a name="RSASHARE" id="RSASHARE"></a>[1]<span style="mso-tab-count:1">&#xA0; </span>Michael Malkin, Thomas D. Wu, Dan Boneh. <i>Experimenting with Shared Generation of RSA keys</i>. NDSS 1999.</p><p class="Biblio"><a name="RFC7525" id="RFC7525"></a>[2]<span style="mso-tab-count:1">&#xA0; </span>IETF&#xA0;RFC&#xA0;7525, Y. Sheffer, R. Holz, P. Saint-Andre, and INTERNET ENGINEERING TASK FORCE (IETF). <i>Recommendations for Secure Use of Transport Layer Security (TLS) and Datagram Transport Layer Security (DTLS)</i>. Report no. RFC7525. <i>RFC</i>, no. 7525. RFC Publisher, 2015. Available at: <a href="https://www.rfc-editor.org/info/rfc7525">https://www.rfc-editor.org/info/rfc7525</a>.</p>
+
 
 </div>
     </div>
@@ -3026,7 +3027,7 @@ October 08, 2018</p>
 </html>
 
 
-------=_NextPart_97b6a09f.1086.4cec
+------=_NextPart_338f5905.3f79.45c6
 Content-ID: <filelist.xml>
 Content-Disposition: inline; filename="filelist.xml"
 Content-Transfer-Encoding: base64
@@ -3035,13 +3036,13 @@ Content-Type: application/xml
 PHhtbCB4bWxuczpvPSJ1cm46c2NoZW1hcy1taWNyb3NvZnQtY29tOm9mZmljZTpvZmZpY2UiPgog
 ICAgICAgIDxvOk1haW5GaWxlIEhSZWY9Ii4uLy9fX3cvbW4tc2FtcGxlcy1yaWJvc2UvbW4tc2Ft
 cGxlcy1yaWJvc2UvX3NpdGUvZG9jdW1lbnRzL25lcmVvbi1zeW50YXgvcnNkLW5lcmVvbi1jb25m
-aWd1cmF0aW9uLXN5bnRheC5odG0iLz4gIDxvOkZpbGUgSFJlZj0iMzA0ODc3OGItYTI0My00ZmVl
-LTllMGMtYTIxMWQ4YmU2Y2VhLnBuZyIvPgogIDxvOkZpbGUgSFJlZj0iZmlsZWxpc3QueG1sIi8+
+aWd1cmF0aW9uLXN5bnRheC5odG0iLz4gIDxvOkZpbGUgSFJlZj0iMTliMDVlNGEtNjMyOC00ZjQx
+LWI5ZjEtYjY4YTNlMjk4ZDc1LnBuZyIvPgogIDxvOkZpbGUgSFJlZj0iZmlsZWxpc3QueG1sIi8+
 CiAgPG86RmlsZSBIUmVmPSJoZWFkZXIuaHRtbCIvPgo8L3htbD4K
 
-------=_NextPart_97b6a09f.1086.4cec
-Content-ID: <3048778b-a243-4fee-9e0c-a211d8be6cea.png>
-Content-Disposition: inline; filename="3048778b-a243-4fee-9e0c-a211d8be6cea.png"
+------=_NextPart_338f5905.3f79.45c6
+Content-ID: <19b05e4a-6328-4f41-b9f1-b68a3e298d75.png>
+Content-Disposition: inline; filename="19b05e4a-6328-4f41-b9f1-b68a3e298d75.png"
 Content-Transfer-Encoding: base64
 Content-Type: image/png
 
@@ -3216,7 +3217,7 @@ TyDIPTMUgWbmkOGJ7wsA93CrktMRuBHQJYyD0TRgY8CnHAvnebni0p37baFy9WvEytsj5bbNRKAl
 IJHeMHoZYDt0uWb7ORjUm/wUDX4L0OWFHd0UoB1QT9IDjZ0B5E0OZkF/RD0lZWVbh+GTbdfdM8zZ
 s8DmgBf5P0e5pPDmrS+UAAAAAElFTkSuQmCC
 
-------=_NextPart_97b6a09f.1086.4cec
+------=_NextPart_338f5905.3f79.45c6
 Content-ID: <header.html>
 Content-Disposition: inline; filename="header.html"
 Content-Transfer-Encoding: base64
@@ -3496,4 +3497,4 @@ ZW5kaWZdLS0+PHNwYW4NCmxhbmc9RU4tR0Igc3R5bGU9J2ZvbnQtc2l6ZToxMC4wcHQ7bXNvLWJp
 ZGktZm9udC1zaXplOjExLjBwdCc+PG86cD48L286cD48L3NwYW4+PC9wPg0KPC9kaXY+DQoNCjwv
 Ym9keT4NCg0KPC9odG1sPg0K
 
-------=_NextPart_97b6a09f.1086.4cec--
+------=_NextPart_338f5905.3f79.45c6--

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<metanorma xmlns="https://www.metanorma.org/ns/standoc" type="semantic" version="2.9.0" schema-version="v2.2.0" flavor="ribose">
+<metanorma xmlns="https://www.metanorma.org/ns/standoc" type="semantic" version="2.9.2" schema-version="v2.3.0" flavor="ribose">
 <bibdata type="standard">
 <title language="en" type="main">Comments in response to public comment period of NISTIR 8214A</title>
 <docidentifier primary="true" type="Ribose Group Inc.">Rept 11021</docidentifier><docnumber>11021</docnumber><date type="published"><on>2020-02-10</on></date><contributor><role type="author"/><organization>
@@ -33,7 +33,7 @@
 </organization></contributor><edition>1.0</edition><language>en</language><script>Latn</script><status><stage>published</stage></status><copyright><from>2026</from><owner><organization>
 <name>Ribose Group Inc.</name>
 </organization></owner></copyright><ext><doctype abbreviation="Rept">report</doctype><flavor>ribose</flavor><security>unrestricted</security><recipient>nistir-8214A-comments@nist.gov</recipient></ext></bibdata><metanorma-extension><semantic-metadata><stage-published>true</stage-published></semantic-metadata>
-<presentation-metadata><toc-heading-levels>2</toc-heading-levels><html-toc-heading-levels>2</html-toc-heading-levels><doc-toc-heading-levels>2</doc-toc-heading-levels><pdf-toc-heading-levels>2</pdf-toc-heading-levels></presentation-metadata></metanorma-extension>
+<presentation-metadata><output-extensions>xml,html,doc,rxl</output-extensions><toc-heading-levels>2</toc-heading-levels><html-toc-heading-levels>2</html-toc-heading-levels><doc-toc-heading-levels>2</doc-toc-heading-levels><pdf-toc-heading-levels>2</pdf-toc-heading-levels></presentation-metadata></metanorma-extension>
 <boilerplate><copyright-statement>
 
 <clause id="_a07d9bac-0f39-3619-41ad-e6c293e1f0d0" obligation="normative"><p id="_99cf65f7-e405-79cb-8587-abe256895c4b">© Ribose Group Inc. 2026</p>
@@ -921,9 +921,9 @@ namespace ClownRSA {
     <region iso="MD"/>
   </place>
 </bibitem>
-</references><references id="_e3e05d7d-a952-6971-8f4e-e95efe271fcd" normative="false" obligation="informative">
-<title id="_50ceb1e1-516f-2673-d73d-4f0c58b4d023">Bibliography</title><bibitem id="_8986a4f0-cdfa-9b64-52cb-2f00bb180111" type="standard" schema-version="v1.5.6" anchor="ISO_8000">
-  <fetched>2026-10-27</fetched>
+</references><references id="_fdf4c5fa-934a-ea99-8206-fdac10b708a8" normative="false" obligation="informative">
+<title id="_50ceb1e1-516f-2673-d73d-4f0c58b4d023">Bibliography</title><bibitem id="_46d892f4-fbdc-deef-bed4-6f8705b5d43f" type="standard" schema-version="v1.5.6" anchor="ISO_8000">
+  <fetched>2026-11-10</fetched>
   
 <title language="en" script="Latn" type="title-main">Data quality</title>
 
@@ -940,7 +940,6 @@ namespace ClownRSA {
   <uri type="obp">https://www.iso.org/obp/ui/en/#!iso:std:80543:en</uri>
   <uri type="rss">https://www.iso.org/contents/data/standard/08/05/80543.detail.rss</uri>
   <docidentifier type="ISO" primary="true">ISO 8000 (all parts)</docidentifier>
-  <docidentifier type="iso-undated">ISO 8000 (all parts)</docidentifier>
   <docidentifier type="iso-reference">ISO 8000(E) (all parts)</docidentifier>
   <docidentifier type="URN">urn:iso:std:iso:8000:ser</docidentifier>
   <docnumber>8000</docnumber>
@@ -1010,8 +1009,36 @@ namespace ClownRSA {
   </relation>
   <relation type="instanceOf">
     <bibitem>
+      <formattedref>ISO 8000-8</formattedref>
+      <docidentifier type="ISO" primary="true">ISO 8000-8</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO 8000-66</formattedref>
+      <docidentifier type="ISO" primary="true">ISO 8000-66</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO 8000-64</formattedref>
+      <docidentifier type="ISO" primary="true">ISO 8000-64</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
       <formattedref>ISO 8000-63:2019</formattedref>
       <docidentifier type="ISO" primary="true">ISO 8000-63:2019</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO 8000-63</formattedref>
+      <docidentifier type="ISO" primary="true">ISO 8000-63</docidentifier>
     </bibitem>
 
   </relation>
@@ -1024,8 +1051,50 @@ namespace ClownRSA {
   </relation>
   <relation type="instanceOf">
     <bibitem>
+      <formattedref>ISO 8000-62</formattedref>
+      <docidentifier type="ISO" primary="true">ISO 8000-62</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
       <formattedref>ISO 8000-61:2016</formattedref>
       <docidentifier type="ISO" primary="true">ISO 8000-61:2016</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO 8000-61</formattedref>
+      <docidentifier type="ISO" primary="true">ISO 8000-61</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO 8000-51</formattedref>
+      <docidentifier type="ISO" primary="true">ISO 8000-51</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO 8000-220</formattedref>
+      <docidentifier type="ISO" primary="true">ISO 8000-220</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO 8000-210</formattedref>
+      <docidentifier type="ISO" primary="true">ISO 8000-210</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO 8000-150</formattedref>
+      <docidentifier type="ISO" primary="true">ISO 8000-150</docidentifier>
     </bibitem>
 
   </relation>
@@ -1038,8 +1107,22 @@ namespace ClownRSA {
   </relation>
   <relation type="instanceOf">
     <bibitem>
+      <formattedref>ISO 8000-140</formattedref>
+      <docidentifier type="ISO" primary="true">ISO 8000-140</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
       <formattedref>ISO 8000-130:2016</formattedref>
       <docidentifier type="ISO" primary="true">ISO 8000-130:2016</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO 8000-130</formattedref>
+      <docidentifier type="ISO" primary="true">ISO 8000-130</docidentifier>
     </bibitem>
 
   </relation>
@@ -1052,8 +1135,43 @@ namespace ClownRSA {
   </relation>
   <relation type="instanceOf">
     <bibitem>
+      <formattedref>ISO 8000-120</formattedref>
+      <docidentifier type="ISO" primary="true">ISO 8000-120</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO 8000-119</formattedref>
+      <docidentifier type="ISO" primary="true">ISO 8000-119</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO 8000-118</formattedref>
+      <docidentifier type="ISO" primary="true">ISO 8000-118</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO 8000-117</formattedref>
+      <docidentifier type="ISO" primary="true">ISO 8000-117</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
       <formattedref>ISO 8000-116:2019</formattedref>
       <docidentifier type="ISO" primary="true">ISO 8000-116:2019</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO 8000-116</formattedref>
+      <docidentifier type="ISO" primary="true">ISO 8000-116</docidentifier>
     </bibitem>
 
   </relation>
@@ -1066,8 +1184,29 @@ namespace ClownRSA {
   </relation>
   <relation type="instanceOf">
     <bibitem>
+      <formattedref>ISO 8000-115</formattedref>
+      <docidentifier type="ISO" primary="true">ISO 8000-115</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO 8000-114</formattedref>
+      <docidentifier type="ISO" primary="true">ISO 8000-114</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
       <formattedref>ISO 8000-110:2009</formattedref>
       <docidentifier type="ISO" primary="true">ISO 8000-110:2009</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO 8000-110</formattedref>
+      <docidentifier type="ISO" primary="true">ISO 8000-110</docidentifier>
     </bibitem>
 
   </relation>
@@ -1080,16 +1219,247 @@ namespace ClownRSA {
   </relation>
   <relation type="instanceOf">
     <bibitem>
+      <formattedref>ISO 8000-102</formattedref>
+      <docidentifier type="ISO" primary="true">ISO 8000-102</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
       <formattedref>ISO 8000-100:2016</formattedref>
       <docidentifier type="ISO" primary="true">ISO 8000-100:2016</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO 8000-100</formattedref>
+      <docidentifier type="ISO" primary="true">ISO 8000-100</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO 8000-1</formattedref>
+      <docidentifier type="ISO" primary="true">ISO 8000-1</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO/WDAR 8000-115</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/WDAR 8000-115</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO/WDAR 8000-110</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/WDAR 8000-110</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO/WDAR 8000-102</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/WDAR 8000-102</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO/WDA 8000-8</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/WDA 8000-8</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO/WDA 8000-63</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/WDA 8000-63</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO/WDA 8000-62</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/WDA 8000-62</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO/WDA 8000-61</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/WDA 8000-61</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO/WDA 8000-140</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/WDA 8000-140</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO/WDA 8000-130</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/WDA 8000-130</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO/WDA 8000-120</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/WDA 8000-120</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO/WDA 8000-116</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/WDA 8000-116</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO/WDA 8000-100</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/WDA 8000-100</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO/WDA 8000-1</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/WDA 8000-1</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO/WD 8000-260</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/WD 8000-260</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO/WD 8000-1</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/WD 8000-1</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO/PWI 8000-64</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/PWI 8000-64</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO/NP 8000-9</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/NP 8000-9</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO/NP 8000-51</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/NP 8000-51</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO/NP 8000-50</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/NP 8000-50</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO/NP 8000-40</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/NP 8000-40</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO/NP 8000-30</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/NP 8000-30</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO/NP 8000-20</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/NP 8000-20</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO/NP 8000-150</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/NP 8000-150</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO/NP 8000-119</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/NP 8000-119</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO/NP 8000-100</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/NP 8000-100</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO/NP 8000-10</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/NP 8000-10</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO/DIS 8000-200</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/DIS 8000-200</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO/CD 8000-60</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/CD 8000-60</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO/CD 8000-200</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/CD 8000-200</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref>ISO/AWI 8000-3</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/AWI 8000-3</docidentifier>
     </bibitem>
 
   </relation>
   <place>
     <city>Geneva</city>
   </place>
-</bibitem><bibitem id="_849db359-8dca-4e6e-72c5-9e9e6aee41b7" type="standard" schema-version="v1.5.6" anchor="ISO-IEC_27000">
-  <fetched>2026-10-27</fetched>
+</bibitem><bibitem id="_31de10d2-d1a6-1036-6bc9-05a6cf7973d1" type="standard" schema-version="v1.5.6" anchor="ISO-IEC_27000">
+  <fetched>2026-11-10</fetched>
   
 <title language="en" script="Latn" type="title-intro">Information technology</title>
 
@@ -1118,7 +1488,6 @@ namespace ClownRSA {
   <uri type="obp">https://www.iso.org/obp/ui/en/#!iso:std:73906:en</uri>
   <uri type="rss">https://www.iso.org/contents/data/standard/07/39/73906.detail.rss</uri>
   <docidentifier type="ISO" primary="true">ISO/IEC 27000</docidentifier>
-  <docidentifier type="iso-undated">ISO/IEC 27000</docidentifier>
   <docidentifier type="iso-reference">ISO/IEC 27000(E)</docidentifier>
   <docidentifier type="URN">urn:iso:std:iso-iec:27000:stage-95.99</docidentifier>
   <docnumber>27000</docnumber>
@@ -1299,8 +1668,8 @@ namespace ClownRSA {
   <place>
     <city>Geneva</city>
   </place>
-</bibitem><bibitem id="_907a9005-e099-4d72-cf58-2f3e9958bff1" type="standard" schema-version="v1.5.6" anchor="ISO-IEC_27001">
-  <fetched>2026-10-27</fetched>
+</bibitem><bibitem id="_c7e471fd-0d97-0930-a3f2-7a8a3f2258aa" type="standard" schema-version="v1.5.6" anchor="ISO-IEC_27001">
+  <fetched>2026-11-10</fetched>
   
 <title language="en" script="Latn" type="title-intro">Information technology</title>
 
@@ -1329,7 +1698,6 @@ namespace ClownRSA {
   <uri type="obp">https://www.iso.org/obp/ui/en/#!iso:std:54534:en</uri>
   <uri type="rss">https://www.iso.org/contents/data/standard/05/45/54534.detail.rss</uri>
   <docidentifier type="ISO" primary="true">ISO/IEC 27001</docidentifier>
-  <docidentifier type="iso-undated">ISO/IEC 27001</docidentifier>
   <docidentifier type="iso-reference">ISO/IEC 27001(E)</docidentifier>
   <docidentifier type="URN">urn:iso:std:iso-iec:27001:stage-95.99</docidentifier>
   <docnumber>27001</docnumber>
@@ -1566,8 +1934,8 @@ namespace ClownRSA {
   <place>
     <city>Geneva</city>
   </place>
-</bibitem><bibitem id="_2893374f-0e6b-9de0-da25-a7b8de34a273" type="standard" schema-version="v1.5.6" anchor="ISO-IEC_27017">
-  <fetched>2026-10-27</fetched>
+</bibitem><bibitem id="_9c69a984-e32d-353a-8d01-3346a0ed45d4" type="standard" schema-version="v1.5.6" anchor="ISO-IEC_27017">
+  <fetched>2026-11-10</fetched>
   
 <title language="en" script="Latn" type="title-intro">Information technology</title>
 
@@ -1596,7 +1964,6 @@ namespace ClownRSA {
   <uri type="obp">https://www.iso.org/obp/ui/en/#!iso:std:43757:en</uri>
   <uri type="rss">https://www.iso.org/contents/data/standard/04/37/43757.detail.rss</uri>
   <docidentifier type="ISO" primary="true">ISO/IEC 27017</docidentifier>
-  <docidentifier type="iso-undated">ISO/IEC 27017</docidentifier>
   <docidentifier type="iso-reference">ISO/IEC 27017(E)</docidentifier>
   <docidentifier type="URN">urn:iso:std:iso-iec:27017:stage-95.99</docidentifier>
   <docnumber>27017</docnumber>
@@ -1759,8 +2126,8 @@ namespace ClownRSA {
   <place>
     <city>Geneva</city>
   </place>
-</bibitem><bibitem id="_ceaba122-2b62-cb77-0ead-8750ed4cec04" type="standard" schema-version="v1.5.6" anchor="ISO-IEC_27018">
-  <fetched>2026-10-27</fetched>
+</bibitem><bibitem id="_91de6c50-249f-0a0b-5606-43ad034b36b9" type="standard" schema-version="v1.5.6" anchor="ISO-IEC_27018">
+  <fetched>2026-11-10</fetched>
   
 <title language="en" script="Latn" type="title-intro">Information technology</title>
 
@@ -1789,7 +2156,6 @@ namespace ClownRSA {
   <uri type="obp">https://www.iso.org/obp/ui/en/#!iso:std:76559:en</uri>
   <uri type="rss">https://www.iso.org/contents/data/standard/07/65/76559.detail.rss</uri>
   <docidentifier type="ISO" primary="true">ISO/IEC 27018</docidentifier>
-  <docidentifier type="iso-undated">ISO/IEC 27018</docidentifier>
   <docidentifier type="iso-reference">ISO/IEC 27018(E)</docidentifier>
   <docidentifier type="URN">urn:iso:std:iso-iec:27018:stage-95.99</docidentifier>
   <docnumber>27018</docnumber>
@@ -1970,8 +2336,8 @@ namespace ClownRSA {
   <place>
     <city>Geneva</city>
   </place>
-</bibitem><bibitem id="_e7ba11ff-b616-991b-39d1-5eedc0fcdc28" type="standard" schema-version="v1.5.6" anchor="ISO-IEC_27701">
-  <fetched>2026-10-27</fetched>
+</bibitem><bibitem id="_e17c950c-9aee-8d4f-3bd9-bbe4a9a63f33" type="standard" schema-version="v1.5.6" anchor="ISO-IEC_27701">
+  <fetched>2026-11-10</fetched>
   
 <title language="en" script="Latn" type="title-intro">Security techniques</title>
 
@@ -2000,7 +2366,6 @@ namespace ClownRSA {
   <uri type="obp">https://www.iso.org/obp/ui/en/#!iso:std:71670:en</uri>
   <uri type="rss">https://www.iso.org/contents/data/standard/07/16/71670.detail.rss</uri>
   <docidentifier type="ISO" primary="true">ISO/IEC 27701</docidentifier>
-  <docidentifier type="iso-undated">ISO/IEC 27701</docidentifier>
   <docidentifier type="iso-reference">ISO/IEC 27701(E)</docidentifier>
   <docidentifier type="URN">urn:iso:std:iso-iec:27701:stage-95.99</docidentifier>
   <docnumber>27701</docnumber>
@@ -2167,8 +2532,8 @@ namespace ClownRSA {
 <name>ISO</name>
 </organization></contributor><contributor><role type="publisher"/><organization>
 <name>IEC</name>
-</organization></contributor><language>en</language><script>Latn</script></bibitem><bibitem id="_a362476b-8fd9-8d7c-cde3-6b57e5877e2b" type="standard" schema-version="v1.5.6" anchor="ISO-IEC_20000-1">
-  <fetched>2026-10-27</fetched>
+</organization></contributor><language>en</language><script>Latn</script></bibitem><bibitem id="_8bb68e34-1291-3bae-681d-e5421f28f2e9" type="standard" schema-version="v1.5.6" anchor="ISO-IEC_20000-1">
+  <fetched>2026-11-10</fetched>
   
 <title language="en" script="Latn" type="title-intro">Information technology</title>
 
@@ -2197,7 +2562,6 @@ namespace ClownRSA {
   <uri type="obp">https://www.iso.org/obp/ui/en/#!iso:std:70636:en</uri>
   <uri type="rss">https://www.iso.org/contents/data/standard/07/06/70636.detail.rss</uri>
   <docidentifier type="ISO" primary="true">ISO/IEC 20000-1</docidentifier>
-  <docidentifier type="iso-undated">ISO/IEC 20000-1</docidentifier>
   <docidentifier type="iso-reference">ISO/IEC 20000-1(E)</docidentifier>
   <docidentifier type="URN">urn:iso:std:iso-iec:20000:-1:stage-90.93</docidentifier>
   <docnumber>20000</docnumber>
@@ -2378,8 +2742,8 @@ namespace ClownRSA {
   <place>
     <city>Geneva</city>
   </place>
-</bibitem><bibitem id="_d2f14a9e-5a78-af1f-7ceb-b4f5a35d4a2f" type="standard" schema-version="v1.5.6" anchor="ISO_9001">
-  <fetched>2026-10-27</fetched>
+</bibitem><bibitem id="_684e287b-1c71-2d93-80df-6c16ec2f2ae6" type="standard" schema-version="v1.5.6" anchor="ISO_9001">
+  <fetched>2026-11-10</fetched>
   
 <title language="en" script="Latn" type="title-intro">Quality management systems</title>
 
@@ -2402,7 +2766,6 @@ namespace ClownRSA {
   <uri type="obp">https://www.iso.org/obp/ui/en/#!iso:std:62085:en</uri>
   <uri type="rss">https://www.iso.org/contents/data/standard/06/20/62085.detail.rss</uri>
   <docidentifier type="ISO" primary="true">ISO 9001</docidentifier>
-  <docidentifier type="iso-undated">ISO 9001</docidentifier>
   <docidentifier type="iso-reference">ISO 9001(E)</docidentifier>
   <docidentifier type="URN">urn:iso:std:iso:9001:stage-95.99</docidentifier>
   <docnumber>9001</docnumber>
