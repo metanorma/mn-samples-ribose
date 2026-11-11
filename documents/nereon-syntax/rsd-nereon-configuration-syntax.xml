@@ -566,14 +566,14 @@ port3 $base_port + 82 #port 8082</body></sourcecode>
 </sections><bibliography><references id="_ef953f88-fccd-8c20-a1cd-8a2c748fa257" normative="true" obligation="informative">
 <title id="_270c5ee6-077e-f285-ff95-287984a30140">Normative references</title><p id="_a6fdff30-00b4-3e56-d92a-a8d15322a761">There are no normative references in this document.</p>
 <p id="_c5ee051a-0989-40ce-bbd4-ac9d4b1f62e3">This document does not contain any normative references.</p>
-</references><references id="_9fd54635-af90-e0be-21a1-6ddb2b7713cd" normative="false" obligation="informative">
+</references><references id="_1fe70824-513a-3c3c-3e34-ad13ff7ee2c8" normative="false" obligation="informative">
 <title id="_50ceb1e1-516f-2673-d73d-4f0c58b4d023">Bibliography</title><bibitem anchor="RSASHARE" id="_abc1e4c4-a5d6-e06d-9404-aa5904eb6838">
   <formattedref format="application/x-isodoc+xml">Michael Malkin, Thomas D. Wu, Dan Boneh. <em>Experimenting with Shared Generation of RSA keys</em>. NDSS 1999.</formattedref>
   <docidentifier type="metanorma">[1]</docidentifier>
   <language>en</language>
   <script>Latn</script>
-</bibitem><bibitem id="_98178943-0ead-145a-7543-fc1fb66c809e" type="standard" schema-version="v1.5.6" anchor="RFC7525">
-  <fetched>2026-11-10</fetched>
+</bibitem><bibitem id="_a225fe55-d745-cba5-1327-76e68bb2b178" type="standard" schema-version="v1.5.6" anchor="RFC7525">
+  <fetched>2026-11-11</fetched>
   
 <title type="main">Recommendations for Secure Use of Transport Layer Security (TLS) and Datagram Transport Layer Security (DTLS)</title>
 
